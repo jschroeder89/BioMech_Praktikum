@@ -1,0 +1,16 @@
+userthread.cpp:365:1:amiro::UserThread::~UserThread()	0	static
+userthread.cpp:365:1:virtual amiro::UserThread::~UserThread()	8	static
+ch.hpp:784:29:chibios_rt::ThreadReference chibios_rt::BaseStaticThread<N>::start(tprio_t) [with int N = 1024; tprio_t = long unsigned int]	24	static
+chprintf.h:69:20:)	12	static
+userthread.cpp:107:13:colorMember discrimination(int)	0	static
+userthread.cpp:115:6:void copyRpmSpeed(const int (&)[2], int (&)[2])	0	static
+userthread.cpp:121:6:void fuzzyfication(int, float (&)[3])	16	static
+userthread.cpp:175:13:colorMember getMember(float (&)[3])	16	static
+userthread.cpp:193:6:void defuzzyfication(colorMember (&)[4], int (&)[2])	16	static
+userthread.cpp:300:7:amiro::Color memberToLed(colorMember)	8	static
+userthread.cpp:314:6:void lineFollowing(int (&)[4], int (&)[2])	80	static
+userthread.cpp:370:1:virtual msg_t amiro::UserThread::main()	56	static
+userthread.cpp:345:6:void setRpmSpeed(const int (&)[2])	0	static
+userthread.cpp:350:8:states getNextPolicy()	0	static
+userthread.cpp:360:1:amiro::UserThread::UserThread()	8	static
+userthread.cpp:450:1:cpp)	16	static
