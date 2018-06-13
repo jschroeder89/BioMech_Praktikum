@@ -357,14 +357,14 @@ states getNextPolicy() {
 
 void regler() {
 	int newSpeed[2] = {0};
-	int groundSpeed[2] = {0};
+	int groundProx[2] = {0};
 	const int desBlack = 2000;
 	const float K_p = 0.25;
 	float correct = 0;
 	groundSpeed[0] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT];
 	groundSpeed[1] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT];
-	int difLeft = desBlack - groundSpeed[0];
-	int difRight = desBlack - groundSpeed[1];
+	int difLeft = desBlack - groundProx[0];
+	int difRight = desBlack - groundProx[1];
 	if (difLeft >= difRight) {
 		correct = difRight*K_p;
 		newSpeed[0] = 75;
