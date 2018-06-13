@@ -3,7 +3,7 @@
 #include "global.hpp"
 
 using namespace amiro;
-
+#include <math.h>
 extern Global global;
 
 // State machine states
@@ -355,6 +355,29 @@ states getNextPolicy() {
 	return policy[policyCounter++];
 }
 
+void regler() {
+	int newSpeed[2] = {0};
+	int groundSpeed[2] = {0};
+	const int desBlack = 2000;
+	const float K_p = 0.25;
+	float correct = 0;
+	groundSpeed[0] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT];
+	groundSpeed[1] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT];
+	int difLeft = desBlack - groundSpeed[0];
+	int difRight = desBlack - groundSpeed[1];
+	if (difLeft >= difRight) {
+		correct = difRight*K_p;
+		newSpeed[0] = 75;
+		newSpeed[1] = round(75-correct);
+		setRpmSpeed(newSpeed);
+	} else {
+		correct = difLeft * K_p;
+		newSpeed[0] = round(75-correct);
+		newSpeed[1] = 75;
+		setRpmSpeed(newSpeed);
+	}
+	
+}
 
 
 UserThread::UserThread() :
@@ -407,7 +430,7 @@ UserThread::main()
                 running = true;
             }
             // set the front LEDs to blue for one second
-            global.robot.setLightColor(constants::LightRing::LED_SSW, Color(Color::BLACK));
+            /*global.robot.setLightColor(constants::LightRing::LED_SSW, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_WSW, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_WNW, Color(Color::WHITE));
             global.robot.setLightColor(constants::LightRing::LED_NNW, Color(Color::WHITE));
@@ -415,13 +438,12 @@ UserThread::main()
             global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::WHITE));
             global.robot.setLightColor(constants::LightRing::LED_ESE, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_SSE, Color(Color::BLACK));
-            this->sleep(MS2ST(1000));
+            //this->sleep(MS2ST(1000));
             global.robot.setLightColor(constants::LightRing::LED_WNW, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_NNW, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_NNE, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::BLACK));
+            global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::BLACK));*/
         }
-
         if (running) {
             // Read the proximity values
             for (int i = 0; i < 4; i++) {
@@ -436,11 +458,13 @@ UserThread::main()
 //                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
 
             lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
-            setRpmSpeed(rpmFuzzyCtrl);
+            //setRpmSpeed(rpmFuzzyCtrl);
+			//Regler();
             //types::position pos = global.robot.getOdometry();
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", pos.x, pos.y, pos.f_z);
             int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
-            chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
+            //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
+
         }
 
 		this->sleep(CAN::UPDATE_PERIOD);
