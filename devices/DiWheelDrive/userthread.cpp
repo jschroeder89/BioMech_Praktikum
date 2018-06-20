@@ -383,7 +383,7 @@ UserThread::main()
 	int velArray[2]{0};
 	int diffWhiteLeftRight, diffBlackLeftRight = 0;
 	int currentVals[2]{0};
-	int desVals[2]{5,5};
+	int desVals[2]{0};
 	int newVals[2]{0};
 	float faktor = 0;
     //for (uint8_t led = 0; led < 8; ++led) {
@@ -438,6 +438,7 @@ UserThread::main()
                 //start the robot
                 running = true;
             }
+
             // set the front LEDs to blue for one second
             /*global.robot.setLightColor(constants::LightRing::LED_SSW, Color(Color::BLACK));
             global.robot.setLightColor(constants::LightRing::LED_WSW, Color(Color::BLACK));
@@ -454,13 +455,26 @@ UserThread::main()
             global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::BLACK));*/
         }
         if (running) {
+			desVals[0] = 5;
+			desVals[1] = 5;
             // Read the proximity values
 			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
 			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
-			for(size_t i = 0; i < 2; i++){
-				faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
-				newVals[i] = round(desVals[i] + (faktor*desVals[i]));
+			
+			if (currentVals[0] >= currentVals[1]) {
+				faktor = diffWhiteLeftRight/(currentVals[0]-diffBlackLeftRight);
+				newVals[0] = round(desVals[0] + (faktor*desVals[0]));
+				newVals[1] = desVals[1];
+			} else {
+				faktor = diffWhiteLeftRight/(currentVals[1]-diffBlackLeftRight);
+				newVals[1] = round(desVals[1] + (faktor*desVals[1]));
+				newVals[0] = desVals[0];
 			}
+			
+			//for(size_t i = 0; i < 2; i++){
+			//	faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
+			//	newVals[i] = round(desVals[i] + (faktor*desVals[i]));
+			//}
 			
 			setRpmSpeed(newVals);
             //lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
