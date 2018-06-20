@@ -387,7 +387,7 @@ UserThread::main()
 	// * LOOP
 	 
 	for (int i = 0; i < 4; i++) {
-		initialVals[i] = global.robot.vcnl4020[i];
+		initialVals[i] = vcnl4020Proximity[i];
 	}
 
             chprintf((BaseSequentialStream*) &SD1, "0x%04X 0x%04X 0x%04X 0x%04X\n",
