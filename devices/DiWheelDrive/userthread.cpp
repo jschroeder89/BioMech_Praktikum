@@ -327,7 +327,7 @@ void lineFollowing(int (&proximity)[4], int (&rpmFuzzyCtrl)[2]) {
 	member[constants::DiWheelDrive::PROX_FRONT_LEFT] = getMember(leftFrontFuzzyMemberValues);
 	member[constants::DiWheelDrive::PROX_FRONT_RIGHT] = getMember(rightFrontFuzzyMemberValues);
 	member[constants::DiWheelDrive::PROX_WHEEL_RIGHT] = getMember(rightWheelFuzzyMemberValues);
-
+	
 	// visualize sensors via LEDs
 	global.robot.setLightColor(constants::LightRing::LED_WNW, memberToLed(member[constants::DiWheelDrive::PROX_WHEEL_LEFT]));
 	global.robot.setLightColor(constants::LightRing::LED_NNW, memberToLed(member[constants::DiWheelDrive::PROX_FRONT_LEFT]));
@@ -335,7 +335,6 @@ void lineFollowing(int (&proximity)[4], int (&rpmFuzzyCtrl)[2]) {
 	global.robot.setLightColor(constants::LightRing::LED_ENE, memberToLed(member[constants::DiWheelDrive::PROX_WHEEL_RIGHT]));
 
 //	chprintf((BaseSequentialStream*) &SD1, "Left: BLACK: %f, GREY: %f, WHITE: %f\r\n", leftFuzzyMemberValues[BLACK], leftFuzzyMemberValues[GREY], leftFuzzyMemberValues[WHITE]);
-//	chprintf((BaseSequentialStream*) &SD1, "Right: BLACK: %f, GREY: %f, WHITE: %f\r\n", rightFuzzyMemberValues[BLACK], rightFuzzyMemberValues[GREY], rightFuzzyMemberValues[WHITE]);
 
 	// DEFUZZYFICATION
 	defuzzyfication(member, rpmFuzzyCtrl);
@@ -353,30 +352,6 @@ states getNextPolicy() {
 		policyCounter = 3;
 
 	return policy[policyCounter++];
-}
-
-void regler() {
-	int newSpeed[2] = {0};
-	int groundProx[2] = {0};
-	const int desBlack = 2000;
-	const float K_p = 0.25;
-	float correct = 0;
-	groundSpeed[0] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT];
-	groundSpeed[1] = vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT];
-	int difLeft = desBlack - groundProx[0];
-	int difRight = desBlack - groundProx[1];
-	if (difLeft >= difRight) {
-		correct = difRight*K_p;
-		newSpeed[0] = 75;
-		newSpeed[1] = round(75-correct);
-		setRpmSpeed(newSpeed);
-	} else {
-		correct = difLeft * K_p;
-		newSpeed[0] = round(75-correct);
-		newSpeed[1] = 75;
-		setRpmSpeed(newSpeed);
-	}
-	
 }
 
 
@@ -402,14 +377,24 @@ UserThread::main()
 	// * SETUP
 	 
 	int rpmFuzzyCtrl[2] = {0};
-    for (uint8_t led = 0; led < 8; ++led) {
-		global.robot.setLightColor(led, Color(Color::BLACK));
-    }
+	int initialVals[4]{0};
+    //for (uint8_t led = 0; led < 8; ++led) {
+	//	global.robot.setLightColor(led, Color(Color::BLACK));
+    //}
     running = false;
 
 	
 	// * LOOP
 	 
+	for (int i = 0; i < 4; i++) {
+		initialVals[i] = global.robot.vcnl4020[i];
+	}
+
+            chprintf((BaseSequentialStream*) &SD1, "0x%04X 0x%04X 0x%04X 0x%04X\n",
+                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
+                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
+                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT],
+                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
 	while (!this->shouldTerminate())
 	{
         
@@ -420,13 +405,15 @@ UserThread::main()
         
         // * evaluate the accelerometer
          
+
         if (accel_z < -900 ) { //-0.9g
+		this->sleep(MS2ST(3000));
             if (running) {
                 // stop the robot
                 running = false;
                 global.motorcontrol.setTargetRPM(0, 0);
             } else {
-                // start the robot
+                //start the robot
                 running = true;
             }
             // set the front LEDs to blue for one second
@@ -446,24 +433,19 @@ UserThread::main()
         }
         if (running) {
             // Read the proximity values
-            for (int i = 0; i < 4; i++) {
-                vcnl4020AmbientLight[i] = global.vcnl4020[i].getAmbientLight();
-                vcnl4020Proximity[i] = global.vcnl4020[i].getProximityScaledWoOffset();
-            }
-
-//            chprintf((BaseSequentialStream*) &SD1, "0x%04X 0x%04X 0x%04X 0x%04X\n",
-//                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
-//                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
-//                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT],
-//                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
-
-            lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
+			
+			
+            //lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
             //setRpmSpeed(rpmFuzzyCtrl);
 			//Regler();
             //types::position pos = global.robot.getOdometry();
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", pos.x, pos.y, pos.f_z);
-            int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
+            //int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
+			
+			
+			
+			
 
         }
 
