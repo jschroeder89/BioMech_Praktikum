@@ -378,6 +378,7 @@ UserThread::main()
 	 
 	int rpmFuzzyCtrl[2] = {0};
 	int initialVals[4]{0};
+	int foo = 0;
     //for (uint8_t led = 0; led < 8; ++led) {
 	//	global.robot.setLightColor(led, Color(Color::BLACK));
     //}
@@ -401,7 +402,11 @@ UserThread::main()
         if (accel_z < -900 ) { //-0.9g
 		this->sleep(MS2ST(3000));
 		for (int i = 0; i < 4; i++) {
-			initialVals[i] = vcnl4020Proximity[i];
+			for(size_t j = 0; j < 1000; j++){
+				foo = global.vcnl4020.getProximityScaledWoOffset();
+				initialVals[i] += foo;
+			}
+			initialVals[i] = round(initialVals[i]/1000);
 			chprintf((BaseSequentialStream*) &SD1, "%04d\n",
 			initialVals[i]);
 		}
