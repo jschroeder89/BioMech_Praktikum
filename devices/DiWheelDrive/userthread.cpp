@@ -381,10 +381,11 @@ UserThread::main()
 	int foo = 0;
 	int refWhiteLeft, refWhiteRight, refBlackFrontLeft, refBlackFrontRight = 0;
 	int velArray[2]{0};
-	int diffWhiteLeftRight, diffBlackLeftRight = 0;
+	int maxWhiteLeftRight, maxBlackLeftRight = 0;
 	int currentVals[2]{0};
 	int desVals[2]{0};
 	int newVals[2]{0};
+	int lastVals[2]{0};
 	float faktor = 0;
     //for (uint8_t led = 0; led < 8; ++led) {
 	//	global.robot.setLightColor(led, Color(Color::BLACK));
@@ -421,8 +422,8 @@ UserThread::main()
 		refWhiteRight = initialVals[2];
 		refBlackFrontLeft = initialVals[0];
 		refBlackFrontRight = initialVals[3];
-		diffBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
-		diffWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-diffBlackLeftRight;
+		maxBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
+		maxWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-maxBlackLeftRight;
 
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d %04d\n",
             //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
@@ -461,11 +462,11 @@ UserThread::main()
 			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
 			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
 			
-			if (currentVals[0] >= currentVals[1]) {
+			if (currentVals[0] >= currentVals[1] && ((currentVals[0]-lastVals[0]) >= 100)) {
 				faktor = diffWhiteLeftRight/(currentVals[0]-diffBlackLeftRight);
 				newVals[0] = round(desVals[0] + (faktor*desVals[0]));
 				newVals[1] = desVals[1];
-			} else {
+			} else if(currentVals[1] > currentVals[0] && ((currentVals[1]-lastVals[1]) >= 100)) {
 				faktor = diffWhiteLeftRight/(currentVals[1]-diffBlackLeftRight);
 				newVals[1] = round(desVals[1] + (faktor*desVals[1]));
 				newVals[0] = desVals[0];
@@ -484,7 +485,7 @@ UserThread::main()
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", pos.x, pos.y, pos.f_z);
             //int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
-			
+			lastVals = currentVals;
 			
 			
 			
