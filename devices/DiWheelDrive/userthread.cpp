@@ -379,6 +379,13 @@ UserThread::main()
 	int rpmFuzzyCtrl[2] = {0};
 	int initialVals[4]{0};
 	int foo = 0;
+	int refWhiteLeft, refWhiteRight, refBlackFrontLeft, refBlackFrontRight = 0;
+	int velArray[2]{0};
+	int diffWhiteLeftRight, diffBlackLeftRight = 0;
+	int currentVals[2]{0};
+	int desVals[2]{5,5};
+	int newVals[2]{0};
+	float faktor = 0;
     //for (uint8_t led = 0; led < 8; ++led) {
 	//	global.robot.setLightColor(led, Color(Color::BLACK));
     //}
@@ -403,13 +410,20 @@ UserThread::main()
 		this->sleep(MS2ST(3000));
 		for (int i = 0; i < 4; i++) {
 			for(size_t j = 0; j < 1000; j++){
-				foo = global.vcnl4020.getProximityScaledWoOffset();
+				foo = global.vcnl4020[i].getProximityScaledWoOffset();
 				initialVals[i] += foo;
 			}
 			initialVals[i] = round(initialVals[i]/1000);
 			chprintf((BaseSequentialStream*) &SD1, "%04d\n",
 			initialVals[i]);
 		}
+		refWhiteLeft = initialVals[1];
+		refWhiteRight = initialVals[2];
+		refBlackFrontLeft = initialVals[0];
+		refBlackFrontRight = initialVals[3];
+		diffBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
+		diffWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-diffBlackLeftRight;
+
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d %04d\n",
             //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
             //         vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
@@ -441,8 +455,14 @@ UserThread::main()
         }
         if (running) {
             // Read the proximity values
+			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
+			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
+			for(size_t i = 0; i < 2; i++){
+				faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
+				newVals[i] = round(desVals[i] + (faktor*desVals[i]));
+			}
 			
-			
+			setRpmSpeed(newVals);
             //lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
             //setRpmSpeed(rpmFuzzyCtrl);
 			//Regler();
