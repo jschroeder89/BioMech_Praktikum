@@ -386,15 +386,7 @@ UserThread::main()
 	
 	// * LOOP
 	 
-	for (int i = 0; i < 4; i++) {
-		initialVals[i] = vcnl4020Proximity[i];
-	}
 
-            chprintf((BaseSequentialStream*) &SD1, "0x%04X 0x%04X 0x%04X 0x%04X\n",
-                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
-                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
-                     vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT],
-                     vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
 	while (!this->shouldTerminate())
 	{
         
@@ -408,6 +400,17 @@ UserThread::main()
 
         if (accel_z < -900 ) { //-0.9g
 		this->sleep(MS2ST(3000));
+		for (int i = 0; i < 4; i++) {
+			initialVals[i] = vcnl4020Proximity[i];
+			chprintf((BaseSequentialStream*) &SD1, "%04d\n",
+			initialVals[i]);
+		}
+            //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d %04d\n",
+            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
+            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
+            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT],
+            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
+					 
             if (running) {
                 // stop the robot
                 running = false;
