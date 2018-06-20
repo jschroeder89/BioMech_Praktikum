@@ -485,7 +485,11 @@ UserThread::main()
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", pos.x, pos.y, pos.f_z);
             //int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
-			lastVals = currentVals;
+			
+			for(size_t i = 0; i < 2; i++){
+				lastVals[i] = currentVals[i];
+			}
+			
 			
 			
 			
