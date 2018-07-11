@@ -461,16 +461,19 @@ UserThread::main()
             // Read the proximity values
 			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
 			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
-			
-			if ((currentVals[0] >= currentVals[1]) && ((currentVals[0]-lastVals[0]) >= 100)) {
+			newVals[0] = (refWhiteLeft - (currentVals[0]-refBlackFrontLeft))/refWhiteLeft*5;
+			newVals[1] = (currentVals[1])/refWhiteRight*5;
+
+
+			/*if (currentVals[0] >= currentVals[1]) {
 				faktor = maxWhiteLeftRight/(currentVals[0]-maxBlackLeftRight);
 				newVals[0] = round(desVals[0] + (faktor*desVals[0]));
 				newVals[1] = desVals[1];
-			} else if((currentVals[1] > currentVals[0]) && ((currentVals[1]-lastVals[1]) >= 100)) {
+			} else if(currentVals[1] > currentVals[0]) {
 				faktor = maxWhiteLeftRight/(currentVals[1]-maxBlackLeftRight);
 				newVals[1] = round(desVals[1] + (faktor*desVals[1]));
 				newVals[0] = desVals[0];
-			}
+			}*/
 			
 			//for(size_t i = 0; i < 2; i++){
 			//	faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
