@@ -484,8 +484,8 @@ UserThread::main()
 				//newVals[0] = (newVals[0] + lastVals[0])/2;
 				//newVals[1] = (newVals[1] + lastVals[1])/2;
 				chprintf((BaseSequentialStream*) &SD1, "%04d   %04d \n", currentVals[0], currentVals[1]);
-				if (newVals[0] == newVals[1] && newVals[0] < 20 ){
-					newVals[0] = static_cast<int>(maxSpeed);
+				if (newVals[0] == newVals[1] && newVals[0] == 0 ){
+					newVals[0] = 100;
 					newVals[1] = 0;
 				}
 				//else if (newVals[0] > maxSpeed - 10 && newVals[0] > maxSpeed -10){
