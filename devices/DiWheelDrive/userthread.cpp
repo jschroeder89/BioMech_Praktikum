@@ -67,6 +67,7 @@ const int rpmTurnRight[2] = {rpmTurnLeft[1],rpmTurnLeft[0]};
 const int rpmHalt[2] = {0, 0};
 int lastTurn[2] = {0,0};
 int turn[2] = {0,0};
+const int maxSpeed = 60;
 
 // Definition of the fuzzyfication function
 //  | Membership
@@ -425,11 +426,7 @@ UserThread::main()
 		maxBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
 		maxWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-maxBlackLeftRight;
 
-            //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d %04d\n",
-            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_LEFT],
-            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_LEFT],
-            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_FRONT_RIGHT],
-            //         vcnl4020Proximity[constants::DiWheelDrive::PROX_WHEEL_RIGHT]);
+  
 					 
             if (running) {
                 // stop the robot
@@ -438,22 +435,12 @@ UserThread::main()
             } else {
                 //start the robot
                 running = true;
+                global.robot.setLightColor(3, Color(Color::BLACK));
+			global.robot.setLightColor(4, Color(Color::BLACK));
+			global.robot.setLightColor(2, Color(Color::BLACK));
+			global.robot.setLightColor(5, Color(Color::BLACK));
             }
 
-            // set the front LEDs to blue for one second
-            /*global.robot.setLightColor(constants::LightRing::LED_SSW, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_WSW, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_WNW, Color(Color::WHITE));
-            global.robot.setLightColor(constants::LightRing::LED_NNW, Color(Color::WHITE));
-            global.robot.setLightColor(constants::LightRing::LED_NNE, Color(Color::WHITE));
-            global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::WHITE));
-            global.robot.setLightColor(constants::LightRing::LED_ESE, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_SSE, Color(Color::BLACK));
-            //this->sleep(MS2ST(1000));
-            global.robot.setLightColor(constants::LightRing::LED_WNW, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_NNW, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_NNE, Color(Color::BLACK));
-            global.robot.setLightColor(constants::LightRing::LED_ENE, Color(Color::BLACK));*/
         }
         if (running) {
 			desVals[0] = 5;
@@ -461,7 +448,7 @@ UserThread::main()
             // Read the proximity values
 			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
 			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
-			
+			/*
 			if ((currentVals[0] >= currentVals[1]) && ((currentVals[0]-lastVals[0]) >= 100)) {
 				faktor = maxWhiteLeftRight/(currentVals[0]-maxBlackLeftRight);
 				newVals[0] = round(desVals[0] + (faktor*desVals[0]));
@@ -471,13 +458,13 @@ UserThread::main()
 				newVals[1] = round(desVals[1] + (faktor*desVals[1]));
 				newVals[0] = desVals[0];
 			}
-			
+			*/
 			//for(size_t i = 0; i < 2; i++){
 			//	faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
 			//	newVals[i] = round(desVals[i] + (faktor*desVals[i]));
 			//}
 			
-			setRpmSpeed(newVals);
+			//setRpmSpeed(newVals);
             //lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
             //setRpmSpeed(rpmFuzzyCtrl);
 			//Regler();
@@ -487,11 +474,29 @@ UserThread::main()
             //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
 			
 			for(size_t i = 0; i < 2; i++){
-				lastVals[i] = currentVals[i];
+				lastVals[i] = newVals[i];
+			}
+			int braitenberg = 2;
+			if(braitenberg == 2){
+				
+				newVals[0] = static_cast<int>(maxSpeed * (((refWhiteLeft-(currentVals[1]-refBlackFrontLeft))/static_cast<float>(refWhiteLeft))));
+				newVals[1] = static_cast<int>(maxSpeed * ((currentVals[0]/static_cast<float>(refWhiteLeft))));
+				//newVals[0] = (newVals[0] + lastVals[0])/2;
+				//newVals[1] = (newVals[1] + lastVals[1])/2;
+				chprintf((BaseSequentialStream*) &SD1, "%04d   %04d \n", currentVals[0], currentVals[1]);
+				if (newVals[0] == newVals[1] && newVals[0] < 20 ){
+					newVals[0] = static_cast<int>(maxSpeed);
+					newVals[1] = 0;
+				}
+				//else if (newVals[0] > maxSpeed - 10 && newVals[0] > maxSpeed -10){
+					//newVals[0] = static_cast<int>(newVals[0] * 1.8);
+					//newVals[1] = static_cast<int>(newVals[1] * 1.8);
+				//}
+				setRpmSpeed(newVals);
+
 			}
 			
-			
-			
+			// plot y = (30000 - (x/300)^3)/30000, y = -((30000 - (x/300)^3))/30000) from -5000 to 12000 
 			
 
         }

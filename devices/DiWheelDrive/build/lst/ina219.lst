@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccaIjZqa.s 			page 1
+ARM GAS  /tmp/ccYj2noj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
   53              		.type	_ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE, %function
   54              	_ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:
   55              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccaIjZqa.s 			page 2
+ARM GAS  /tmp/ccYj2noj.s 			page 2
 
 
   56              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  110 0084 4FF07E50 		mov	r0, #1065353216
  111              	.L11:
  112 0088 3946     		mov	r1, r7
-ARM GAS  /tmp/ccaIjZqa.s 			page 3
+ARM GAS  /tmp/ccYj2noj.s 			page 3
 
 
  113 008a FFF7FEFF 		bl	__aeabi_fdiv
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  167              		.p2align 4,,15
  168              		.weak	_ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev
  169              		.thumb
-ARM GAS  /tmp/ccaIjZqa.s 			page 4
+ARM GAS  /tmp/ccYj2noj.s 			page 4
 
 
  170              		.thumb_func
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  220              		.type	_ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_, %function
  221              	_ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_:
  222              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccaIjZqa.s 			page 5
+ARM GAS  /tmp/ccYj2noj.s 			page 5
 
 
  223              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  273              		.type	_ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev, %function
  274              	_ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:
  275              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccaIjZqa.s 			page 6
+ARM GAS  /tmp/ccYj2noj.s 			page 6
 
 
  276              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  325              		@ args = 0, pretend = 0, frame = 0
  326              		@ frame_needed = 0, uses_anonymous_args = 0
  327 0000 A0F10800 		sub	r0, r0, #8
-ARM GAS  /tmp/ccaIjZqa.s 			page 7
+ARM GAS  /tmp/ccYj2noj.s 			page 7
 
 
  328 0004 FFF7FEBF 		b	.LTHUNK0
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  381 0016 02B0     		add	sp, sp, #8
  382              		@ sp needed
  383 0018 5DF804EB 		ldr	lr, [sp], #4
-ARM GAS  /tmp/ccaIjZqa.s 			page 8
+ARM GAS  /tmp/ccYj2noj.s 			page 8
 
 
  384 001c 03B0     		add	sp, sp, #12
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  436 0074 BDE8F081 		pop	{r4, r5, r6, r7, r8, pc}
  437              	.L59:
  438              		.align	2
-ARM GAS  /tmp/ccaIjZqa.s 			page 9
+ARM GAS  /tmp/ccYj2noj.s 			page 9
 
 
  439              	.L58:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  493              		@ sp needed
  494 0068 70BD     		pop	{r4, r5, r6, pc}
  495              	.L61:
-ARM GAS  /tmp/ccaIjZqa.s 			page 10
+ARM GAS  /tmp/ccYj2noj.s 			page 10
 
 
  496 006a D4F8E001 		ldr	r0, [r4, #480]
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  548 0024 FFF7FEFF 		bl	_ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt
  549 0028 0543     		orrs	r5, r5, r0
  550 002a 0EE0     		b	.L67
-ARM GAS  /tmp/ccaIjZqa.s 			page 11
+ARM GAS  /tmp/ccYj2noj.s 			page 11
 
 
  551              	.L68:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  603              		@ sp needed
  604 0034 5DF804FB 		ldr	pc, [sp], #4
  605              		.size	_ZN5amiro6INA2196Driver14readBusVoltageEv, .-_ZN5amiro6INA2196Driver14readBusVoltageEv
-ARM GAS  /tmp/ccaIjZqa.s 			page 12
+ARM GAS  /tmp/ccYj2noj.s 			page 12
 
 
  606 0038 AFF30080 		.section	.text._ZN5amiro6INA2196Driver19readShuntVoltage_uVEv,"axG",%progbits,_ZN5amiro6INA2196Dri
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  659 0070 C0F30E00 		ubfx	r0, r0, #0, #15
  660 0074 00FB03F0 		mul	r0, r0, r3
  661 0078 02B0     		add	sp, sp, #8
-ARM GAS  /tmp/ccaIjZqa.s 			page 13
+ARM GAS  /tmp/ccYj2noj.s 			page 13
 
 
  662              		@ sp needed
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  715 0050 6DB1     		cbz	r5, .L93
  716 0052 D4F8E001 		ldr	r0, [r4, #480]
  717 0056 0368     		ldr	r3, [r0]
-ARM GAS  /tmp/ccaIjZqa.s 			page 14
+ARM GAS  /tmp/ccYj2noj.s 			page 14
 
 
  718 0058 1B69     		ldr	r3, [r3, #16]
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  772 002e A6F8F831 		strh	r3, [r6, #504]	@ movhi
  773 0032 6388     		ldrh	r3, [r4, #2]
  774 0034 3046     		mov	r0, r6
-ARM GAS  /tmp/ccaIjZqa.s 			page 15
+ARM GAS  /tmp/ccYj2noj.s 			page 15
 
 
  775 0036 23F00103 		bic	r3, r3, #1
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  828 000a 02AA     		add	r2, sp, #8
  829 000c 6FF30203 		bfc	r3, #0, #3
  830 0010 ADF80410 		strh	r1, [sp, #4]	@ movhi
-ARM GAS  /tmp/ccaIjZqa.s 			page 16
+ARM GAS  /tmp/ccYj2noj.s 			page 16
 
 
  831 0014 02F8043D 		strb	r3, [r2, #-4]!
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  882 0008 1946     		mov	r1, r3
  883 000a 03AA     		add	r2, sp, #12
  884 000c 0746     		mov	r7, r0
-ARM GAS  /tmp/ccaIjZqa.s 			page 17
+ARM GAS  /tmp/ccYj2noj.s 			page 17
 
 
  885 000e ADF80E30 		strh	r3, [sp, #14]	@ movhi
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  939 0098 4FF40043 		mov	r3, #32768
  940 009c 0DF11808 		add	r8, sp, #24
  941 00a0 28F8103D 		strh	r3, [r8, #-16]!	@ movhi
-ARM GAS  /tmp/ccaIjZqa.s 			page 18
+ARM GAS  /tmp/ccYj2noj.s 			page 18
 
 
  942 00a4 4246     		mov	r2, r8
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  996 0124 4246     		mov	r2, r8
  997 0126 3846     		mov	r0, r7
  998 0128 0521     		movs	r1, #5
-ARM GAS  /tmp/ccaIjZqa.s 			page 19
+ARM GAS  /tmp/ccYj2noj.s 			page 19
 
 
  999 012a ADF80860 		strh	r6, [sp, #8]	@ movhi
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  1053 01c0 FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3
  1054 01c4 4FF00009 		mov	r9, #0
  1055 01c8 0321     		movs	r1, #3
-ARM GAS  /tmp/ccaIjZqa.s 			page 20
+ARM GAS  /tmp/ccYj2noj.s 			page 20
 
 
  1056 01ca 4246     		mov	r2, r8
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  1110              		@ frame_needed = 0, uses_anonymous_args = 0
  1111              		@ link register save eliminated.
  1112 0000 024B     		ldr	r3, .L147
-ARM GAS  /tmp/ccaIjZqa.s 			page 21
+ARM GAS  /tmp/ccYj2noj.s 			page 21
 
 
  1113 0002 034A     		ldr	r2, .L147+4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  1164 0000 25732825 		.ascii	"%s(%d): ERROR: i2c transmit failed (%d | 0x%08X)\012"
  1164      64293A20 
  1164      4552524F 
-ARM GAS  /tmp/ccaIjZqa.s 			page 22
+ARM GAS  /tmp/ccYj2noj.s 			page 22
 
 
  1164      523A2069 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  1197 0004 00000000 		.word	0
  1198 0008 00000000 		.word	_ZN5amiro6INA2196DriverD1Ev
  1199 000c 00000000 		.word	_ZN5amiro6INA2196DriverD0Ev
-ARM GAS  /tmp/ccaIjZqa.s 			page 23
+ARM GAS  /tmp/ccYj2noj.s 			page 23
 
 
  1200 0010 00000000 		.word	_ZN5amiro6INA2196Driver4initEPNS0_8InitDataE
@@ -1334,99 +1334,99 @@ ARM GAS  /tmp/ccaIjZqa.s 			page 1
  1210 0038 00000000 		.word	_ZThn8_N5amiro6INA2196Driver4mainEv
  1211 003c 00000000 		.word	_ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
  1212              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccaIjZqa.s 			page 24
+ARM GAS  /tmp/ccYj2noj.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 ina219.cpp
-     /tmp/ccaIjZqa.s:16     .text._ZN5amiro6INA2196DriverD2Ev:00000000 $t
-     /tmp/ccaIjZqa.s:22     .text._ZN5amiro6INA2196DriverD2Ev:00000000 _ZN5amiro6INA2196DriverD2Ev
-     /tmp/ccaIjZqa.s:34     .text._ZN5amiro6INA2196DriverD2Ev:0000000c $d
-     /tmp/ccaIjZqa.s:1131   .rodata._ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE:00000000 _ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE
-     /tmp/ccaIjZqa.s:22     .text._ZN5amiro6INA2196DriverD2Ev:00000000 _ZN5amiro6INA2196DriverD1Ev
-     /tmp/ccaIjZqa.s:48     .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:00000000 $t
-     /tmp/ccaIjZqa.s:54     .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:00000000 _ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE
-     /tmp/ccaIjZqa.s:159    .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:000000ec $d
-     /tmp/ccaIjZqa.s:166    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 $t
-     /tmp/ccaIjZqa.s:172    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev
-     /tmp/ccaIjZqa.s:182    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000008 $d
-     /tmp/ccaIjZqa.s:172    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED1Ev
-     /tmp/ccaIjZqa.s:187    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_:00000000 $t
-     /tmp/ccaIjZqa.s:193    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_
-     /tmp/ccaIjZqa.s:201    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv:00000000 $t
-     /tmp/ccaIjZqa.s:207    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv
-     /tmp/ccaIjZqa.s:215    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_:00000000 $t
-     /tmp/ccaIjZqa.s:221    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_
-     /tmp/ccaIjZqa.s:229    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv:00000000 $t
-     /tmp/ccaIjZqa.s:235    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv
-     /tmp/ccaIjZqa.s:243    .text._ZN5amiro6INA2196DriverD0Ev:00000000 $t
-     /tmp/ccaIjZqa.s:249    .text._ZN5amiro6INA2196DriverD0Ev:00000000 _ZN5amiro6INA2196DriverD0Ev
-     /tmp/ccaIjZqa.s:264    .text._ZN5amiro6INA2196DriverD0Ev:00000014 $d
-     /tmp/ccaIjZqa.s:268    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000000 $t
-     /tmp/ccaIjZqa.s:274    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev
-     /tmp/ccaIjZqa.s:287    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000010 $d
-     /tmp/ccaIjZqa.s:290    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 $t
-     /tmp/ccaIjZqa.s:296    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 _ZN5amiro6INA2196Driver4mainEv
-     /tmp/ccaIjZqa.s:296    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 .LTHUNK0
-     /tmp/ccaIjZqa.s:318    .text._ZThn8_N5amiro6INA2196Driver4mainEv:00000000 $t
-     /tmp/ccaIjZqa.s:324    .text._ZThn8_N5amiro6INA2196Driver4mainEv:00000000 _ZThn8_N5amiro6INA2196Driver4mainEv
-     /tmp/ccaIjZqa.s:331    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
-     /tmp/ccaIjZqa.s:337    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
-     /tmp/ccaIjZqa.s:360    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
-     /tmp/ccaIjZqa.s:364    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000000 $t
-     /tmp/ccaIjZqa.s:369    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3
-     /tmp/ccaIjZqa.s:389    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000020 $d
-     /tmp/ccaIjZqa.s:392    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 $t
-     /tmp/ccaIjZqa.s:398    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh
-     /tmp/ccaIjZqa.s:440    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000078 $d
-     /tmp/ccaIjZqa.s:398    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _ZN5amiro6INA2196DriverC1ERNS_9I2CDriverEh
-     /tmp/ccaIjZqa.s:446    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000000 $t
-     /tmp/ccaIjZqa.s:452    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000000 _ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt
-     /tmp/ccaIjZqa.s:521    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000098 $d
-     /tmp/ccaIjZqa.s:526    .text._ZN5amiro6INA2196Driver6updateEv:00000000 $t
-     /tmp/ccaIjZqa.s:532    .text._ZN5amiro6INA2196Driver6updateEv:00000000 _ZN5amiro6INA2196Driver6updateEv
-     /tmp/ccaIjZqa.s:578    .text._ZN5amiro6INA2196Driver14readBusVoltageEv:00000000 $t
-     /tmp/ccaIjZqa.s:584    .text._ZN5amiro6INA2196Driver14readBusVoltageEv:00000000 _ZN5amiro6INA2196Driver14readBusVoltageEv
-     /tmp/ccaIjZqa.s:607    .text._ZN5amiro6INA2196Driver19readShuntVoltage_uVEv:00000000 $t
-     /tmp/ccaIjZqa.s:613    .text._ZN5amiro6INA2196Driver19readShuntVoltage_uVEv:00000000 _ZN5amiro6INA2196Driver19readShuntVoltage_uVEv
-     /tmp/ccaIjZqa.s:677    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000000 $t
-     /tmp/ccaIjZqa.s:683    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000000 _ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt
-     /tmp/ccaIjZqa.s:735    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000074 $d
-     /tmp/ccaIjZqa.s:740    .text._ZN5amiro6INA2196Driver4initEPNS0_8InitDataE:00000000 $t
-     /tmp/ccaIjZqa.s:746    .text._ZN5amiro6INA2196Driver4initEPNS0_8InitDataE:00000000 _ZN5amiro6INA2196Driver4initEPNS0_8InitDataE
-ARM GAS  /tmp/ccaIjZqa.s 			page 25
+     /tmp/ccYj2noj.s:16     .text._ZN5amiro6INA2196DriverD2Ev:00000000 $t
+     /tmp/ccYj2noj.s:22     .text._ZN5amiro6INA2196DriverD2Ev:00000000 _ZN5amiro6INA2196DriverD2Ev
+     /tmp/ccYj2noj.s:34     .text._ZN5amiro6INA2196DriverD2Ev:0000000c $d
+     /tmp/ccYj2noj.s:1131   .rodata._ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE:00000000 _ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE
+     /tmp/ccYj2noj.s:22     .text._ZN5amiro6INA2196DriverD2Ev:00000000 _ZN5amiro6INA2196DriverD1Ev
+     /tmp/ccYj2noj.s:48     .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:00000000 $t
+     /tmp/ccYj2noj.s:54     .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:00000000 _ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE
+     /tmp/ccYj2noj.s:159    .text._ZN5amiro6INA2196Driver11calibrationEPNS0_9CalibDataE:000000ec $d
+     /tmp/ccYj2noj.s:166    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 $t
+     /tmp/ccYj2noj.s:172    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev
+     /tmp/ccYj2noj.s:182    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000008 $d
+     /tmp/ccYj2noj.s:172    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED1Ev
+     /tmp/ccYj2noj.s:187    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_:00000000 $t
+     /tmp/ccYj2noj.s:193    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE4initEPS2_
+     /tmp/ccYj2noj.s:201    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv:00000000 $t
+     /tmp/ccYj2noj.s:207    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE9hibernateEv
+     /tmp/ccYj2noj.s:215    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_:00000000 $t
+     /tmp/ccYj2noj.s:221    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE11calibrationEPS3_
+     /tmp/ccYj2noj.s:229    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv:00000000 $t
+     /tmp/ccYj2noj.s:235    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEE8selftestEv
+     /tmp/ccYj2noj.s:243    .text._ZN5amiro6INA2196DriverD0Ev:00000000 $t
+     /tmp/ccYj2noj.s:249    .text._ZN5amiro6INA2196DriverD0Ev:00000000 _ZN5amiro6INA2196DriverD0Ev
+     /tmp/ccYj2noj.s:264    .text._ZN5amiro6INA2196DriverD0Ev:00000014 $d
+     /tmp/ccYj2noj.s:268    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000000 $t
+     /tmp/ccYj2noj.s:274    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev
+     /tmp/ccYj2noj.s:287    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000010 $d
+     /tmp/ccYj2noj.s:290    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 $t
+     /tmp/ccYj2noj.s:296    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 _ZN5amiro6INA2196Driver4mainEv
+     /tmp/ccYj2noj.s:296    .text.startup._ZN5amiro6INA2196Driver4mainEv:00000000 .LTHUNK0
+     /tmp/ccYj2noj.s:318    .text._ZThn8_N5amiro6INA2196Driver4mainEv:00000000 $t
+     /tmp/ccYj2noj.s:324    .text._ZThn8_N5amiro6INA2196Driver4mainEv:00000000 _ZThn8_N5amiro6INA2196Driver4mainEv
+     /tmp/ccYj2noj.s:331    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
+     /tmp/ccYj2noj.s:337    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
+     /tmp/ccYj2noj.s:360    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
+     /tmp/ccYj2noj.s:364    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000000 $t
+     /tmp/ccYj2noj.s:369    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3
+     /tmp/ccYj2noj.s:389    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000020 $d
+     /tmp/ccYj2noj.s:392    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 $t
+     /tmp/ccYj2noj.s:398    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh
+     /tmp/ccYj2noj.s:440    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000078 $d
+     /tmp/ccYj2noj.s:398    .text._ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _ZN5amiro6INA2196DriverC1ERNS_9I2CDriverEh
+     /tmp/ccYj2noj.s:446    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000000 $t
+     /tmp/ccYj2noj.s:452    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000000 _ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt
+     /tmp/ccYj2noj.s:521    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:00000098 $d
+     /tmp/ccYj2noj.s:526    .text._ZN5amiro6INA2196Driver6updateEv:00000000 $t
+     /tmp/ccYj2noj.s:532    .text._ZN5amiro6INA2196Driver6updateEv:00000000 _ZN5amiro6INA2196Driver6updateEv
+     /tmp/ccYj2noj.s:578    .text._ZN5amiro6INA2196Driver14readBusVoltageEv:00000000 $t
+     /tmp/ccYj2noj.s:584    .text._ZN5amiro6INA2196Driver14readBusVoltageEv:00000000 _ZN5amiro6INA2196Driver14readBusVoltageEv
+     /tmp/ccYj2noj.s:607    .text._ZN5amiro6INA2196Driver19readShuntVoltage_uVEv:00000000 $t
+     /tmp/ccYj2noj.s:613    .text._ZN5amiro6INA2196Driver19readShuntVoltage_uVEv:00000000 _ZN5amiro6INA2196Driver19readShuntVoltage_uVEv
+     /tmp/ccYj2noj.s:677    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000000 $t
+     /tmp/ccYj2noj.s:683    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000000 _ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt
+     /tmp/ccYj2noj.s:735    .text._ZN5amiro6INA2196Driver13writeRegisterENS1_15RegisterAddressERKt:00000074 $d
+     /tmp/ccYj2noj.s:740    .text._ZN5amiro6INA2196Driver4initEPNS0_8InitDataE:00000000 $t
+     /tmp/ccYj2noj.s:746    .text._ZN5amiro6INA2196Driver4initEPNS0_8InitDataE:00000000 _ZN5amiro6INA2196Driver4initEPNS0_8InitDataE
+ARM GAS  /tmp/ccYj2noj.s 			page 25
 
 
-     /tmp/ccaIjZqa.s:790    .text._ZN5amiro6INA2196Driver6wakeupEv:00000000 $t
-     /tmp/ccaIjZqa.s:796    .text._ZN5amiro6INA2196Driver6wakeupEv:00000000 _ZN5amiro6INA2196Driver6wakeupEv
-     /tmp/ccaIjZqa.s:815    .text._ZN5amiro6INA2196Driver9hibernateEv:00000000 $t
-     /tmp/ccaIjZqa.s:821    .text._ZN5amiro6INA2196Driver9hibernateEv:00000000 _ZN5amiro6INA2196Driver9hibernateEv
-     /tmp/ccaIjZqa.s:843    .text._ZN5amiro6INA2196Driver5resetEv:00000000 $t
-     /tmp/ccaIjZqa.s:849    .text._ZN5amiro6INA2196Driver5resetEv:00000000 _ZN5amiro6INA2196Driver5resetEv
-     /tmp/ccaIjZqa.s:870    .text._ZN5amiro6INA2196Driver8selftestEv:00000000 $t
-     /tmp/ccaIjZqa.s:876    .text._ZN5amiro6INA2196Driver8selftestEv:00000000 _ZN5amiro6INA2196Driver8selftestEv
-     /tmp/ccaIjZqa.s:1095   .text._ZN5amiro6INA2196Driver8selftestEv:00000238 $d
-     /tmp/ccaIjZqa.s:1103   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 $t
-     /tmp/ccaIjZqa.s:1108   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh
-     /tmp/ccaIjZqa.s:1120   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:0000000c $d
-     /tmp/ccaIjZqa.s:1124   .init_array:00000000 $d
-     /tmp/ccaIjZqa.s:1128   .rodata._ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE:00000000 $d
-     /tmp/ccaIjZqa.s:1147   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
-     /tmp/ccaIjZqa.s:1144   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
-     /tmp/ccaIjZqa.s:1195   .rodata._ZTVN5amiro6INA2196DriverE:00000000 _ZTVN5amiro6INA2196DriverE
-     /tmp/ccaIjZqa.s:1155   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/ccaIjZqa.s:1159   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/ccaIjZqa.s:1162   .rodata.str1.4:00000000 $d
-     /tmp/ccaIjZqa.s:1182   .rodata.CSWTCH.31:00000000 $d
-     /tmp/ccaIjZqa.s:1186   .rodata.CSWTCH.31:00000000 CSWTCH.31
-     /tmp/ccaIjZqa.s:1191   .rodata._ZTVN5amiro6INA2196DriverE:00000000 $d
-     /tmp/ccaIjZqa.s:47     .text._ZN5amiro6INA2196DriverD2Ev:00000014 $t
-     /tmp/ccaIjZqa.s:186    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:0000000c $t
-     /tmp/ccaIjZqa.s:267    .text._ZN5amiro6INA2196DriverD0Ev:0000001c $t
-     /tmp/ccaIjZqa.s:289    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000014 $t
-     /tmp/ccaIjZqa.s:391    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000024 $t
-     /tmp/ccaIjZqa.s:525    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:000000a4 $t
-     /tmp/ccaIjZqa.s:1123   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000014 $t
+     /tmp/ccYj2noj.s:790    .text._ZN5amiro6INA2196Driver6wakeupEv:00000000 $t
+     /tmp/ccYj2noj.s:796    .text._ZN5amiro6INA2196Driver6wakeupEv:00000000 _ZN5amiro6INA2196Driver6wakeupEv
+     /tmp/ccYj2noj.s:815    .text._ZN5amiro6INA2196Driver9hibernateEv:00000000 $t
+     /tmp/ccYj2noj.s:821    .text._ZN5amiro6INA2196Driver9hibernateEv:00000000 _ZN5amiro6INA2196Driver9hibernateEv
+     /tmp/ccYj2noj.s:843    .text._ZN5amiro6INA2196Driver5resetEv:00000000 $t
+     /tmp/ccYj2noj.s:849    .text._ZN5amiro6INA2196Driver5resetEv:00000000 _ZN5amiro6INA2196Driver5resetEv
+     /tmp/ccYj2noj.s:870    .text._ZN5amiro6INA2196Driver8selftestEv:00000000 $t
+     /tmp/ccYj2noj.s:876    .text._ZN5amiro6INA2196Driver8selftestEv:00000000 _ZN5amiro6INA2196Driver8selftestEv
+     /tmp/ccYj2noj.s:1095   .text._ZN5amiro6INA2196Driver8selftestEv:00000238 $d
+     /tmp/ccYj2noj.s:1103   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 $t
+     /tmp/ccYj2noj.s:1108   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000000 _GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh
+     /tmp/ccYj2noj.s:1120   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:0000000c $d
+     /tmp/ccYj2noj.s:1124   .init_array:00000000 $d
+     /tmp/ccYj2noj.s:1128   .rodata._ZTVN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEEE:00000000 $d
+     /tmp/ccYj2noj.s:1147   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
+     /tmp/ccYj2noj.s:1144   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
+     /tmp/ccYj2noj.s:1195   .rodata._ZTVN5amiro6INA2196DriverE:00000000 _ZTVN5amiro6INA2196DriverE
+     /tmp/ccYj2noj.s:1155   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/ccYj2noj.s:1159   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/ccYj2noj.s:1162   .rodata.str1.4:00000000 $d
+     /tmp/ccYj2noj.s:1182   .rodata.CSWTCH.31:00000000 $d
+     /tmp/ccYj2noj.s:1186   .rodata.CSWTCH.31:00000000 CSWTCH.31
+     /tmp/ccYj2noj.s:1191   .rodata._ZTVN5amiro6INA2196DriverE:00000000 $d
+     /tmp/ccYj2noj.s:47     .text._ZN5amiro6INA2196DriverD2Ev:00000014 $t
+     /tmp/ccYj2noj.s:186    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED2Ev:0000000c $t
+     /tmp/ccYj2noj.s:267    .text._ZN5amiro6INA2196DriverD0Ev:0000001c $t
+     /tmp/ccYj2noj.s:289    .text._ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED0Ev:00000014 $t
+     /tmp/ccYj2noj.s:391    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.3:00000024 $t
+     /tmp/ccYj2noj.s:525    .text._ZN5amiro6INA2196Driver12readRegisterENS1_15RegisterAddressERt:000000a4 $t
+     /tmp/ccYj2noj.s:1123   .text.startup._GLOBAL__sub_I__ZN5amiro6INA2196DriverC2ERNS_9I2CDriverEh:00000014 $t
                            .group:00000000 _ZN5amiro10BaseSensorINS_6INA2198InitDataENS1_9CalibDataEED5Ev
 
 UNDEFINED SYMBOLS

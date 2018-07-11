@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccgWj3rg.s 			page 1
+ARM GAS  /tmp/ccLi2Sa6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
   55              	.L6:
   56              		.align	2
   57              	.L5:
-ARM GAS  /tmp/ccgWj3rg.s 			page 2
+ARM GAS  /tmp/ccLi2Sa6.s 			page 2
 
 
   58 0010 08000000 		.word	.LANCHOR0+8
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  110 0014 02B0     		add	sp, sp, #8
  111              		@ sp needed
  112 0016 5DF804EB 		ldr	lr, [sp], #4
-ARM GAS  /tmp/ccgWj3rg.s 			page 3
+ARM GAS  /tmp/ccLi2Sa6.s 			page 3
 
 
  113 001a 03B0     		add	sp, sp, #12
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  165 0078 10BD     		pop	{r4, pc}
  166              	.L22:
  167 007a 00BF     		.align	2
-ARM GAS  /tmp/ccgWj3rg.s 			page 4
+ARM GAS  /tmp/ccLi2Sa6.s 			page 4
 
 
  168              	.L21:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  222 006a BBF1020F 		cmp	fp, #2
  223 006e 26D1     		bne	.L28
  224 0070 99F80030 		ldrb	r3, [r9]	@ zero_extendqisi2
-ARM GAS  /tmp/ccgWj3rg.s 			page 5
+ARM GAS  /tmp/ccLi2Sa6.s 			page 5
 
 
  225 0074 03F0FF05 		and	r5, r3, #255
@@ -276,7 +276,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  257 00c0 DBB2     		uxtb	r3, r3
  258 00c2 3B70     		strb	r3, [r7]
  259              	.L27:
- 260 00c4 3F20     		movs	r0, #63
+ 260 00c4 1420     		movs	r0, #20
  261 00c6 FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread5sleepEm
  262 00ca 3B78     		ldrb	r3, [r7]	@ zero_extendqisi2
  263 00cc DBB2     		uxtb	r3, r3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  279 00f4 7F48     		ldr	r0, .L162+28
  280 00f6 FFF7FEFF 		bl	_ZN5amiro16BluetoothWiimote27bluetoothWiimoteIsConnectedEv
  281 00fa 0028     		cmp	r0, #0
-ARM GAS  /tmp/ccgWj3rg.s 			page 6
+ARM GAS  /tmp/ccLi2Sa6.s 			page 6
 
 
  282 00fc 9BD0     		beq	.L25
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  336 018e 0AAD     		add	r5, sp, #40
  337 0190 0024     		movs	r4, #0
  338              	.L60:
-ARM GAS  /tmp/ccgWj3rg.s 			page 7
+ARM GAS  /tmp/ccLi2Sa6.s 			page 7
 
 
  339 0192 E1B2     		uxtb	r1, r4
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  393 022e 3148     		ldr	r0, .L162+28
  394 0230 3149     		ldr	r1, .L162+32
  395 0232 FFF7FEFF 		bl	_ZN5amiro16BluetoothWiimote22bluetoothWiimoteListenEPKc
-ARM GAS  /tmp/ccgWj3rg.s 			page 8
+ARM GAS  /tmp/ccLi2Sa6.s 			page 8
 
 
  396 0236 3148     		ldr	r0, .L162+36
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  450 02c0 FFF7FEFF 		bl	_ZN5amiro5ColorC1ENS0_11GlobalColorE
  451 02c4 0548     		ldr	r0, .L162+4
  452 02c6 0221     		movs	r1, #2
-ARM GAS  /tmp/ccgWj3rg.s 			page 9
+ARM GAS  /tmp/ccLi2Sa6.s 			page 9
 
 
  453 02c8 0AAA     		add	r2, sp, #40
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  507 0366 FFF7FEFF 		bl	_ZN5amiro23ControllerAreaNetworkTx13setLightColorEiNS_5ColorE
  508 036a 082D     		cmp	r5, #8
  509 036c F3D1     		bne	.L36
-ARM GAS  /tmp/ccgWj3rg.s 			page 10
+ARM GAS  /tmp/ccLi2Sa6.s 			page 10
 
 
  510 036e A6E6     		b	.L28
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  564 03f8 8DED0BAA 		fsts	s20, [sp, #44]
  565 03fc FFF7FEFF 		bl	_ZN5amiro16BluetoothWiimote16getAccelerometerEv
  566 0400 B0F90400 		ldrsh	r0, [r0, #4]
-ARM GAS  /tmp/ccgWj3rg.s 			page 11
+ARM GAS  /tmp/ccLi2Sa6.s 			page 11
 
 
  567 0404 0AEE900A 		fmsr	s21, r0	@ int
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  621 049e FFF7FEFF 		bl	_ZN5amiro16BluetoothWiimote10getButtonsEv
  622 04a2 4378     		ldrb	r3, [r0, #1]	@ zero_extendqisi2
  623 04a4 DB07     		lsls	r3, r3, #31
-ARM GAS  /tmp/ccgWj3rg.s 			page 12
+ARM GAS  /tmp/ccLi2Sa6.s 			page 12
 
 
  624 04a6 40F11581 		bpl	.L154
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  678              	.L81:
  679 0534 77EEA67A 		fadds	s15, s15, s13
  680 0538 C3ED007A 		fsts	s15, [r3]
-ARM GAS  /tmp/ccgWj3rg.s 			page 13
+ARM GAS  /tmp/ccLi2Sa6.s 			page 13
 
 
  681 053c 99E7     		b	.L83
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  735 05dc 5DDD     		ble	.L66
  736 05de F4EEE67A 		fcmpes	s15, s13
  737 05e2 F1EE10FA 		fmstat
-ARM GAS  /tmp/ccgWj3rg.s 			page 14
+ARM GAS  /tmp/ccLi2Sa6.s 			page 14
 
 
  738 05e6 58DD     		ble	.L66
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  792 0680 FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1
  793 0684 D5ED027A 		flds	s15, [r5, #8]
  794 0688 7548     		ldr	r0, .L166
-ARM GAS  /tmp/ccgWj3rg.s 			page 15
+ARM GAS  /tmp/ccLi2Sa6.s 			page 15
 
 
  795 068a 8049     		ldr	r1, .L166+44
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  849 0712 0521     		movs	r1, #5
  850 0714 06AA     		add	r2, sp, #24
  851 0716 FFF7FEFF 		bl	_ZN5amiro23ControllerAreaNetworkTx13setLightColorEiNS_5ColorE
-ARM GAS  /tmp/ccgWj3rg.s 			page 16
+ARM GAS  /tmp/ccLi2Sa6.s 			page 16
 
 
  852 071a 06A8     		add	r0, sp, #24
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  906 0792 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  907              	.L158:
  908 0796 0921     		movs	r1, #9
-ARM GAS  /tmp/ccgWj3rg.s 			page 17
+ARM GAS  /tmp/ccLi2Sa6.s 			page 17
 
 
  909 0798 06A8     		add	r0, sp, #24
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  963 0824 0921     		movs	r1, #9
  964 0826 06A8     		add	r0, sp, #24
  965 0828 FFF7FEFF 		bl	_ZN5amiro5ColorC1ENS0_11GlobalColorE
-ARM GAS  /tmp/ccgWj3rg.s 			page 18
+ARM GAS  /tmp/ccLi2Sa6.s 			page 18
 
 
  966 082c 06AA     		add	r2, sp, #24
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1018 0000 10B5     		push	{r4, lr}
  1019 0002 0446     		mov	r4, r0
  1020 0004 FFF7FEFF 		bl	_ZN10chibios_rt10BaseThreadC2Ev
-ARM GAS  /tmp/ccgWj3rg.s 			page 19
+ARM GAS  /tmp/ccLi2Sa6.s 			page 19
 
 
  1021 0008 014B     		ldr	r3, .L169
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1073              		.global	_ZN5amiro10UserThread13setWiiAddressEPKc
  1074              		.thumb
  1075              		.thumb_func
-ARM GAS  /tmp/ccgWj3rg.s 			page 20
+ARM GAS  /tmp/ccLi2Sa6.s 			page 20
 
 
  1076              		.type	_ZN5amiro10UserThread13setWiiAddressEPKc, %function
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1130 0030 7047     		bx	lr
  1131              	.L191:
  1132 0032 C0EE077A 		fdivs	s15, s0, s14
-ARM GAS  /tmp/ccgWj3rg.s 			page 21
+ARM GAS  /tmp/ccLi2Sa6.s 			page 21
 
 
  1133 0036 094B     		ldr	r3, .L192+4
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1185              		.size	_GLOBAL__sub_I_current_state, .-_GLOBAL__sub_I_current_state
  1186 0038 AFF30080 		.section	.init_array,"aw",%init_array
  1186      AFF30080 
-ARM GAS  /tmp/ccgWj3rg.s 			page 22
+ARM GAS  /tmp/ccLi2Sa6.s 			page 22
 
 
  1187              		.align	2
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1236              		.size	next_state, 1
  1237              	next_state:
  1238 0000 00       		.space	1
-ARM GAS  /tmp/ccgWj3rg.s 			page 23
+ARM GAS  /tmp/ccLi2Sa6.s 			page 23
 
 
  1239              		.section	.bss._ZN12wii_steering7wiimoteE,"aw",%nobits
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1285      2720616E 
  1286 002a 0000     		.space	2
  1287              	.LC2:
-ARM GAS  /tmp/ccgWj3rg.s 			page 24
+ARM GAS  /tmp/ccLi2Sa6.s 			page 24
 
 
  1288 002c 4552524F 		.ascii	"ERROR: turn off obstacle avoidance first!\012\000"
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1312 0100 61636365 		.ascii	"accelerometer calibrated:\012\000"
  1312      6C65726F 
  1312      6D657465 
-ARM GAS  /tmp/ccgWj3rg.s 			page 25
+ARM GAS  /tmp/ccLi2Sa6.s 			page 25
 
 
  1312      72206361 
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1349              		.size	_ZN12wii_steering14axis_directionE, 1
  1350              	_ZN12wii_steering14axis_directionE:
  1351 0000 FF       		.byte	-1
-ARM GAS  /tmp/ccgWj3rg.s 			page 26
+ARM GAS  /tmp/ccLi2Sa6.s 			page 26
 
 
  1352              		.section	.rodata._ZTVN5amiro10UserThreadE,"a",%progbits
@@ -1526,96 +1526,96 @@ ARM GAS  /tmp/ccgWj3rg.s 			page 1
  1371      00000000 
  1371      00000000 
  1372              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccgWj3rg.s 			page 27
+ARM GAS  /tmp/ccLi2Sa6.s 			page 27
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 userthread.cpp
-     /tmp/ccgWj3rg.s:18     .text._ZN5amiro10UserThreadD2Ev:00000000 $t
-     /tmp/ccgWj3rg.s:24     .text._ZN5amiro10UserThreadD2Ev:00000000 _ZN5amiro10UserThreadD2Ev
-     /tmp/ccgWj3rg.s:34     .text._ZN5amiro10UserThreadD2Ev:00000008 $d
-     /tmp/ccgWj3rg.s:24     .text._ZN5amiro10UserThreadD2Ev:00000000 _ZN5amiro10UserThreadD1Ev
-     /tmp/ccgWj3rg.s:39     .text._ZN5amiro10UserThreadD0Ev:00000000 $t
-     /tmp/ccgWj3rg.s:45     .text._ZN5amiro10UserThreadD0Ev:00000000 _ZN5amiro10UserThreadD0Ev
-     /tmp/ccgWj3rg.s:58     .text._ZN5amiro10UserThreadD0Ev:00000010 $d
-     /tmp/ccgWj3rg.s:61     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000000 $t
-     /tmp/ccgWj3rg.s:67     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm
-     /tmp/ccgWj3rg.s:90     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000028 $d
-     /tmp/ccgWj3rg.s:94     .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000000 $t
-     /tmp/ccgWj3rg.s:99     .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1
-     /tmp/ccgWj3rg.s:118    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000020 $d
-     /tmp/ccgWj3rg.s:121    .text._ZN18obstacle_avoidance10Prox2ColorEf:00000000 $t
-     /tmp/ccgWj3rg.s:127    .text._ZN18obstacle_avoidance10Prox2ColorEf:00000000 _ZN18obstacle_avoidance10Prox2ColorEf
-     /tmp/ccgWj3rg.s:169    .text._ZN18obstacle_avoidance10Prox2ColorEf:0000007c $d
-     /tmp/ccgWj3rg.s:173    .text.startup._ZN5amiro10UserThread4mainEv:00000000 $t
-     /tmp/ccgWj3rg.s:179    .text.startup._ZN5amiro10UserThread4mainEv:00000000 _ZN5amiro10UserThread4mainEv
-     /tmp/ccgWj3rg.s:462    .text.startup._ZN5amiro10UserThread4mainEv:000002d8 $d
-     /tmp/ccgWj3rg.s:486    .text.startup._ZN5amiro10UserThread4mainEv:00000334 $t
-     /tmp/ccgWj3rg.s:701    .text.startup._ZN5amiro10UserThread4mainEv:00000564 $d
-     /tmp/ccgWj3rg.s:715    .text.startup._ZN5amiro10UserThread4mainEv:00000598 $t
-     /tmp/ccgWj3rg.s:990    .text.startup._ZN5amiro10UserThread4mainEv:00000860 $d
-     /tmp/ccgWj3rg.s:1009   .text._ZN5amiro10UserThreadC2Ev:00000000 $t
-     /tmp/ccgWj3rg.s:1015   .text._ZN5amiro10UserThreadC2Ev:00000000 _ZN5amiro10UserThreadC2Ev
-     /tmp/ccgWj3rg.s:1028   .text._ZN5amiro10UserThreadC2Ev:00000010 $d
-     /tmp/ccgWj3rg.s:1015   .text._ZN5amiro10UserThreadC2Ev:00000000 _ZN5amiro10UserThreadC1Ev
-     /tmp/ccgWj3rg.s:1033   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000000 $t
-     /tmp/ccgWj3rg.s:1039   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000000 _ZN5amiro10UserThread12setNextStateENS0_5StateE
-     /tmp/ccgWj3rg.s:1049   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000008 $d
-     /tmp/ccgWj3rg.s:1052   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000000 $t
-     /tmp/ccgWj3rg.s:1058   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000000 _ZNK5amiro10UserThread14getCurrenStateEv
-     /tmp/ccgWj3rg.s:1068   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000008 $d
-     /tmp/ccgWj3rg.s:1071   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000000 $t
-     /tmp/ccgWj3rg.s:1077   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000000 _ZN5amiro10UserThread13setWiiAddressEPKc
-     /tmp/ccgWj3rg.s:1102   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000028 $d
-     /tmp/ccgWj3rg.s:1105   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000000 $t
-     /tmp/ccgWj3rg.s:1111   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000000 _ZN5amiro10UserThread14setWiiDeadzoneEf
-     /tmp/ccgWj3rg.s:1149   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000058 $d
-     /tmp/ccgWj3rg.s:1154   .text.startup._GLOBAL__sub_I_current_state:00000000 $t
-     /tmp/ccgWj3rg.s:1159   .text.startup._GLOBAL__sub_I_current_state:00000000 _GLOBAL__sub_I_current_state
-     /tmp/ccgWj3rg.s:1180   .text.startup._GLOBAL__sub_I_current_state:00000024 $d
-     /tmp/ccgWj3rg.s:1187   .init_array:00000000 $d
-     /tmp/ccgWj3rg.s:1194   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi1024EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi1024EEE
-     /tmp/ccgWj3rg.s:1191   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi1024EEE:00000000 $d
-     /tmp/ccgWj3rg.s:1357   .rodata._ZTVN5amiro10UserThreadE:00000000 _ZTVN5amiro10UserThreadE
-     /tmp/ccgWj3rg.s:1231   .bss._ZN12wii_steering10colorcycleE:00000000 _ZN12wii_steering10colorcycleE
-     /tmp/ccgWj3rg.s:1350   .data._ZN12wii_steering14axis_directionE:00000000 _ZN12wii_steering14axis_directionE
-     /tmp/ccgWj3rg.s:1278   .data._ZN12wii_steering14principal_axisE:00000000 _ZN12wii_steering14principal_axisE
-     /tmp/ccgWj3rg.s:1344   .bss._ZN12wii_steering12wiimoteCalibE:00000000 _ZN12wii_steering12wiimoteCalibE
-     /tmp/ccgWj3rg.s:1217   .bss._ZN12wii_steering10bt_addressE:00000000 _ZN12wii_steering10bt_addressE
-     /tmp/ccgWj3rg.s:1337   .bss._ZN12wii_steering8deadzoneE:00000000 _ZN12wii_steering8deadzoneE
-     /tmp/ccgWj3rg.s:1330   .bss._ZN12wii_steering8btserialE:00000000 _ZN12wii_steering8btserialE
-     /tmp/ccgWj3rg.s:1244   .bss._ZN12wii_steering7wiimoteE:00000000 _ZN12wii_steering7wiimoteE
-     /tmp/ccgWj3rg.s:1370   .bss.kinematic:00000000 kinematic
-ARM GAS  /tmp/ccgWj3rg.s 			page 28
+     /tmp/ccLi2Sa6.s:18     .text._ZN5amiro10UserThreadD2Ev:00000000 $t
+     /tmp/ccLi2Sa6.s:24     .text._ZN5amiro10UserThreadD2Ev:00000000 _ZN5amiro10UserThreadD2Ev
+     /tmp/ccLi2Sa6.s:34     .text._ZN5amiro10UserThreadD2Ev:00000008 $d
+     /tmp/ccLi2Sa6.s:24     .text._ZN5amiro10UserThreadD2Ev:00000000 _ZN5amiro10UserThreadD1Ev
+     /tmp/ccLi2Sa6.s:39     .text._ZN5amiro10UserThreadD0Ev:00000000 $t
+     /tmp/ccLi2Sa6.s:45     .text._ZN5amiro10UserThreadD0Ev:00000000 _ZN5amiro10UserThreadD0Ev
+     /tmp/ccLi2Sa6.s:58     .text._ZN5amiro10UserThreadD0Ev:00000010 $d
+     /tmp/ccLi2Sa6.s:61     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000000 $t
+     /tmp/ccLi2Sa6.s:67     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm
+     /tmp/ccLi2Sa6.s:90     .text._ZN10chibios_rt16BaseStaticThreadILi1024EE5startEm:00000028 $d
+     /tmp/ccLi2Sa6.s:94     .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000000 $t
+     /tmp/ccLi2Sa6.s:99     .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1
+     /tmp/ccLi2Sa6.s:118    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000020 $d
+     /tmp/ccLi2Sa6.s:121    .text._ZN18obstacle_avoidance10Prox2ColorEf:00000000 $t
+     /tmp/ccLi2Sa6.s:127    .text._ZN18obstacle_avoidance10Prox2ColorEf:00000000 _ZN18obstacle_avoidance10Prox2ColorEf
+     /tmp/ccLi2Sa6.s:169    .text._ZN18obstacle_avoidance10Prox2ColorEf:0000007c $d
+     /tmp/ccLi2Sa6.s:173    .text.startup._ZN5amiro10UserThread4mainEv:00000000 $t
+     /tmp/ccLi2Sa6.s:179    .text.startup._ZN5amiro10UserThread4mainEv:00000000 _ZN5amiro10UserThread4mainEv
+     /tmp/ccLi2Sa6.s:462    .text.startup._ZN5amiro10UserThread4mainEv:000002d8 $d
+     /tmp/ccLi2Sa6.s:486    .text.startup._ZN5amiro10UserThread4mainEv:00000334 $t
+     /tmp/ccLi2Sa6.s:701    .text.startup._ZN5amiro10UserThread4mainEv:00000564 $d
+     /tmp/ccLi2Sa6.s:715    .text.startup._ZN5amiro10UserThread4mainEv:00000598 $t
+     /tmp/ccLi2Sa6.s:990    .text.startup._ZN5amiro10UserThread4mainEv:00000860 $d
+     /tmp/ccLi2Sa6.s:1009   .text._ZN5amiro10UserThreadC2Ev:00000000 $t
+     /tmp/ccLi2Sa6.s:1015   .text._ZN5amiro10UserThreadC2Ev:00000000 _ZN5amiro10UserThreadC2Ev
+     /tmp/ccLi2Sa6.s:1028   .text._ZN5amiro10UserThreadC2Ev:00000010 $d
+     /tmp/ccLi2Sa6.s:1015   .text._ZN5amiro10UserThreadC2Ev:00000000 _ZN5amiro10UserThreadC1Ev
+     /tmp/ccLi2Sa6.s:1033   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000000 $t
+     /tmp/ccLi2Sa6.s:1039   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000000 _ZN5amiro10UserThread12setNextStateENS0_5StateE
+     /tmp/ccLi2Sa6.s:1049   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:00000008 $d
+     /tmp/ccLi2Sa6.s:1052   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000000 $t
+     /tmp/ccLi2Sa6.s:1058   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000000 _ZNK5amiro10UserThread14getCurrenStateEv
+     /tmp/ccLi2Sa6.s:1068   .text._ZNK5amiro10UserThread14getCurrenStateEv:00000008 $d
+     /tmp/ccLi2Sa6.s:1071   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000000 $t
+     /tmp/ccLi2Sa6.s:1077   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000000 _ZN5amiro10UserThread13setWiiAddressEPKc
+     /tmp/ccLi2Sa6.s:1102   .text._ZN5amiro10UserThread13setWiiAddressEPKc:00000028 $d
+     /tmp/ccLi2Sa6.s:1105   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000000 $t
+     /tmp/ccLi2Sa6.s:1111   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000000 _ZN5amiro10UserThread14setWiiDeadzoneEf
+     /tmp/ccLi2Sa6.s:1149   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000058 $d
+     /tmp/ccLi2Sa6.s:1154   .text.startup._GLOBAL__sub_I_current_state:00000000 $t
+     /tmp/ccLi2Sa6.s:1159   .text.startup._GLOBAL__sub_I_current_state:00000000 _GLOBAL__sub_I_current_state
+     /tmp/ccLi2Sa6.s:1180   .text.startup._GLOBAL__sub_I_current_state:00000024 $d
+     /tmp/ccLi2Sa6.s:1187   .init_array:00000000 $d
+     /tmp/ccLi2Sa6.s:1194   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi1024EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi1024EEE
+     /tmp/ccLi2Sa6.s:1191   .rodata._ZTVN10chibios_rt16BaseStaticThreadILi1024EEE:00000000 $d
+     /tmp/ccLi2Sa6.s:1357   .rodata._ZTVN5amiro10UserThreadE:00000000 _ZTVN5amiro10UserThreadE
+     /tmp/ccLi2Sa6.s:1231   .bss._ZN12wii_steering10colorcycleE:00000000 _ZN12wii_steering10colorcycleE
+     /tmp/ccLi2Sa6.s:1350   .data._ZN12wii_steering14axis_directionE:00000000 _ZN12wii_steering14axis_directionE
+     /tmp/ccLi2Sa6.s:1278   .data._ZN12wii_steering14principal_axisE:00000000 _ZN12wii_steering14principal_axisE
+     /tmp/ccLi2Sa6.s:1344   .bss._ZN12wii_steering12wiimoteCalibE:00000000 _ZN12wii_steering12wiimoteCalibE
+     /tmp/ccLi2Sa6.s:1217   .bss._ZN12wii_steering10bt_addressE:00000000 _ZN12wii_steering10bt_addressE
+     /tmp/ccLi2Sa6.s:1337   .bss._ZN12wii_steering8deadzoneE:00000000 _ZN12wii_steering8deadzoneE
+     /tmp/ccLi2Sa6.s:1330   .bss._ZN12wii_steering8btserialE:00000000 _ZN12wii_steering8btserialE
+     /tmp/ccLi2Sa6.s:1244   .bss._ZN12wii_steering7wiimoteE:00000000 _ZN12wii_steering7wiimoteE
+     /tmp/ccLi2Sa6.s:1370   .bss.kinematic:00000000 kinematic
+ARM GAS  /tmp/ccLi2Sa6.s 			page 28
 
 
-     /tmp/ccgWj3rg.s:1237   .bss.next_state:00000000 next_state
-     /tmp/ccgWj3rg.s:1272   .bss.current_state:00000000 current_state
-     /tmp/ccgWj3rg.s:1213   .bss._ZN12wii_steering10bt_addressE:00000000 $d
-     /tmp/ccgWj3rg.s:1220   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/ccgWj3rg.s:1224   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/ccgWj3rg.s:1227   .bss._ZN12wii_steering10colorcycleE:00000000 $d
-     /tmp/ccgWj3rg.s:1238   .bss.next_state:00000000 $d
-     /tmp/ccgWj3rg.s:1240   .bss._ZN12wii_steering7wiimoteE:00000000 $d
-     /tmp/ccgWj3rg.s:1247   .rodata._ZN18obstacle_avoidanceL9namMatrixE:00000000 $d
-     /tmp/ccgWj3rg.s:1251   .rodata._ZN18obstacle_avoidanceL9namMatrixE:00000000 _ZN18obstacle_avoidanceL9namMatrixE
-     /tmp/ccgWj3rg.s:1273   .bss.current_state:00000000 $d
-     /tmp/ccgWj3rg.s:1281   .rodata.str1.4:00000000 $d
-     /tmp/ccgWj3rg.s:1326   .bss._ZN12wii_steering8btserialE:00000000 $d
-     /tmp/ccgWj3rg.s:1333   .bss._ZN12wii_steering8deadzoneE:00000000 $d
-     /tmp/ccgWj3rg.s:1340   .bss._ZN12wii_steering12wiimoteCalibE:00000000 $d
-     /tmp/ccgWj3rg.s:1353   .rodata._ZTVN5amiro10UserThreadE:00000000 $d
-     /tmp/ccgWj3rg.s:1366   .bss.kinematic:00000000 $d
-     /tmp/ccgWj3rg.s:38     .text._ZN5amiro10UserThreadD2Ev:0000000c $t
-     /tmp/ccgWj3rg.s:60     .text._ZN5amiro10UserThreadD0Ev:00000014 $t
-     /tmp/ccgWj3rg.s:120    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000024 $t
-     /tmp/ccgWj3rg.s:1008   .text.startup._ZN5amiro10UserThread4mainEv:000008a4 $t
-     /tmp/ccgWj3rg.s:1032   .text._ZN5amiro10UserThreadC2Ev:00000014 $t
-     /tmp/ccgWj3rg.s:1051   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:0000000c $t
-     /tmp/ccgWj3rg.s:1070   .text._ZNK5amiro10UserThread14getCurrenStateEv:0000000c $t
-     /tmp/ccgWj3rg.s:1104   .text._ZN5amiro10UserThread13setWiiAddressEPKc:0000002c $t
-     /tmp/ccgWj3rg.s:1153   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000064 $t
-     /tmp/ccgWj3rg.s:1186   .text.startup._GLOBAL__sub_I_current_state:00000038 $t
+     /tmp/ccLi2Sa6.s:1237   .bss.next_state:00000000 next_state
+     /tmp/ccLi2Sa6.s:1272   .bss.current_state:00000000 current_state
+     /tmp/ccLi2Sa6.s:1213   .bss._ZN12wii_steering10bt_addressE:00000000 $d
+     /tmp/ccLi2Sa6.s:1220   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/ccLi2Sa6.s:1224   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/ccLi2Sa6.s:1227   .bss._ZN12wii_steering10colorcycleE:00000000 $d
+     /tmp/ccLi2Sa6.s:1238   .bss.next_state:00000000 $d
+     /tmp/ccLi2Sa6.s:1240   .bss._ZN12wii_steering7wiimoteE:00000000 $d
+     /tmp/ccLi2Sa6.s:1247   .rodata._ZN18obstacle_avoidanceL9namMatrixE:00000000 $d
+     /tmp/ccLi2Sa6.s:1251   .rodata._ZN18obstacle_avoidanceL9namMatrixE:00000000 _ZN18obstacle_avoidanceL9namMatrixE
+     /tmp/ccLi2Sa6.s:1273   .bss.current_state:00000000 $d
+     /tmp/ccLi2Sa6.s:1281   .rodata.str1.4:00000000 $d
+     /tmp/ccLi2Sa6.s:1326   .bss._ZN12wii_steering8btserialE:00000000 $d
+     /tmp/ccLi2Sa6.s:1333   .bss._ZN12wii_steering8deadzoneE:00000000 $d
+     /tmp/ccLi2Sa6.s:1340   .bss._ZN12wii_steering12wiimoteCalibE:00000000 $d
+     /tmp/ccLi2Sa6.s:1353   .rodata._ZTVN5amiro10UserThreadE:00000000 $d
+     /tmp/ccLi2Sa6.s:1366   .bss.kinematic:00000000 $d
+     /tmp/ccLi2Sa6.s:38     .text._ZN5amiro10UserThreadD2Ev:0000000c $t
+     /tmp/ccLi2Sa6.s:60     .text._ZN5amiro10UserThreadD0Ev:00000014 $t
+     /tmp/ccLi2Sa6.s:120    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.1:00000024 $t
+     /tmp/ccLi2Sa6.s:1008   .text.startup._ZN5amiro10UserThread4mainEv:000008a4 $t
+     /tmp/ccLi2Sa6.s:1032   .text._ZN5amiro10UserThreadC2Ev:00000014 $t
+     /tmp/ccLi2Sa6.s:1051   .text._ZN5amiro10UserThread12setNextStateENS0_5StateE:0000000c $t
+     /tmp/ccLi2Sa6.s:1070   .text._ZNK5amiro10UserThread14getCurrenStateEv:0000000c $t
+     /tmp/ccLi2Sa6.s:1104   .text._ZN5amiro10UserThread13setWiiAddressEPKc:0000002c $t
+     /tmp/ccLi2Sa6.s:1153   .text._ZN5amiro10UserThread14setWiiDeadzoneEf:00000064 $t
+     /tmp/ccLi2Sa6.s:1186   .text.startup._GLOBAL__sub_I_current_state:00000038 $t
 
 UNDEFINED SYMBOLS
 _ZdlPv
@@ -1646,7 +1646,7 @@ _ZN10chibios_rt10BaseThreadC2Ev
 strlen
 _ZN5amiro16BluetoothWiimoteC1EPNS_9BLUETOOTHEh
 _ZN5amiro15BluetoothSerialC1EPNS_9BLUETOOTHEh
-ARM GAS  /tmp/ccgWj3rg.s 			page 29
+ARM GAS  /tmp/ccLi2Sa6.s 			page 29
 
 
 _ZN10chibios_rt15ThreadReference4stopEv

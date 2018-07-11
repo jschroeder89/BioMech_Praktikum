@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccwtUxG8.s 			page 1
+ARM GAS  /tmp/cczDFDVR.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
   55              		.thumb_func
   56              		.type	_ZN5amiro14BluetoothIwrapC2EP10UARTDriver, %function
   57              	_ZN5amiro14BluetoothIwrapC2EP10UARTDriver:
-ARM GAS  /tmp/ccwtUxG8.s 			page 2
+ARM GAS  /tmp/cczDFDVR.s 			page 2
 
 
   58              		@ args = 0, pretend = 0, frame = 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  111 0024 FFF7FEFF 		bl	_ZN5amiro19BluetoothDescriptor29bluetoothDescriptorGetPayloadEv
  112 0028 0746     		mov	r7, r0
  113 002a 0198     		ldr	r0, [sp, #4]
-ARM GAS  /tmp/ccwtUxG8.s 			page 3
+ARM GAS  /tmp/cczDFDVR.s 			page 3
 
 
  114 002c FFF7FEFF 		bl	_ZN5amiro19BluetoothDescriptor35bluetoothDescriptorGetPayloadLengthEv
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  168              	.L79:
  169 00a6 C5EBC505 		rsb	r5, r5, r5, lsl #3
  170 00aa 06EB8503 		add	r3, r6, r5, lsl #2
-ARM GAS  /tmp/ccwtUxG8.s 			page 4
+ARM GAS  /tmp/cczDFDVR.s 			page 4
 
 
  171 00ae 397A     		ldrb	r1, [r7, #8]	@ zero_extendqisi2
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  225 0122 8358     		ldr	r3, [r0, r2]
  226 0124 1044     		add	r0, r0, r2
  227 0126 1B59     		ldr	r3, [r3, r4]
-ARM GAS  /tmp/ccwtUxG8.s 			page 5
+ARM GAS  /tmp/cczDFDVR.s 			page 5
 
 
  228 0128 CEE7     		b	.L27
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  282 019e 5210     		asrs	r2, r2, #1
  283 01a0 5868     		ldr	r0, [r3, #4]
  284 01a2 1969     		ldr	r1, [r3, #16]
-ARM GAS  /tmp/ccwtUxG8.s 			page 6
+ARM GAS  /tmp/cczDFDVR.s 			page 6
 
 
  285 01a4 8358     		ldr	r3, [r0, r2]
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  339              		.align	2
  340              	.L87:
  341 003c 54000000 		.word	.LC8
-ARM GAS  /tmp/ccwtUxG8.s 			page 7
+ARM GAS  /tmp/cczDFDVR.s 			page 7
 
 
  342              		.size	_ZN5amiro14BluetoothIwrap4mainEv, .-_ZN5amiro14BluetoothIwrap4mainEv
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  396 006c AFF30080 		.section	.text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc,"ax",%progbits
  397              		.align	2
  398              		.p2align 4,,15
-ARM GAS  /tmp/ccwtUxG8.s 			page 8
+ARM GAS  /tmp/cczDFDVR.s 			page 8
 
 
  399              		.global	_ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  453              	.L103:
  454 0076 0023     		movs	r3, #0
  455 0078 C4F8B838 		str	r3, [r4, #2232]
-ARM GAS  /tmp/ccwtUxG8.s 			page 9
+ARM GAS  /tmp/cczDFDVR.s 			page 9
 
 
  456              	.L104:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  510 00fc 88000000 		.word	.LC13
  511 0100 94000000 		.word	.LC14
  512 0104 A0000000 		.word	.LC15
-ARM GAS  /tmp/ccwtUxG8.s 			page 10
+ARM GAS  /tmp/cczDFDVR.s 			page 10
 
 
  513 0108 B0000000 		.word	.LC16
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  562              		.set	.LANCHOR0,. + 0
  563              		.type	_ZTVN5amiro14BluetoothIwrapE, %object
  564              		.size	_ZTVN5amiro14BluetoothIwrapE, 20
-ARM GAS  /tmp/ccwtUxG8.s 			page 11
+ARM GAS  /tmp/cczDFDVR.s 			page 11
 
 
  565              	_ZTVN5amiro14BluetoothIwrapE:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  602              	.LC10:
  603 006c 20524643 		.ascii	" RFCOMM\000"
  603      4F4D4D00 
-ARM GAS  /tmp/ccwtUxG8.s 			page 12
+ARM GAS  /tmp/cczDFDVR.s 			page 12
 
 
  604              	.LC11:
@@ -697,43 +697,43 @@ ARM GAS  /tmp/ccwtUxG8.s 			page 1
  621              	.LC18:
  622 00d0 53455400 		.ascii	"SET\000"
  623              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccwtUxG8.s 			page 13
+ARM GAS  /tmp/cczDFDVR.s 			page 13
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 bluetooth-iwrap.cpp
-     /tmp/ccwtUxG8.s:18     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000000 $t
-     /tmp/ccwtUxG8.s:24     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi128EE5startEm
-     /tmp/ccwtUxG8.s:47     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000028 $d
-     /tmp/ccwtUxG8.s:51     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 $t
-     /tmp/ccwtUxG8.s:57     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _ZN5amiro14BluetoothIwrapC2EP10UARTDriver
-     /tmp/ccwtUxG8.s:85     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000044 $d
-     /tmp/ccwtUxG8.s:57     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _ZN5amiro14BluetoothIwrapC1EP10UARTDriver
-     /tmp/ccwtUxG8.s:90     .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:00000000 $t
-     /tmp/ccwtUxG8.s:96     .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:00000000 _ZN5amiro14BluetoothIwrap12iwrapReceiveEv
-     /tmp/ccwtUxG8.s:292    .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:000001ac $d
-     /tmp/ccwtUxG8.s:303    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:00000000 $t
-     /tmp/ccwtUxG8.s:309    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:00000000 _ZN5amiro14BluetoothIwrap4mainEv
-     /tmp/ccwtUxG8.s:341    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:0000003c $d
-     /tmp/ccwtUxG8.s:344    .text._ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj:00000000 $t
-     /tmp/ccwtUxG8.s:350    .text._ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj:00000000 _ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj
-     /tmp/ccwtUxG8.s:397    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000000 $t
-     /tmp/ccwtUxG8.s:403    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000000 _ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc
-     /tmp/ccwtUxG8.s:506    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:000000ec $d
-     /tmp/ccwtUxG8.s:518    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 $t
-     /tmp/ccwtUxG8.s:523    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver
-     /tmp/ccwtUxG8.s:535    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:0000000c $d
-     /tmp/ccwtUxG8.s:539    .init_array:00000000 $d
-     /tmp/ccwtUxG8.s:546    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi128EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi128EEE
-     /tmp/ccwtUxG8.s:543    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi128EEE:00000000 $d
-     /tmp/ccwtUxG8.s:565    .rodata._ZTVN5amiro14BluetoothIwrapE:00000000 _ZTVN5amiro14BluetoothIwrapE
-     /tmp/ccwtUxG8.s:554    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/ccwtUxG8.s:558    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/ccwtUxG8.s:561    .rodata._ZTVN5amiro14BluetoothIwrapE:00000000 $d
-     /tmp/ccwtUxG8.s:572    .rodata.str1.4:00000000 $d
-     /tmp/ccwtUxG8.s:89     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000048 $t
-     /tmp/ccwtUxG8.s:517    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000114 $t
-     /tmp/ccwtUxG8.s:538    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000014 $t
+     /tmp/cczDFDVR.s:18     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000000 $t
+     /tmp/cczDFDVR.s:24     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi128EE5startEm
+     /tmp/cczDFDVR.s:47     .text._ZN10chibios_rt16BaseStaticThreadILi128EE5startEm:00000028 $d
+     /tmp/cczDFDVR.s:51     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 $t
+     /tmp/cczDFDVR.s:57     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _ZN5amiro14BluetoothIwrapC2EP10UARTDriver
+     /tmp/cczDFDVR.s:85     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000044 $d
+     /tmp/cczDFDVR.s:57     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _ZN5amiro14BluetoothIwrapC1EP10UARTDriver
+     /tmp/cczDFDVR.s:90     .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:00000000 $t
+     /tmp/cczDFDVR.s:96     .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:00000000 _ZN5amiro14BluetoothIwrap12iwrapReceiveEv
+     /tmp/cczDFDVR.s:292    .text._ZN5amiro14BluetoothIwrap12iwrapReceiveEv:000001ac $d
+     /tmp/cczDFDVR.s:303    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:00000000 $t
+     /tmp/cczDFDVR.s:309    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:00000000 _ZN5amiro14BluetoothIwrap4mainEv
+     /tmp/cczDFDVR.s:341    .text.startup._ZN5amiro14BluetoothIwrap4mainEv:0000003c $d
+     /tmp/cczDFDVR.s:344    .text._ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj:00000000 $t
+     /tmp/cczDFDVR.s:350    .text._ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj:00000000 _ZN5amiro14BluetoothIwrap13iwrapTransmitEhPKhj
+     /tmp/cczDFDVR.s:397    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000000 $t
+     /tmp/cczDFDVR.s:403    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000000 _ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc
+     /tmp/cczDFDVR.s:506    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:000000ec $d
+     /tmp/cczDFDVR.s:518    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 $t
+     /tmp/cczDFDVR.s:523    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000000 _GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver
+     /tmp/cczDFDVR.s:535    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:0000000c $d
+     /tmp/cczDFDVR.s:539    .init_array:00000000 $d
+     /tmp/cczDFDVR.s:546    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi128EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi128EEE
+     /tmp/cczDFDVR.s:543    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi128EEE:00000000 $d
+     /tmp/cczDFDVR.s:565    .rodata._ZTVN5amiro14BluetoothIwrapE:00000000 _ZTVN5amiro14BluetoothIwrapE
+     /tmp/cczDFDVR.s:554    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/cczDFDVR.s:558    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/cczDFDVR.s:561    .rodata._ZTVN5amiro14BluetoothIwrapE:00000000 $d
+     /tmp/cczDFDVR.s:572    .rodata.str1.4:00000000 $d
+     /tmp/cczDFDVR.s:89     .text._ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000048 $t
+     /tmp/cczDFDVR.s:517    .text._ZN5amiro14BluetoothIwrap25bluetoothIwrapSendCommandEPKc:00000114 $t
+     /tmp/cczDFDVR.s:538    .text.startup._GLOBAL__sub_I__ZN5amiro14BluetoothIwrapC2EP10UARTDriver:00000014 $t
 
 UNDEFINED SYMBOLS
 chThdCreateStatic
@@ -757,7 +757,7 @@ _ZN5amiro19BluetoothDescriptor28bluetoothDescriptorSetLinkIdEh
 _ZN5amiro19BluetoothDescriptor35bluetoothDescriptorSetPayloadLengthEj
 _ZN5amiro18BluetoothTransport36bluetoothTransportGetTransmitMailboxEv
 _ZN10chibios_rt10BaseThread5sleepEm
-ARM GAS  /tmp/ccwtUxG8.s 			page 14
+ARM GAS  /tmp/cczDFDVR.s 			page 14
 
 
 strlen

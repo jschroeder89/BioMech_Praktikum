@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccrjO6ld.s 			page 1
+ARM GAS  /tmp/ccbhcWu8.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
   53              		.weak	_ZN5amiro11BaseLTC4412D2Ev
   54              		.thumb
   55              		.thumb_func
-ARM GAS  /tmp/ccrjO6ld.s 			page 2
+ARM GAS  /tmp/ccbhcWu8.s 			page 2
 
 
   56              		.type	_ZN5amiro11BaseLTC4412D2Ev, %function
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  110              		.size	_ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev, .-_ZN5amiro10LTC4412wENILj107
  111              		.weak	_ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED1Ev
  112              		.thumb_set _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED1Ev,_ZN5amiro10LTC4412wENILj1
-ARM GAS  /tmp/ccrjO6ld.s 			page 3
+ARM GAS  /tmp/ccbhcWu8.s 			page 3
 
 
  113 000c AFF30080 		.section	.text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv,"axG",%pr
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  165              		.align	2
  166              	.L19:
  167 0010 08000000 		.word	_ZTVN5amiro9I2CDriverE+8
-ARM GAS  /tmp/ccrjO6ld.s 			page 4
+ARM GAS  /tmp/ccbhcWu8.s 			page 4
 
 
  168              		.size	_ZN5amiro9I2CDriverD0Ev, .-_ZN5amiro9I2CDriverD0Ev
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  216              		.weak	_ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev
  217              		.thumb
  218              		.thumb_func
-ARM GAS  /tmp/ccrjO6ld.s 			page 5
+ARM GAS  /tmp/ccbhcWu8.s 			page 5
 
 
  219              		.type	_ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev, %function
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  271 0006 1646     		mov	r6, r2
  272 0008 0446     		mov	r4, r0
  273 000a FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
-ARM GAS  /tmp/ccrjO6ld.s 			page 6
+ARM GAS  /tmp/ccbhcWu8.s 			page 6
 
 
  274 000e 002D     		cmp	r5, #0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  328 008c 70BD     		pop	{r4, r5, r6, pc}
  329              	.L32:
  330 008e 2046     		mov	r0, r4
-ARM GAS  /tmp/ccrjO6ld.s 			page 7
+ARM GAS  /tmp/ccbhcWu8.s 			page 7
 
 
  331 0090 3949     		ldr	r1, .L59+48
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  385 011a 2549     		ldr	r1, .L59+104
  386 011c BDE87040 		pop	{r4, r5, r6, lr}
  387 0120 1A60     		str	r2, [r3]
-ARM GAS  /tmp/ccrjO6ld.s 			page 8
+ARM GAS  /tmp/ccbhcWu8.s 			page 8
 
 
  388 0122 FFF7FEBF 		b	_ZL8chprintfP20BaseSequentialStreamPKcz
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  442              		.thumb
  443              		.thumb_func
  444              		.type	_Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc, %function
-ARM GAS  /tmp/ccrjO6ld.s 			page 9
+ARM GAS  /tmp/ccbhcWu8.s 			page 9
 
 
  445              	_Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  498              		.global	_Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc
  499              		.thumb
  500              		.thumb_func
-ARM GAS  /tmp/ccrjO6ld.s 			page 10
+ARM GAS  /tmp/ccbhcWu8.s 			page 10
 
 
  501              		.type	_Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc, %function
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  555 008c 1B6A     		ldr	r3, [r3, #32]
  556 008e 9847     		blx	r3
  557 0090 012C     		cmp	r4, #1
-ARM GAS  /tmp/ccrjO6ld.s 			page 11
+ARM GAS  /tmp/ccbhcWu8.s 			page 11
 
 
  558 0092 DAF80030 		ldr	r3, [r10]
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  612 0108 6C49     		ldr	r1, .L103+52
  613 010a FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
  614 010e 2846     		mov	r0, r5
-ARM GAS  /tmp/ccrjO6ld.s 			page 12
+ARM GAS  /tmp/ccbhcWu8.s 			page 12
 
 
  615 0110 6B49     		ldr	r1, .L103+56
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  669 0198 0028     		cmp	r0, #0
  670 019a 63D0     		beq	.L94
  671 019c 2046     		mov	r0, r4
-ARM GAS  /tmp/ccrjO6ld.s 			page 13
+ARM GAS  /tmp/ccbhcWu8.s 			page 13
 
 
  672 019e 5649     		ldr	r1, .L103+112
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  726 021a 19F80420 		ldrb	r2, [r9, r4]	@ zero_extendqisi2
  727 021e FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
  728 0222 D6E7     		b	.L88
-ARM GAS  /tmp/ccrjO6ld.s 			page 14
+ARM GAS  /tmp/ccbhcWu8.s 			page 14
 
 
  729              	.L91:
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  783 02a4 A4030000 		.word	.LC40
  784 02a8 40000000 		.word	.LC12
  785 02ac 44000000 		.word	.LC13
-ARM GAS  /tmp/ccrjO6ld.s 			page 15
+ARM GAS  /tmp/ccbhcWu8.s 			page 15
 
 
  786 02b0 DC030000 		.word	.LC42
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  839 0018 FFF7FEFF 		bl	strcmp
  840 001c 0028     		cmp	r0, #0
  841 001e 69D1     		bne	.L107
-ARM GAS  /tmp/ccrjO6ld.s 			page 16
+ARM GAS  /tmp/ccbhcWu8.s 			page 16
 
 
  842              	.L106:
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  896 00ac FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
  897 00b0 2046     		mov	r0, r4
  898 00b2 6549     		ldr	r1, .L153+76
-ARM GAS  /tmp/ccrjO6ld.s 			page 17
+ARM GAS  /tmp/ccbhcWu8.s 			page 17
 
 
  899 00b4 FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  953              	.L112:
  954 012a 2507     		lsls	r5, r4, #28
  955 012c 30D4     		bmi	.L149
-ARM GAS  /tmp/ccrjO6ld.s 			page 18
+ARM GAS  /tmp/ccbhcWu8.s 			page 18
 
 
  956              	.L113:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1010 019a 3148     		ldr	r0, .L153+100
  1011 019c 0721     		movs	r1, #7
  1012 019e FFF7FEFF 		bl	_ZN5amiro23ControllerAreaNetworkTx13setLightColorEiNS_5ColorE
-ARM GAS  /tmp/ccrjO6ld.s 			page 19
+ARM GAS  /tmp/ccbhcWu8.s 			page 19
 
 
  1013 01a2 C4E7     		b	.L113
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1067 0228 00080000 		.word	.LC82
  1068 022c 20080000 		.word	.LC83
  1069 0230 40080000 		.word	.LC84
-ARM GAS  /tmp/ccrjO6ld.s 			page 20
+ARM GAS  /tmp/ccbhcWu8.s 			page 20
 
 
  1070 0234 60080000 		.word	.LC85
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1122              		.thumb_func
  1123              		.type	_Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc, %function
  1124              	_Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:
-ARM GAS  /tmp/ccrjO6ld.s 			page 21
+ARM GAS  /tmp/ccbhcWu8.s 			page 21
 
 
  1125              		@ args = 0, pretend = 0, frame = 8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1178 0014 4FF07E51 		mov	r1, #1065353216
  1179 0018 FFF7FEFF 		bl	_ZN5amiro12fileSystemIo16FSIODiWheelDrive5setEdEf
  1180 001c 78B1     		cbz	r0, .L167
-ARM GAS  /tmp/ccrjO6ld.s 			page 22
+ARM GAS  /tmp/ccbhcWu8.s 			page 22
 
 
  1181 001e 2046     		mov	r0, r4
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1235 000e 6946     		mov	r1, sp
  1236 0010 FFF7FEFF 		bl	_ZN5amiro12fileSystemIo16FSIODiWheelDrive5getEdEPf
  1237 0014 98B1     		cbz	r0, .L174
-ARM GAS  /tmp/ccrjO6ld.s 			page 23
+ARM GAS  /tmp/ccbhcWu8.s 			page 23
 
 
  1238 0016 2046     		mov	r0, r4
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1292              		.type	_Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc, %function
  1293              	_Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:
  1294              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccrjO6ld.s 			page 24
+ARM GAS  /tmp/ccbhcWu8.s 			page 24
 
 
  1295              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1349 0000 70B5     		push	{r4, r5, r6, lr}
  1350 0002 0C46     		mov	r4, r1
  1351 0004 82B0     		sub	sp, sp, #8
-ARM GAS  /tmp/ccrjO6ld.s 			page 25
+ARM GAS  /tmp/ccbhcWu8.s 			page 25
 
 
  1352 0006 1649     		ldr	r1, .L198
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1405              		.p2align 4,,15
  1406              		.global	_Z17shellRequestCalibP20BaseSequentialStreamiPPc
  1407              		.thumb
-ARM GAS  /tmp/ccrjO6ld.s 			page 26
+ARM GAS  /tmp/ccbhcWu8.s 			page 26
 
 
  1408              		.thumb_func
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1462              		.global	__aeabi_ui2f
  1463              		.global	__aeabi_i2f
  1464              		.global	__aeabi_fdiv
-ARM GAS  /tmp/ccrjO6ld.s 			page 27
+ARM GAS  /tmp/ccbhcWu8.s 			page 27
 
 
  1465              		.global	__aeabi_fsub
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1519 006a FFF7FEFF 		bl	__aeabi_f2d
  1520 006e 0246     		mov	r2, r0
  1521 0070 0B46     		mov	r3, r1
-ARM GAS  /tmp/ccrjO6ld.s 			page 28
+ARM GAS  /tmp/ccbhcWu8.s 			page 28
 
 
  1522 0072 2046     		mov	r0, r4
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1576              		@ frame_needed = 0, uses_anonymous_args = 0
  1577 0000 30B5     		push	{r4, r5, lr}
  1578 0002 0023     		movs	r3, #0
-ARM GAS  /tmp/ccrjO6ld.s 			page 29
+ARM GAS  /tmp/ccbhcWu8.s 			page 29
 
 
  1579 0004 87B0     		sub	sp, sp, #28
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1633 007c 98110000 		.word	.LANCHOR0+4504
  1634 0080 440D0000 		.word	.LC131
  1635 0084 5C0D0000 		.word	.LC132
-ARM GAS  /tmp/ccrjO6ld.s 			page 30
+ARM GAS  /tmp/ccbhcWu8.s 			page 30
 
 
  1636 0088 2C0D0000 		.word	.LC130
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1689 001e FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread5sleepEm
  1690 0022 41F24B63 		movw	r3, #5707
  1691 0026 0122     		movs	r2, #1
-ARM GAS  /tmp/ccrjO6ld.s 			page 31
+ARM GAS  /tmp/ccbhcWu8.s 			page 31
 
 
  1692 0028 E254     		strb	r2, [r4, r3]
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1744              		@ args = 0, pretend = 0, frame = 0
  1745              		@ frame_needed = 0, uses_anonymous_args = 0
  1746 0000 10B5     		push	{r4, lr}
-ARM GAS  /tmp/ccrjO6ld.s 			page 32
+ARM GAS  /tmp/ccbhcWu8.s 			page 32
 
 
  1747 0002 034B     		ldr	r3, .L236
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1799 0008 83F31188 		msr     BASEPRI, r3
  1800              	@ 0 "" 2
  1801              		.thumb
-ARM GAS  /tmp/ccrjO6ld.s 			page 33
+ARM GAS  /tmp/ccbhcWu8.s 			page 33
 
 
  1802 000c FFF7FEFF 		bl	dbg_check_lock
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1856 003c 9847     		blx	r3
  1857 003e 03B0     		add	sp, sp, #12
  1858              		@ sp needed
-ARM GAS  /tmp/ccrjO6ld.s 			page 34
+ARM GAS  /tmp/ccbhcWu8.s 			page 34
 
 
  1859 0040 30BD     		pop	{r4, r5, pc}
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1911              	.L255:
  1912 0038 0849     		ldr	r1, .L260+12
  1913 003a 0948     		ldr	r0, .L260+16
-ARM GAS  /tmp/ccrjO6ld.s 			page 35
+ARM GAS  /tmp/ccbhcWu8.s 			page 35
 
 
  1914 003c 4A78     		ldrb	r2, [r1, #1]	@ zero_extendqisi2
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  1968 003a 0749     		ldr	r1, .L267+16
  1969 003c 074A     		ldr	r2, .L267+20
  1970 003e BDE87040 		pop	{r4, r5, r6, lr}
-ARM GAS  /tmp/ccrjO6ld.s 			page 36
+ARM GAS  /tmp/ccbhcWu8.s 			page 36
 
 
  1971 0042 FFF7FEBF 		b	_ZL8chprintfP20BaseSequentialStreamPKcz
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2025 0052 1848     		ldr	r0, .L276+16
  2026 0054 FFF7FEFF 		bl	_ZN5amiro12MotorControl32setWheelDiameterCorrectionFactorEfb
  2027 0058 C8B9     		cbnz	r0, .L274
-ARM GAS  /tmp/ccrjO6ld.s 			page 37
+ARM GAS  /tmp/ccbhcWu8.s 			page 37
 
 
  2028 005a 2846     		mov	r0, r5
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2081              		@ frame_needed = 0, uses_anonymous_args = 0
  2082 0000 0129     		cmp	r1, #1
  2083 0002 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  /tmp/ccrjO6ld.s 			page 38
+ARM GAS  /tmp/ccbhcWu8.s 			page 38
 
 
  2084 0004 0446     		mov	r4, r0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2138 0032 2046     		mov	r0, r4
  2139 0034 FFF7FEFF 		bl	_ZN5amiro8VCNL402012getProximityEv
  2140 0038 0646     		mov	r6, r0
-ARM GAS  /tmp/ccrjO6ld.s 			page 39
+ARM GAS  /tmp/ccbhcWu8.s 			page 39
 
 
  2141 003a 2046     		mov	r0, r4
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2194              		@ args = 0, pretend = 0, frame = 0
  2195              		@ frame_needed = 0, uses_anonymous_args = 0
  2196 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
-ARM GAS  /tmp/ccrjO6ld.s 			page 40
+ARM GAS  /tmp/ccbhcWu8.s 			page 40
 
 
  2197 0002 0C46     		mov	r4, r1
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2251 0088 48100000 		.word	.LC157
  2252 008c 34100000 		.word	.LC156
  2253 0090 E00B0000 		.word	.LC117
-ARM GAS  /tmp/ccrjO6ld.s 			page 41
+ARM GAS  /tmp/ccbhcWu8.s 			page 41
 
 
  2254              		.size	_Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc, .-_Z25shellRequestSetVcnlOffsetP20
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2306 0076 A4F85420 		strh	r2, [r4, #84]	@ movhi
  2307 007a A4F86820 		strh	r2, [r4, #104]	@ movhi
  2308 007e 04F1940B 		add	fp, r4, #148
-ARM GAS  /tmp/ccrjO6ld.s 			page 42
+ARM GAS  /tmp/ccbhcWu8.s 			page 42
 
 
  2309 0082 1A46     		mov	r2, r3
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2363 012a 8EE80700 		stmia	lr, {r0, r1, r2}
  2364 012e 9CE80700 		ldmia	ip, {r0, r1, r2}
  2365 0132 86E80700 		stmia	r6, {r0, r1, r2}
-ARM GAS  /tmp/ccrjO6ld.s 			page 43
+ARM GAS  /tmp/ccbhcWu8.s 			page 43
 
 
  2366 0136 7246     		mov	r2, lr
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2420 01e4 039B     		ldr	r3, [sp, #12]
  2421 01e6 A118     		adds	r1, r4, r2
  2422 01e8 A050     		str	r0, [r4, r2]
-ARM GAS  /tmp/ccrjO6ld.s 			page 44
+ARM GAS  /tmp/ccbhcWu8.s 			page 44
 
 
  2423 01ea 2022     		movs	r2, #32
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2477 0270 FFF7FEFF 		bl	_ZN5amiro11DistControlC1EPNS_12MotorControlEPNS_15MotorIncrementsE
  2478 0274 174E     		ldr	r6, .L300+36
  2479 0276 2946     		mov	r1, r5
-ARM GAS  /tmp/ccrjO6ld.s 			page 45
+ARM GAS  /tmp/ccbhcWu8.s 			page 45
 
 
  2480 0278 4A46     		mov	r2, r9
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2532 000a 2948     		ldr	r0, .L307
  2533 000c FFF7FEFF 		bl	_ZN10chibios_rt15ThreadReference4waitEv
  2534 0010 0023     		movs	r3, #0
-ARM GAS  /tmp/ccrjO6ld.s 			page 46
+ARM GAS  /tmp/ccbhcWu8.s 			page 46
 
 
  2535 0012 2848     		ldr	r0, .L307+4
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2589 00a2 A0F10D01 		sub	r1, r0, #13
  2590 00a6 FFF7FEFF 		bl	_ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE
  2591 00aa 07B0     		add	sp, sp, #28
-ARM GAS  /tmp/ccrjO6ld.s 			page 47
+ARM GAS  /tmp/ccbhcWu8.s 			page 47
 
 
  2592              		@ sp needed
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2646 0050 ADF80210 		strh	r1, [sp, #2]	@ movhi
  2647 0054 ADF80420 		strh	r2, [sp, #4]	@ movhi
  2648 0058 9B68     		ldr	r3, [r3, #8]
-ARM GAS  /tmp/ccrjO6ld.s 			page 48
+ARM GAS  /tmp/ccbhcWu8.s 			page 48
 
 
  2649 005a 2046     		mov	r0, r4
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2703 001e 4FF0000B 		mov	fp, #0
  2704 0022 0DF10408 		add	r8, sp, #4
  2705 0026 4FF0020C 		mov	ip, #2
-ARM GAS  /tmp/ccrjO6ld.s 			page 49
+ARM GAS  /tmp/ccbhcWu8.s 			page 49
 
 
  2706 002a 0727     		movs	r7, #7
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2760 00ae 0120     		movne	r0, #1
  2761 00b0 0BB0     		add	sp, sp, #44
  2762              		@ sp needed
-ARM GAS  /tmp/ccrjO6ld.s 			page 50
+ARM GAS  /tmp/ccbhcWu8.s 			page 50
 
 
  2763 00b2 BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2816 000a 05F10800 		add	r0, r5, #8
  2817 000e 4FF43471 		mov	r1, #720
  2818 0012 054B     		ldr	r3, .L335
-ARM GAS  /tmp/ccrjO6ld.s 			page 51
+ARM GAS  /tmp/ccbhcWu8.s 			page 51
 
 
  2819 0014 FFF7FEFF 		bl	chThdCreateStatic
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2873              	.L341:
  2874 004e B349     		ldr	r1, .L372+36
  2875 0050 A948     		ldr	r0, .L372
-ARM GAS  /tmp/ccrjO6ld.s 			page 52
+ARM GAS  /tmp/ccbhcWu8.s 			page 52
 
 
  2876 0052 FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2930 00e6 05EB4020 		add	r0, r5, r0, lsl #9
  2931 00ea E830     		adds	r0, r0, #232
  2932 00ec FFF7FEFF 		bl	_ZN5amiro8VCNL402018setProximityOffsetEt
-ARM GAS  /tmp/ccrjO6ld.s 			page 53
+ARM GAS  /tmp/ccbhcWu8.s 			page 53
 
 
  2933 00f0 9DF81710 		ldrb	r1, [sp, #23]	@ zero_extendqisi2
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  2987 0188 04F53261 		add	r1, r4, #2848
  2988 018c 04F63830 		addw	r0, r4, #2872
  2989 0190 FFF7FEFF 		bl	_ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE
-ARM GAS  /tmp/ccrjO6ld.s 			page 54
+ARM GAS  /tmp/ccbhcWu8.s 			page 54
 
 
  2990 0194 02A8     		add	r0, sp, #8
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3044 0216 2BB9     		cbnz	r3, .L354
  3045 0218 514B     		ldr	r3, .L372+104
  3046 021a 1B68     		ldr	r3, [r3]
-ARM GAS  /tmp/ccrjO6ld.s 			page 55
+ARM GAS  /tmp/ccbhcWu8.s 			page 55
 
 
  3047 021c 022B     		cmp	r3, #2
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3101 0290 3849     		ldr	r1, .L372+124
  3102 0292 FFF7FEFF 		bl	_ZL8chprintfP20BaseSequentialStreamPKcz
  3103 0296 4FF08072 		mov	r2, #16777216
-ARM GAS  /tmp/ccrjO6ld.s 			page 56
+ARM GAS  /tmp/ccbhcWu8.s 			page 56
 
 
  3104 029a 4FF40031 		mov	r1, #131072
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3158 032c 30000000 		.word	.LANCHOR0+48
  3159 0330 7C110000 		.word	.LANCHOR0+4476
  3160 0334 28110000 		.word	.LC163
-ARM GAS  /tmp/ccrjO6ld.s 			page 57
+ARM GAS  /tmp/ccbhcWu8.s 			page 57
 
 
  3161 0338 9A99993D 		.word	1033476506
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3215 0000 10B5     		push	{r4, lr}
  3216 0002 074C     		ldr	r4, .L377
  3217 0004 074A     		ldr	r2, .L377+4
-ARM GAS  /tmp/ccrjO6ld.s 			page 58
+ARM GAS  /tmp/ccbhcWu8.s 			page 58
 
 
  3218 0006 084B     		ldr	r3, .L377+8
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3270 0030 FFF7FEFF 		bl	_ZN5amiro8L3G4200D8getCheckEv
  3271 0034 0028     		cmp	r0, #0
  3272 0036 4ED1     		bne	.L384
-ARM GAS  /tmp/ccrjO6ld.s 			page 59
+ARM GAS  /tmp/ccbhcWu8.s 			page 59
 
 
  3273              	.L400:
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3327 00ae FFF7FEBF 		b	_ZL8chprintfP20BaseSequentialStreamPKcz
  3328              	.L380:
  3329 00b2 3046     		mov	r0, r6
-ARM GAS  /tmp/ccrjO6ld.s 			page 60
+ARM GAS  /tmp/ccbhcWu8.s 			page 60
 
 
  3330 00b4 2D49     		ldr	r1, .L403+72
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3384 0128 380B0000 		.word	.LANCHOR0+2872
  3385 012c 44120000 		.word	.LC172
  3386 0130 7C110000 		.word	.LANCHOR0+4476
-ARM GAS  /tmp/ccrjO6ld.s 			page 61
+ARM GAS  /tmp/ccbhcWu8.s 			page 61
 
 
  3387 0134 68120000 		.word	.LC174
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3439              		@ args = 0, pretend = 0, frame = 0
  3440              		@ frame_needed = 0, uses_anonymous_args = 0
  3441 0000 F8B5     		push	{r3, r4, r5, r6, r7, lr}
-ARM GAS  /tmp/ccrjO6ld.s 			page 62
+ARM GAS  /tmp/ccbhcWu8.s 			page 62
 
 
  3442 0002 0546     		mov	r5, r0
@@ -3718,7 +3718,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3496              	.L412:
  3497 00a6 074B     		ldr	r3, .L415+8
  3498 00a8 2846     		mov	r0, r5
-ARM GAS  /tmp/ccrjO6ld.s 			page 63
+ARM GAS  /tmp/ccbhcWu8.s 			page 63
 
 
  3499 00aa 40F8383F 		str	r3, [r0, #56]!
@@ -3778,7 +3778,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3553              		.type	_ZTVN5amiro11BaseLTC4412E, %object
  3554              		.size	_ZTVN5amiro11BaseLTC4412E, 20
  3555              	_ZTVN5amiro11BaseLTC4412E:
-ARM GAS  /tmp/ccrjO6ld.s 			page 64
+ARM GAS  /tmp/ccbhcWu8.s 			page 64
 
 
  3556 0000 00000000 		.word	0
@@ -3838,7 +3838,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3606 000d 15       		.byte	21
  3607 000e C8       		.byte	-56
  3608 000f 06       		.byte	6
-ARM GAS  /tmp/ccrjO6ld.s 			page 65
+ARM GAS  /tmp/ccbhcWu8.s 			page 65
 
 
  3609              	.LC2:
@@ -3898,7 +3898,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3662      00000000 
  3663              		.section	.rodata.CSWTCH.120,"a",%progbits
  3664              		.align	2
-ARM GAS  /tmp/ccrjO6ld.s 			page 66
+ARM GAS  /tmp/ccbhcWu8.s 			page 66
 
 
  3665              		.set	.LANCHOR3,. + 0
@@ -3958,7 +3958,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3708 0040 0A00     		.ascii	"\012\000"
  3709 0042 0000     		.space	2
  3710              	.LC13:
-ARM GAS  /tmp/ccrjO6ld.s 			page 67
+ARM GAS  /tmp/ccbhcWu8.s 			page 67
 
 
  3711 0044 09747970 		.ascii	"\011type\012\000"
@@ -4018,7 +4018,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3731      6520706F 
  3731      77657220 
  3731      706C7567 
-ARM GAS  /tmp/ccrjO6ld.s 			page 68
+ARM GAS  /tmp/ccbhcWu8.s 			page 68
 
 
  3731      2E0A00
@@ -4078,7 +4078,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3756 02bc 6400     		.ascii	"d\000"
  3757 02be 0000     		.space	2
  3758              	.LC28:
-ARM GAS  /tmp/ccrjO6ld.s 			page 69
+ARM GAS  /tmp/ccbhcWu8.s 			page 69
 
 
  3759 02c0 73687574 		.ascii	"shutdown to deepsleep mode initialized\012\000"
@@ -4138,7 +4138,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3786              	.LC39:
  3787 038c 7368656C 		.ascii	"shellRequestReadData\012\000"
  3787      6C526571 
-ARM GAS  /tmp/ccrjO6ld.s 			page 70
+ARM GAS  /tmp/ccbhcWu8.s 			page 70
 
 
  3787      75657374 
@@ -4198,7 +4198,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3811      7369676E 
  3811      65642069 
  3811      6E746567 
-ARM GAS  /tmp/ccrjO6ld.s 			page 71
+ARM GAS  /tmp/ccbhcWu8.s 			page 71
 
 
  3812              	.LC48:
@@ -4258,7 +4258,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3836      68657820 
  3837 05da 0000     		.space	2
  3838              	.LC57:
-ARM GAS  /tmp/ccrjO6ld.s 			page 72
+ARM GAS  /tmp/ccbhcWu8.s 			page 72
 
 
  3839 05dc 68657800 		.ascii	"hex\000"
@@ -4318,7 +4318,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3873              	.LC70:
  3874 06c0 25303130 		.ascii	"%010u \000"
  3874      752000
-ARM GAS  /tmp/ccrjO6ld.s 			page 73
+ARM GAS  /tmp/ccbhcWu8.s 			page 73
 
 
  3875 06c7 00       		.space	1
@@ -4378,7 +4378,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3902      74207265 
  3902      6172204C 
  3903 07be 0000     		.space	2
-ARM GAS  /tmp/ccrjO6ld.s 			page 74
+ARM GAS  /tmp/ccbhcWu8.s 			page 74
 
 
  3904              	.LC80:
@@ -4438,7 +4438,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3924      7565206F 
  3925 08e9 000000   		.space	3
  3926              	.LC88:
-ARM GAS  /tmp/ccrjO6ld.s 			page 75
+ARM GAS  /tmp/ccbhcWu8.s 			page 75
 
 
  3927 08ec 4F746865 		.ascii	"Otherwise this arguments sets the red color channel"
@@ -4498,7 +4498,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3950      6C526571 
  3950      75657374 
  3950      496E6974 
-ARM GAS  /tmp/ccrjO6ld.s 			page 76
+ARM GAS  /tmp/ccbhcWu8.s 			page 76
 
 
  3950      4D656D6F 
@@ -4558,7 +4558,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3973              	.LC105:
  3974 0ad4 53657420 		.ascii	"Set Ed: OK\012\000"
  3974      45643A20 
-ARM GAS  /tmp/ccrjO6ld.s 			page 77
+ARM GAS  /tmp/ccbhcWu8.s 			page 77
 
 
  3974      4F4B0A00 
@@ -4618,7 +4618,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  3997      4E450A00 
  3998              	.LC115:
  3999 0b98 7368656C 		.ascii	"shellRequestGetVcnlOffset\012\000"
-ARM GAS  /tmp/ccrjO6ld.s 			page 78
+ARM GAS  /tmp/ccbhcWu8.s 			page 78
 
 
  3999      6C526571 
@@ -4678,7 +4678,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4020      20626F61 
  4020      72642049 
  4021 0ca1 00       		.ascii	"\000"
-ARM GAS  /tmp/ccrjO6ld.s 			page 79
+ARM GAS  /tmp/ccbhcWu8.s 			page 79
 
 
  4022 0ca2 0000     		.space	2
@@ -4738,7 +4738,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4047      73706565 
  4047      6420746F 
  4048 0d7d 000000   		.space	3
-ARM GAS  /tmp/ccrjO6ld.s 			page 80
+ARM GAS  /tmp/ccbhcWu8.s 			page 80
 
 
  4049              	.LC133:
@@ -4798,7 +4798,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4073 0e6c 53657420 		.ascii	"Set Board ID: FAIL\012\000"
  4073      426F6172 
  4073      64204944 
-ARM GAS  /tmp/ccrjO6ld.s 			page 81
+ARM GAS  /tmp/ccbhcWu8.s 			page 81
 
 
  4073      3A204641 
@@ -4858,7 +4858,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4094              	.LC149:
  4095 0f94 7368656C 		.ascii	"shellSwitchBoardCmd\012\000"
  4095      6C537769 
-ARM GAS  /tmp/ccrjO6ld.s 			page 82
+ARM GAS  /tmp/ccbhcWu8.s 			page 82
 
 
  4095      74636842 
@@ -4918,7 +4918,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4119      2063616C 
  4119      69627261 
  4119      74696F6E 
-ARM GAS  /tmp/ccrjO6ld.s 			page 83
+ARM GAS  /tmp/ccbhcWu8.s 			page 83
 
 
  4120              	.LC159:
@@ -4978,7 +4978,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4142      65717565 
  4142      73746564 
  4142      20736875 
-ARM GAS  /tmp/ccrjO6ld.s 			page 84
+ARM GAS  /tmp/ccbhcWu8.s 			page 84
 
 
  4143 11b2 0000     		.space	2
@@ -5038,7 +5038,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4168      74727563 
  4168      74757265 
  4168      3A204F4B 
-ARM GAS  /tmp/ccrjO6ld.s 			page 85
+ARM GAS  /tmp/ccbhcWu8.s 			page 85
 
 
  4169 1296 0000     		.space	2
@@ -5098,7 +5098,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4193 1341 000000   		.space	3
  4194              	.LC185:
  4195 1344 2D3E094F 		.ascii	"->\011OK\012\000"
-ARM GAS  /tmp/ccrjO6ld.s 			page 86
+ARM GAS  /tmp/ccbhcWu8.s 			page 86
 
 
  4195      4B0A00
@@ -5158,7 +5158,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4224              	.LC195:
  4225 13d4 7365745F 		.ascii	"set_board_id\000"
  4225      626F6172 
-ARM GAS  /tmp/ccrjO6ld.s 			page 87
+ARM GAS  /tmp/ccbhcWu8.s 			page 87
 
 
  4225      645F6964 
@@ -5218,7 +5218,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4251      745F6964 
  4251      00
  4252 1479 000000   		.space	3
-ARM GAS  /tmp/ccrjO6ld.s 			page 88
+ARM GAS  /tmp/ccbhcWu8.s 			page 88
 
 
  4253              	.LC206:
@@ -5278,7 +5278,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4280              		.type	CSWTCH.122, %object
  4281              		.size	CSWTCH.122, 20
  4282              	CSWTCH.122:
-ARM GAS  /tmp/ccrjO6ld.s 			page 89
+ARM GAS  /tmp/ccbhcWu8.s 			page 89
 
 
  4283 0000 D8010008 		.word	134218200
@@ -5338,7 +5338,7 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4337 00b0 D0140000 		.word	.LC212
  4338 00b4 00000000 		.word	_Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc
  4339 00b8 E0140000 		.word	.LC213
-ARM GAS  /tmp/ccrjO6ld.s 			page 90
+ARM GAS  /tmp/ccbhcWu8.s 			page 90
 
 
  4340 00bc 00000000 		.word	_Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc
@@ -5350,250 +5350,250 @@ ARM GAS  /tmp/ccrjO6ld.s 			page 1
  4346 00d4 00000000 		.word	0
  4347              		.hidden	__dso_handle
  4348              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccrjO6ld.s 			page 91
+ARM GAS  /tmp/ccbhcWu8.s 			page 91
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 main.cpp
-     /tmp/ccrjO6ld.s:16     .text._ZN5amiro9I2CDriverD2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:22     .text._ZN5amiro9I2CDriverD2Ev:00000000 _ZN5amiro9I2CDriverD2Ev
-     /tmp/ccrjO6ld.s:32     .text._ZN5amiro9I2CDriverD2Ev:00000008 $d
-     /tmp/ccrjO6ld.s:3521   .rodata._ZTVN5amiro9I2CDriverE:00000000 _ZTVN5amiro9I2CDriverE
-     /tmp/ccrjO6ld.s:22     .text._ZN5amiro9I2CDriverD2Ev:00000000 _ZN5amiro9I2CDriverD1Ev
-     /tmp/ccrjO6ld.s:37     .text._ZN5amiro7PCA9544ILb1EE8deselectEv:00000000 $t
-     /tmp/ccrjO6ld.s:43     .text._ZN5amiro7PCA9544ILb1EE8deselectEv:00000000 _ZN5amiro7PCA9544ILb1EE8deselectEv
-     /tmp/ccrjO6ld.s:51     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:57     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 _ZN5amiro11BaseLTC4412D2Ev
-     /tmp/ccrjO6ld.s:67     .text._ZN5amiro11BaseLTC4412D2Ev:00000008 $d
-     /tmp/ccrjO6ld.s:3555   .rodata._ZTVN5amiro11BaseLTC4412E:00000000 _ZTVN5amiro11BaseLTC4412E
-     /tmp/ccrjO6ld.s:57     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 _ZN5amiro11BaseLTC4412D1Ev
-     /tmp/ccrjO6ld.s:72     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:78     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 _ZN5amiro14BaseLTC4412wEND2Ev
-     /tmp/ccrjO6ld.s:88     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000008 $d
-     /tmp/ccrjO6ld.s:78     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 _ZN5amiro14BaseLTC4412wEND1Ev
-     /tmp/ccrjO6ld.s:93     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:99     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev
-     /tmp/ccrjO6ld.s:109    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000008 $d
-     /tmp/ccrjO6ld.s:99     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED1Ev
-     /tmp/ccrjO6ld.s:114    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:00000000 $t
-     /tmp/ccrjO6ld.s:120    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:00000000 _ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv
-     /tmp/ccrjO6ld.s:131    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:0000000c $d
-     /tmp/ccrjO6ld.s:134    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv:00000000 $t
-     /tmp/ccrjO6ld.s:140    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv:00000000 _ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv
-     /tmp/ccrjO6ld.s:148    .text._ZN5amiro9I2CDriverD0Ev:00000000 $t
-     /tmp/ccrjO6ld.s:154    .text._ZN5amiro9I2CDriverD0Ev:00000000 _ZN5amiro9I2CDriverD0Ev
-     /tmp/ccrjO6ld.s:167    .text._ZN5amiro9I2CDriverD0Ev:00000010 $d
-     /tmp/ccrjO6ld.s:170    .text._ZN5amiro11BaseLTC4412D0Ev:00000000 $t
-     /tmp/ccrjO6ld.s:176    .text._ZN5amiro11BaseLTC4412D0Ev:00000000 _ZN5amiro11BaseLTC4412D0Ev
-     /tmp/ccrjO6ld.s:189    .text._ZN5amiro11BaseLTC4412D0Ev:00000010 $d
-     /tmp/ccrjO6ld.s:192    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000000 $t
-     /tmp/ccrjO6ld.s:198    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000000 _ZN5amiro14BaseLTC4412wEND0Ev
-     /tmp/ccrjO6ld.s:211    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000010 $d
-     /tmp/ccrjO6ld.s:214    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000000 $t
-     /tmp/ccrjO6ld.s:220    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev
-     /tmp/ccrjO6ld.s:233    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000010 $d
-     /tmp/ccrjO6ld.s:236    .text._ZL8chprintfP20BaseSequentialStreamPKcz:00000000 $t
-     /tmp/ccrjO6ld.s:241    .text._ZL8chprintfP20BaseSequentialStreamPKcz:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz
-     /tmp/ccrjO6ld.s:259    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:265    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000000 _Z20shellRequestShutdownP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:408    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000148 $d
-     /tmp/ccrjO6ld.s:439    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:445    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:455    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000008 $d
-     /tmp/ccrjO6ld.s:459    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:465    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000000 _Z18shellRequestWakeupP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:492    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000030 $d
-     /tmp/ccrjO6ld.s:496    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:502    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:584    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:000000ce $d
-     /tmp/ccrjO6ld.s:590    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:000000d4 $t
-     /tmp/ccrjO6ld.s:776    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000288 $d
-     /tmp/ccrjO6ld.s:818    .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:824    .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000000 _Z21shellRequestSetLightsP20BaseSequentialStreamiPPc
-ARM GAS  /tmp/ccrjO6ld.s 			page 92
+     /tmp/ccbhcWu8.s:16     .text._ZN5amiro9I2CDriverD2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:22     .text._ZN5amiro9I2CDriverD2Ev:00000000 _ZN5amiro9I2CDriverD2Ev
+     /tmp/ccbhcWu8.s:32     .text._ZN5amiro9I2CDriverD2Ev:00000008 $d
+     /tmp/ccbhcWu8.s:3521   .rodata._ZTVN5amiro9I2CDriverE:00000000 _ZTVN5amiro9I2CDriverE
+     /tmp/ccbhcWu8.s:22     .text._ZN5amiro9I2CDriverD2Ev:00000000 _ZN5amiro9I2CDriverD1Ev
+     /tmp/ccbhcWu8.s:37     .text._ZN5amiro7PCA9544ILb1EE8deselectEv:00000000 $t
+     /tmp/ccbhcWu8.s:43     .text._ZN5amiro7PCA9544ILb1EE8deselectEv:00000000 _ZN5amiro7PCA9544ILb1EE8deselectEv
+     /tmp/ccbhcWu8.s:51     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:57     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 _ZN5amiro11BaseLTC4412D2Ev
+     /tmp/ccbhcWu8.s:67     .text._ZN5amiro11BaseLTC4412D2Ev:00000008 $d
+     /tmp/ccbhcWu8.s:3555   .rodata._ZTVN5amiro11BaseLTC4412E:00000000 _ZTVN5amiro11BaseLTC4412E
+     /tmp/ccbhcWu8.s:57     .text._ZN5amiro11BaseLTC4412D2Ev:00000000 _ZN5amiro11BaseLTC4412D1Ev
+     /tmp/ccbhcWu8.s:72     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:78     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 _ZN5amiro14BaseLTC4412wEND2Ev
+     /tmp/ccbhcWu8.s:88     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000008 $d
+     /tmp/ccbhcWu8.s:78     .text._ZN5amiro14BaseLTC4412wEND2Ev:00000000 _ZN5amiro14BaseLTC4412wEND1Ev
+     /tmp/ccbhcWu8.s:93     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:99     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev
+     /tmp/ccbhcWu8.s:109    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000008 $d
+     /tmp/ccbhcWu8.s:99     .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED1Ev
+     /tmp/ccbhcWu8.s:114    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:00000000 $t
+     /tmp/ccbhcWu8.s:120    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:00000000 _ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv
+     /tmp/ccbhcWu8.s:131    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE11isPluggedInEv:0000000c $d
+     /tmp/ccbhcWu8.s:134    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv:00000000 $t
+     /tmp/ccbhcWu8.s:140    .text._ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv:00000000 _ZNK5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE9isEnabledEv
+     /tmp/ccbhcWu8.s:148    .text._ZN5amiro9I2CDriverD0Ev:00000000 $t
+     /tmp/ccbhcWu8.s:154    .text._ZN5amiro9I2CDriverD0Ev:00000000 _ZN5amiro9I2CDriverD0Ev
+     /tmp/ccbhcWu8.s:167    .text._ZN5amiro9I2CDriverD0Ev:00000010 $d
+     /tmp/ccbhcWu8.s:170    .text._ZN5amiro11BaseLTC4412D0Ev:00000000 $t
+     /tmp/ccbhcWu8.s:176    .text._ZN5amiro11BaseLTC4412D0Ev:00000000 _ZN5amiro11BaseLTC4412D0Ev
+     /tmp/ccbhcWu8.s:189    .text._ZN5amiro11BaseLTC4412D0Ev:00000010 $d
+     /tmp/ccbhcWu8.s:192    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000000 $t
+     /tmp/ccbhcWu8.s:198    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000000 _ZN5amiro14BaseLTC4412wEND0Ev
+     /tmp/ccbhcWu8.s:211    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000010 $d
+     /tmp/ccbhcWu8.s:214    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000000 $t
+     /tmp/ccbhcWu8.s:220    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev
+     /tmp/ccbhcWu8.s:233    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000010 $d
+     /tmp/ccbhcWu8.s:236    .text._ZL8chprintfP20BaseSequentialStreamPKcz:00000000 $t
+     /tmp/ccbhcWu8.s:241    .text._ZL8chprintfP20BaseSequentialStreamPKcz:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz
+     /tmp/ccbhcWu8.s:259    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:265    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000000 _Z20shellRequestShutdownP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:408    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:00000148 $d
+     /tmp/ccbhcWu8.s:439    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:445    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:455    .text._Z22shellRequestHelloWorldP20BaseSequentialStreamiPPc:00000008 $d
+     /tmp/ccbhcWu8.s:459    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:465    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000000 _Z18shellRequestWakeupP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:492    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000030 $d
+     /tmp/ccbhcWu8.s:496    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:502    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:584    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:000000ce $d
+     /tmp/ccbhcWu8.s:590    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:000000d4 $t
+     /tmp/ccbhcWu8.s:776    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000288 $d
+     /tmp/ccbhcWu8.s:818    .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:824    .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000000 _Z21shellRequestSetLightsP20BaseSequentialStreamiPPc
+ARM GAS  /tmp/ccbhcWu8.s 			page 92
 
 
-     /tmp/ccrjO6ld.s:1056   .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:000001fc $d
-     /tmp/ccrjO6ld.s:1084   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1090   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:00000000 _Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1112   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:0000002c $d
-     /tmp/ccrjO6ld.s:1118   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1124   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1155   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000038 $d
-     /tmp/ccrjO6ld.s:1161   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1167   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1210   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000060 $d
-     /tmp/ccrjO6ld.s:1220   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1226   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1279   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000068 $d
-     /tmp/ccrjO6ld.s:1287   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1293   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1334   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000050 $d
-     /tmp/ccrjO6ld.s:1340   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1346   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1396   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000060 $d
-     /tmp/ccrjO6ld.s:1404   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1410   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000000 _Z17shellRequestCalibP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1422   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000014 $d
-     /tmp/ccrjO6ld.s:1426   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1432   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1457   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000030 $d
-     /tmp/ccrjO6ld.s:1468   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1474   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1558   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:000000c4 $d
-     /tmp/ccrjO6ld.s:1568   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1574   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1632   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000078 $d
-     /tmp/ccrjO6ld.s:1639   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1645   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000000 _Z21shellRequestMotorStopP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1666   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000020 $d
-     /tmp/ccrjO6ld.s:1670   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1676   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000000 _Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1697   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:0000002c $d
-     /tmp/ccrjO6ld.s:1701   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1707   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000000 _Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1716   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000008 $d
-     /tmp/ccrjO6ld.s:1719   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1725   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1734   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000008 $d
-     /tmp/ccrjO6ld.s:1737   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:1743   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 _ZN5amiro7PCA9544ILb1EED2Ev
-     /tmp/ccrjO6ld.s:1756   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000010 $d
-     /tmp/ccrjO6ld.s:3538   .rodata._ZTVN5amiro7PCA9544ILb1EEE:00000000 _ZTVN5amiro7PCA9544ILb1EEE
-     /tmp/ccrjO6ld.s:1743   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 _ZN5amiro7PCA9544ILb1EED1Ev
-     /tmp/ccrjO6ld.s:1761   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000000 $t
-     /tmp/ccrjO6ld.s:1767   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000000 _ZN5amiro7PCA9544ILb1EED0Ev
-     /tmp/ccrjO6ld.s:1782   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000018 $d
-     /tmp/ccrjO6ld.s:1785   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:00000000 $t
-     /tmp/ccrjO6ld.s:1791   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb
-     /tmp/ccrjO6ld.s:1820   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:0000002c $d
-     /tmp/ccrjO6ld.s:1823   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000000 $t
-     /tmp/ccrjO6ld.s:1829   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000000 _ZN5amiro7PCA9544ILb1EE6selectEh
-     /tmp/ccrjO6ld.s:1872   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000050 $d
-ARM GAS  /tmp/ccrjO6ld.s 			page 93
+     /tmp/ccbhcWu8.s:1056   .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:000001fc $d
+     /tmp/ccbhcWu8.s:1084   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1090   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:00000000 _Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1112   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:0000002c $d
+     /tmp/ccbhcWu8.s:1118   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1124   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1155   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000038 $d
+     /tmp/ccbhcWu8.s:1161   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1167   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1210   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:00000060 $d
+     /tmp/ccbhcWu8.s:1220   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1226   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1279   .text._Z35shellRequestGetCalibrationConstantsP20BaseSequentialStreamiPPc:00000068 $d
+     /tmp/ccbhcWu8.s:1287   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1293   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1334   .text._Z27shellRequestResetVcnlOffsetP20BaseSequentialStreamiPPc:00000050 $d
+     /tmp/ccbhcWu8.s:1340   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1346   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1396   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000060 $d
+     /tmp/ccbhcWu8.s:1404   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1410   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000000 _Z17shellRequestCalibP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1422   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:00000014 $d
+     /tmp/ccbhcWu8.s:1426   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1432   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1457   .text._Z22shellRequestGetRobotIdP20BaseSequentialStreamiPPc:00000030 $d
+     /tmp/ccbhcWu8.s:1468   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1474   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1558   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:000000c4 $d
+     /tmp/ccbhcWu8.s:1568   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1574   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1632   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:00000078 $d
+     /tmp/ccbhcWu8.s:1639   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1645   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000000 _Z21shellRequestMotorStopP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1666   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000020 $d
+     /tmp/ccbhcWu8.s:1670   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1676   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000000 _Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1697   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:0000002c $d
+     /tmp/ccbhcWu8.s:1701   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1707   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000000 _Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1716   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:00000008 $d
+     /tmp/ccbhcWu8.s:1719   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1725   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1734   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:00000008 $d
+     /tmp/ccbhcWu8.s:1737   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:1743   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 _ZN5amiro7PCA9544ILb1EED2Ev
+     /tmp/ccbhcWu8.s:1756   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000010 $d
+     /tmp/ccbhcWu8.s:3538   .rodata._ZTVN5amiro7PCA9544ILb1EEE:00000000 _ZTVN5amiro7PCA9544ILb1EEE
+     /tmp/ccbhcWu8.s:1743   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000000 _ZN5amiro7PCA9544ILb1EED1Ev
+     /tmp/ccbhcWu8.s:1761   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000000 $t
+     /tmp/ccbhcWu8.s:1767   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000000 _ZN5amiro7PCA9544ILb1EED0Ev
+     /tmp/ccbhcWu8.s:1782   .text._ZN5amiro7PCA9544ILb1EED0Ev:00000018 $d
+     /tmp/ccbhcWu8.s:1785   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:00000000 $t
+     /tmp/ccbhcWu8.s:1791   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:00000000 _ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb
+     /tmp/ccbhcWu8.s:1820   .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EE6enableEb:0000002c $d
+     /tmp/ccbhcWu8.s:1823   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000000 $t
+     /tmp/ccbhcWu8.s:1829   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000000 _ZN5amiro7PCA9544ILb1EE6selectEh
+     /tmp/ccbhcWu8.s:1872   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000050 $d
+ARM GAS  /tmp/ccbhcWu8.s 			page 93
 
 
-     /tmp/ccrjO6ld.s:1875   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1881   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000000 _Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1926   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000050 $d
-     /tmp/ccrjO6ld.s:1935   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1941   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:1975   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000048 $d
-     /tmp/ccrjO6ld.s:1984   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:1990   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:2062   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:000000a4 $d
-     /tmp/ccrjO6ld.s:2073   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:2079   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000000 _Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:2103   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000030 $d
-     /tmp/ccrjO6ld.s:2108   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:2114   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000000 _Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:2179   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000090 $d
-     /tmp/ccrjO6ld.s:2187   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:2193   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:2246   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000074 $d
-     /tmp/ccrjO6ld.s:2256   .text._ZN6GlobalC2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:2262   .text._ZN6GlobalC2Ev:00000000 _ZN6GlobalC2Ev
-     /tmp/ccrjO6ld.s:2502   .text._ZN6GlobalC2Ev:000002b0 $d
-     /tmp/ccrjO6ld.s:3579   .rodata._ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE:00000000 _ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE
-     /tmp/ccrjO6ld.s:2262   .text._ZN6GlobalC2Ev:00000000 _ZN6GlobalC1Ev
-     /tmp/ccrjO6ld.s:2519   .text._Z14systemShutdownv:00000000 $t
-     /tmp/ccrjO6ld.s:2525   .text._Z14systemShutdownv:00000000 _Z14systemShutdownv
-     /tmp/ccrjO6ld.s:2597   .text._Z14systemShutdownv:000000b0 $d
-     /tmp/ccrjO6ld.s:2610   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000000 $t
-     /tmp/ccrjO6ld.s:2616   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000000 _Z16initPowermonitorRN5amiro6INA2196DriverEfft
-     /tmp/ccrjO6ld.s:2678   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000090 $d
-     /tmp/ccrjO6ld.s:2684   .text._ZN5amiro7PCA9544ILb1EE8getCheckEv:00000000 $t
-     /tmp/ccrjO6ld.s:2690   .text._ZN5amiro7PCA9544ILb1EE8getCheckEv:00000000 _ZN5amiro7PCA9544ILb1EE8getCheckEv
-     /tmp/ccrjO6ld.s:2769   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
-     /tmp/ccrjO6ld.s:2775   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
-     /tmp/ccrjO6ld.s:2798   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
-     /tmp/ccrjO6ld.s:2802   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000000 $t
-     /tmp/ccrjO6ld.s:2808   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi512EE5startEm
-     /tmp/ccrjO6ld.s:2831   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000028 $d
-     /tmp/ccrjO6ld.s:2835   .text.startup.main:00000000 $t
-     /tmp/ccrjO6ld.s:2841   .text.startup.main:00000000 main
-     /tmp/ccrjO6ld.s:3145   .text.startup.main:000002f8 $d
-     /tmp/ccrjO6ld.s:3184   .text.startup.main:00000390 $t
-     /tmp/ccrjO6ld.s:3201   .text.startup.main:000003b0 $d
-     /tmp/ccrjO6ld.s:3207   .text.startup._GLOBAL__sub_I_global:00000000 $t
-     /tmp/ccrjO6ld.s:3212   .text.startup._GLOBAL__sub_I_global:00000000 _GLOBAL__sub_I_global
-     /tmp/ccrjO6ld.s:3231   .text.startup._GLOBAL__sub_I_global:00000020 $d
-     /tmp/ccrjO6ld.s:3438   .text._ZN6GlobalD2Ev:00000000 _ZN6GlobalD1Ev
-     /tmp/ccrjO6ld.s:3238   .init_array:00000000 $d
-     /tmp/ccrjO6ld.s:3241   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000000 $t
-     /tmp/ccrjO6ld.s:3247   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000000 _Z19boardPeripheryCheckP20BaseSequentialStream
-     /tmp/ccrjO6ld.s:3383   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000124 $d
-     /tmp/ccrjO6ld.s:3410   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000000 $t
-     /tmp/ccrjO6ld.s:3416   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000000 _Z17shellRequestCheckP20BaseSequentialStreamiPPc
-     /tmp/ccrjO6ld.s:3429   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000014 $d
-     /tmp/ccrjO6ld.s:3432   .text._ZN6GlobalD2Ev:00000000 $t
-     /tmp/ccrjO6ld.s:3438   .text._ZN6GlobalD2Ev:00000000 _ZN6GlobalD2Ev
-     /tmp/ccrjO6ld.s:3509   .text._ZN6GlobalD2Ev:000000bc $d
-     /tmp/ccrjO6ld.s:3518   .rodata._ZTVN5amiro9I2CDriverE:00000000 $d
-ARM GAS  /tmp/ccrjO6ld.s 			page 94
+     /tmp/ccbhcWu8.s:1875   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1881   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000000 _Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1926   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:00000050 $d
+     /tmp/ccbhcWu8.s:1935   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1941   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000000 _Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:1975   .text._Z22shellRequestSetBoardIdP20BaseSequentialStreamiPPc:00000048 $d
+     /tmp/ccbhcWu8.s:1984   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:1990   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:00000000 _Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:2062   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:000000a4 $d
+     /tmp/ccbhcWu8.s:2073   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:2079   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000000 _Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:2103   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:00000030 $d
+     /tmp/ccbhcWu8.s:2108   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:2114   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000000 _Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:2179   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:00000090 $d
+     /tmp/ccbhcWu8.s:2187   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:2193   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000000 _Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:2246   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000074 $d
+     /tmp/ccbhcWu8.s:2256   .text._ZN6GlobalC2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:2262   .text._ZN6GlobalC2Ev:00000000 _ZN6GlobalC2Ev
+     /tmp/ccbhcWu8.s:2502   .text._ZN6GlobalC2Ev:000002b0 $d
+     /tmp/ccbhcWu8.s:3579   .rodata._ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE:00000000 _ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE
+     /tmp/ccbhcWu8.s:2262   .text._ZN6GlobalC2Ev:00000000 _ZN6GlobalC1Ev
+     /tmp/ccbhcWu8.s:2519   .text._Z14systemShutdownv:00000000 $t
+     /tmp/ccbhcWu8.s:2525   .text._Z14systemShutdownv:00000000 _Z14systemShutdownv
+     /tmp/ccbhcWu8.s:2597   .text._Z14systemShutdownv:000000b0 $d
+     /tmp/ccbhcWu8.s:2610   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000000 $t
+     /tmp/ccbhcWu8.s:2616   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000000 _Z16initPowermonitorRN5amiro6INA2196DriverEfft
+     /tmp/ccbhcWu8.s:2678   .text._Z16initPowermonitorRN5amiro6INA2196DriverEfft:00000090 $d
+     /tmp/ccbhcWu8.s:2684   .text._ZN5amiro7PCA9544ILb1EE8getCheckEv:00000000 $t
+     /tmp/ccbhcWu8.s:2690   .text._ZN5amiro7PCA9544ILb1EE8getCheckEv:00000000 _ZN5amiro7PCA9544ILb1EE8getCheckEv
+     /tmp/ccbhcWu8.s:2769   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
+     /tmp/ccbhcWu8.s:2775   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
+     /tmp/ccbhcWu8.s:2798   .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
+     /tmp/ccbhcWu8.s:2802   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000000 $t
+     /tmp/ccbhcWu8.s:2808   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi512EE5startEm
+     /tmp/ccbhcWu8.s:2831   .text._ZN10chibios_rt16BaseStaticThreadILi512EE5startEm:00000028 $d
+     /tmp/ccbhcWu8.s:2835   .text.startup.main:00000000 $t
+     /tmp/ccbhcWu8.s:2841   .text.startup.main:00000000 main
+     /tmp/ccbhcWu8.s:3145   .text.startup.main:000002f8 $d
+     /tmp/ccbhcWu8.s:3184   .text.startup.main:00000390 $t
+     /tmp/ccbhcWu8.s:3201   .text.startup.main:000003b0 $d
+     /tmp/ccbhcWu8.s:3207   .text.startup._GLOBAL__sub_I_global:00000000 $t
+     /tmp/ccbhcWu8.s:3212   .text.startup._GLOBAL__sub_I_global:00000000 _GLOBAL__sub_I_global
+     /tmp/ccbhcWu8.s:3231   .text.startup._GLOBAL__sub_I_global:00000020 $d
+     /tmp/ccbhcWu8.s:3438   .text._ZN6GlobalD2Ev:00000000 _ZN6GlobalD1Ev
+     /tmp/ccbhcWu8.s:3238   .init_array:00000000 $d
+     /tmp/ccbhcWu8.s:3241   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000000 $t
+     /tmp/ccbhcWu8.s:3247   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000000 _Z19boardPeripheryCheckP20BaseSequentialStream
+     /tmp/ccbhcWu8.s:3383   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000124 $d
+     /tmp/ccbhcWu8.s:3410   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000000 $t
+     /tmp/ccbhcWu8.s:3416   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000000 _Z17shellRequestCheckP20BaseSequentialStreamiPPc
+     /tmp/ccbhcWu8.s:3429   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000014 $d
+     /tmp/ccbhcWu8.s:3432   .text._ZN6GlobalD2Ev:00000000 $t
+     /tmp/ccbhcWu8.s:3438   .text._ZN6GlobalD2Ev:00000000 _ZN6GlobalD2Ev
+     /tmp/ccbhcWu8.s:3509   .text._ZN6GlobalD2Ev:000000bc $d
+     /tmp/ccbhcWu8.s:3518   .rodata._ZTVN5amiro9I2CDriverE:00000000 $d
+ARM GAS  /tmp/ccbhcWu8.s 			page 94
 
 
-     /tmp/ccrjO6ld.s:3535   .rodata._ZTVN5amiro7PCA9544ILb1EEE:00000000 $d
-     /tmp/ccrjO6ld.s:3552   .rodata._ZTVN5amiro11BaseLTC4412E:00000000 $d
-     /tmp/ccrjO6ld.s:3566   .rodata._ZTVN5amiro14BaseLTC4412wENE:00000000 _ZTVN5amiro14BaseLTC4412wENE
-     /tmp/ccrjO6ld.s:3563   .rodata._ZTVN5amiro14BaseLTC4412wENE:00000000 $d
-     /tmp/ccrjO6ld.s:3576   .rodata._ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE:00000000 $d
-     /tmp/ccrjO6ld.s:3593   .bss.global:00000000 global
-     /tmp/ccrjO6ld.s:3589   .bss.global:00000000 $d
-     /tmp/ccrjO6ld.s:3596   .rodata:00000000 $d
-     /tmp/ccrjO6ld.s:3657   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/ccrjO6ld.s:3661   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/ccrjO6ld.s:3664   .rodata.CSWTCH.120:00000000 $d
-     /tmp/ccrjO6ld.s:3668   .rodata.CSWTCH.120:00000000 CSWTCH.120
-     /tmp/ccrjO6ld.s:3675   .rodata.CSWTCH.121:00000000 $d
-     /tmp/ccrjO6ld.s:3679   .rodata.CSWTCH.121:00000000 CSWTCH.121
-     /tmp/ccrjO6ld.s:3686   .rodata._ZL10shell_cfg1:00000000 $d
-     /tmp/ccrjO6ld.s:3690   .rodata._ZL10shell_cfg1:00000000 _ZL10shell_cfg1
-     /tmp/ccrjO6ld.s:4292   .rodata._ZL8commands:00000000 _ZL8commands
-     /tmp/ccrjO6ld.s:3694   .rodata.str1.4:00000000 $d
-     /tmp/ccrjO6ld.s:4278   .rodata.CSWTCH.122:00000000 $d
-     /tmp/ccrjO6ld.s:4282   .rodata.CSWTCH.122:00000000 CSWTCH.122
-     /tmp/ccrjO6ld.s:4289   .rodata._ZL8commands:00000000 $d
-     /tmp/ccrjO6ld.s:36     .text._ZN5amiro9I2CDriverD2Ev:0000000c $t
-     /tmp/ccrjO6ld.s:71     .text._ZN5amiro11BaseLTC4412D2Ev:0000000c $t
-     /tmp/ccrjO6ld.s:92     .text._ZN5amiro14BaseLTC4412wEND2Ev:0000000c $t
-     /tmp/ccrjO6ld.s:113    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:0000000c $t
-     /tmp/ccrjO6ld.s:169    .text._ZN5amiro9I2CDriverD0Ev:00000014 $t
-     /tmp/ccrjO6ld.s:191    .text._ZN5amiro11BaseLTC4412D0Ev:00000014 $t
-     /tmp/ccrjO6ld.s:213    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000014 $t
-     /tmp/ccrjO6ld.s:235    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000014 $t
-     /tmp/ccrjO6ld.s:438    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:000001bc $t
-     /tmp/ccrjO6ld.s:495    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000038 $t
-     /tmp/ccrjO6ld.s:817    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000328 $t
-     /tmp/ccrjO6ld.s:1083   .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000264 $t
-     /tmp/ccrjO6ld.s:1117   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:0000003c $t
-     /tmp/ccrjO6ld.s:1160   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000048 $t
-     /tmp/ccrjO6ld.s:1219   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:0000007c $t
-     /tmp/ccrjO6ld.s:1403   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000078 $t
-     /tmp/ccrjO6ld.s:1425   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:0000001c $t
-     /tmp/ccrjO6ld.s:4348   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:000000e4 $t
-     /tmp/ccrjO6ld.s:1638   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:0000008c $t
-     /tmp/ccrjO6ld.s:1669   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000028 $t
-     /tmp/ccrjO6ld.s:1700   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000034 $t
-     /tmp/ccrjO6ld.s:1718   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:0000000c $t
-     /tmp/ccrjO6ld.s:1736   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:0000000c $t
-     /tmp/ccrjO6ld.s:1760   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000014 $t
-     /tmp/ccrjO6ld.s:1784   .text._ZN5amiro7PCA9544ILb1EED0Ev:0000001c $t
-     /tmp/ccrjO6ld.s:1874   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000054 $t
-     /tmp/ccrjO6ld.s:1934   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:0000006c $t
-     /tmp/ccrjO6ld.s:2072   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:000000c8 $t
-     /tmp/ccrjO6ld.s:2107   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:0000003c $t
-     /tmp/ccrjO6ld.s:2186   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:000000a8 $t
-     /tmp/ccrjO6ld.s:2255   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000094 $t
-     /tmp/ccrjO6ld.s:2518   .text._ZN6GlobalC2Ev:000002e4 $t
-     /tmp/ccrjO6ld.s:2609   .text._Z14systemShutdownv:000000dc $t
-     /tmp/ccrjO6ld.s:3237   .text.startup._GLOBAL__sub_I_global:00000034 $t
-     /tmp/ccrjO6ld.s:3409   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000188 $t
-     /tmp/ccrjO6ld.s:3431   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000018 $t
-ARM GAS  /tmp/ccrjO6ld.s 			page 95
+     /tmp/ccbhcWu8.s:3535   .rodata._ZTVN5amiro7PCA9544ILb1EEE:00000000 $d
+     /tmp/ccbhcWu8.s:3552   .rodata._ZTVN5amiro11BaseLTC4412E:00000000 $d
+     /tmp/ccbhcWu8.s:3566   .rodata._ZTVN5amiro14BaseLTC4412wENE:00000000 _ZTVN5amiro14BaseLTC4412wENE
+     /tmp/ccbhcWu8.s:3563   .rodata._ZTVN5amiro14BaseLTC4412wENE:00000000 $d
+     /tmp/ccbhcWu8.s:3576   .rodata._ZTVN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EEE:00000000 $d
+     /tmp/ccbhcWu8.s:3593   .bss.global:00000000 global
+     /tmp/ccbhcWu8.s:3589   .bss.global:00000000 $d
+     /tmp/ccbhcWu8.s:3596   .rodata:00000000 $d
+     /tmp/ccbhcWu8.s:3657   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/ccbhcWu8.s:3661   .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/ccbhcWu8.s:3664   .rodata.CSWTCH.120:00000000 $d
+     /tmp/ccbhcWu8.s:3668   .rodata.CSWTCH.120:00000000 CSWTCH.120
+     /tmp/ccbhcWu8.s:3675   .rodata.CSWTCH.121:00000000 $d
+     /tmp/ccbhcWu8.s:3679   .rodata.CSWTCH.121:00000000 CSWTCH.121
+     /tmp/ccbhcWu8.s:3686   .rodata._ZL10shell_cfg1:00000000 $d
+     /tmp/ccbhcWu8.s:3690   .rodata._ZL10shell_cfg1:00000000 _ZL10shell_cfg1
+     /tmp/ccbhcWu8.s:4292   .rodata._ZL8commands:00000000 _ZL8commands
+     /tmp/ccbhcWu8.s:3694   .rodata.str1.4:00000000 $d
+     /tmp/ccbhcWu8.s:4278   .rodata.CSWTCH.122:00000000 $d
+     /tmp/ccbhcWu8.s:4282   .rodata.CSWTCH.122:00000000 CSWTCH.122
+     /tmp/ccbhcWu8.s:4289   .rodata._ZL8commands:00000000 $d
+     /tmp/ccbhcWu8.s:36     .text._ZN5amiro9I2CDriverD2Ev:0000000c $t
+     /tmp/ccbhcWu8.s:71     .text._ZN5amiro11BaseLTC4412D2Ev:0000000c $t
+     /tmp/ccbhcWu8.s:92     .text._ZN5amiro14BaseLTC4412wEND2Ev:0000000c $t
+     /tmp/ccbhcWu8.s:113    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED2Ev:0000000c $t
+     /tmp/ccbhcWu8.s:169    .text._ZN5amiro9I2CDriverD0Ev:00000014 $t
+     /tmp/ccbhcWu8.s:191    .text._ZN5amiro11BaseLTC4412D0Ev:00000014 $t
+     /tmp/ccbhcWu8.s:213    .text._ZN5amiro14BaseLTC4412wEND0Ev:00000014 $t
+     /tmp/ccbhcWu8.s:235    .text._ZN5amiro10LTC4412wENILj1073811456ELh3ELj1073811456ELh5EED0Ev:00000014 $t
+     /tmp/ccbhcWu8.s:438    .text._Z20shellRequestShutdownP20BaseSequentialStreamiPPc:000001bc $t
+     /tmp/ccbhcWu8.s:495    .text._Z18shellRequestWakeupP20BaseSequentialStreamiPPc:00000038 $t
+     /tmp/ccbhcWu8.s:817    .text._Z25shellRequestGetMemoryDataP20BaseSequentialStreamiPPc:00000328 $t
+     /tmp/ccbhcWu8.s:1083   .text._Z21shellRequestSetLightsP20BaseSequentialStreamiPPc:00000264 $t
+     /tmp/ccbhcWu8.s:1117   .text._Z23shellRequestResetMemoryP20BaseSequentialStreamiPPc:0000003c $t
+     /tmp/ccbhcWu8.s:1160   .text._Z22shellRequestGetBoardIdP20BaseSequentialStreamiPPc:00000048 $t
+     /tmp/ccbhcWu8.s:1219   .text._Z37shellRequestResetCalibrationConstantsP20BaseSequentialStreamiPPc:0000007c $t
+     /tmp/ccbhcWu8.s:1403   .text._Z25shellRequestGetVcnlOffsetP20BaseSequentialStreamiPPc:00000078 $t
+     /tmp/ccbhcWu8.s:1425   .text._Z17shellRequestCalibP20BaseSequentialStreamiPPc:0000001c $t
+     /tmp/ccbhcWu8.s:4348   .text._Z25shellRequestGetSystemLoadP20BaseSequentialStreamiPPc:000000e4 $t
+     /tmp/ccbhcWu8.s:1638   .text._Z22shellRequestMotorDriveP20BaseSequentialStreamiPPc:0000008c $t
+     /tmp/ccbhcWu8.s:1669   .text._Z21shellRequestMotorStopP20BaseSequentialStreamiPPc:00000028 $t
+     /tmp/ccbhcWu8.s:1700   .text._Z26shellRequestMotorCalibrateP20BaseSequentialStreamiPPc:00000034 $t
+     /tmp/ccbhcWu8.s:1718   .text._Z27shellRequestMotorResetGainsP20BaseSequentialStreamiPPc:0000000c $t
+     /tmp/ccbhcWu8.s:1736   .text._Z25shellRequestMotorGetGainsP20BaseSequentialStreamiPPc:0000000c $t
+     /tmp/ccbhcWu8.s:1760   .text._ZN5amiro7PCA9544ILb1EED2Ev:00000014 $t
+     /tmp/ccbhcWu8.s:1784   .text._ZN5amiro7PCA9544ILb1EED0Ev:0000001c $t
+     /tmp/ccbhcWu8.s:1874   .text._ZN5amiro7PCA9544ILb1EE6selectEh:00000054 $t
+     /tmp/ccbhcWu8.s:1934   .text._Z29shellRequestGetBootloaderInfoP20BaseSequentialStreamiPPc:0000006c $t
+     /tmp/ccbhcWu8.s:2072   .text._Z35shellRequestSetCalibrationConstantsP20BaseSequentialStreamiPPc:000000c8 $t
+     /tmp/ccbhcWu8.s:2107   .text._Z19shellSwitchBoardCmdP20BaseSequentialStreamiPPc:0000003c $t
+     /tmp/ccbhcWu8.s:2186   .text._Z19shellRequestGetVcnlP20BaseSequentialStreamiPPc:000000a8 $t
+     /tmp/ccbhcWu8.s:2255   .text._Z25shellRequestSetVcnlOffsetP20BaseSequentialStreamiPPc:00000094 $t
+     /tmp/ccbhcWu8.s:2518   .text._ZN6GlobalC2Ev:000002e4 $t
+     /tmp/ccbhcWu8.s:2609   .text._Z14systemShutdownv:000000dc $t
+     /tmp/ccbhcWu8.s:3237   .text.startup._GLOBAL__sub_I_global:00000034 $t
+     /tmp/ccbhcWu8.s:3409   .text._Z19boardPeripheryCheckP20BaseSequentialStream:00000188 $t
+     /tmp/ccbhcWu8.s:3431   .text._Z17shellRequestCheckP20BaseSequentialStreamiPPc:00000018 $t
+ARM GAS  /tmp/ccbhcWu8.s 			page 95
 
 
-     /tmp/ccrjO6ld.s:3517   .text._ZN6GlobalD2Ev:000000cc $t
+     /tmp/ccbhcWu8.s:3517   .text._ZN6GlobalD2Ev:000000cc $t
                            .group:00000000 _ZN5amiro9I2CDriverD5Ev
                            .group:00000000 _ZN5amiro11BaseLTC4412D5Ev
                            .group:00000000 _ZN5amiro14BaseLTC4412wEND5Ev
@@ -5650,7 +5650,7 @@ _ZN5amiro12MotorControl26setActualWheelBaseDistanceEfb
 _ZN5amiro12SerialCanMux13sendSwitchCmdEh
 _ZN5amiro8VCNL402015getAmbientLightEv
 _ZN5amiro8VCNL402012getProximityEv
-ARM GAS  /tmp/ccrjO6ld.s 			page 96
+ARM GAS  /tmp/ccbhcWu8.s 			page 96
 
 
 _ZN5amiro8VCNL402026getProximityScaledWoOffsetEv
@@ -5710,7 +5710,7 @@ _ZN5amiro12fileSystemIo16FileSystemIoBase8getCheckEv
 _ZN5amiro8L3G4200D8getCheckEv
 _ZN5amiro8HMC5883L8getCheckEv
 _ZN5amiro6INA2196Driver8selftestEv
-ARM GAS  /tmp/ccrjO6ld.s 			page 97
+ARM GAS  /tmp/ccbhcWu8.s 			page 97
 
 
 _ZN5amiro8VCNL40208getCheckEv
