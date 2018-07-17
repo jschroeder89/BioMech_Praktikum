@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc1UDbj1.s 			page 1
+ARM GAS  /tmp/ccSkUQ3P.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
   55              	.L5:
   56 0010 08000000 		.word	.LANCHOR0+8
   57              		.size	_ZN5amiro9LIS331DLHD0Ev, .-_ZN5amiro9LIS331DLHD0Ev
-ARM GAS  /tmp/cc1UDbj1.s 			page 2
+ARM GAS  /tmp/ccSkUQ3P.s 			page 2
 
 
   58 0014 AFF30080 		.section	.text.startup._ZN5amiro9LIS331DLH4mainEv,"ax",%progbits
@@ -118,10 +118,10 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  110              	.L11:
  111 007c FFF7FEFF 		bl	_ZN10chibios_rt9EvtSource14broadcastFlagsEm
  112 0080 4FF0FF30 		mov	r0, #-1
-ARM GAS  /tmp/cc1UDbj1.s 			page 3
+ARM GAS  /tmp/ccSkUQ3P.s 			page 3
 
 
- 113 0084 1421     		movs	r1, #20
+ 113 0084 0A21     		movs	r1, #10
  114 0086 FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread19waitAnyEventTimeoutEmm
  115              	.L8:
  116 008a FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread15shouldTerminateEv
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  167              		.thumb_func
  168              		.type	_ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0, %function
  169              	_ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:
-ARM GAS  /tmp/cc1UDbj1.s 			page 4
+ARM GAS  /tmp/ccSkUQ3P.s 			page 4
 
 
  170              		@ args = 4, pretend = 12, frame = 8
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  221      AFF30080 
  222              		.align	2
  223              		.p2align 4,,15
-ARM GAS  /tmp/cc1UDbj1.s 			page 5
+ARM GAS  /tmp/ccSkUQ3P.s 			page 5
 
 
  224              		.global	_ZN5amiro9LIS331DLH14getEventSourceEv
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  275 0020 7047     		bx	lr
  276              	.L38:
  277 0022 30F91100 		ldrsh	r0, [r0, r1, lsl #1]
-ARM GAS  /tmp/cc1UDbj1.s 			page 6
+ARM GAS  /tmp/ccSkUQ3P.s 			page 6
 
 
  278 0026 4000     		lsls	r0, r0, #1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  332 0070 FFF7FEFF 		bl	_ZN5amiro11HWSPIDriver8exchangeEPhPKhj
  333 0074 022D     		cmp	r5, #2
  334 0076 04F10304 		add	r4, r4, #3
-ARM GAS  /tmp/cc1UDbj1.s 			page 7
+ARM GAS  /tmp/ccSkUQ3P.s 			page 7
 
 
  335 007a CBD1     		bne	.L44
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  389 0018 9DF80500 		ldrb	r0, [sp, #5]	@ zero_extendqisi2
  390 001c 3238     		subs	r0, r0, #50
  391 001e 18BF     		it	ne
-ARM GAS  /tmp/cc1UDbj1.s 			page 8
+ARM GAS  /tmp/ccSkUQ3P.s 			page 8
 
 
  392 0020 0120     		movne	r0, #1
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  445 0062 FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread5sleepEm
  446 0066 0AF10107 		add	r7, r10, #1
  447 006a 0026     		movs	r6, #0
-ARM GAS  /tmp/cc1UDbj1.s 			page 9
+ARM GAS  /tmp/ccSkUQ3P.s 			page 9
 
 
  448              	.L52:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  502 0102 0AF10107 		add	r7, r10, #1
  503 0106 0026     		movs	r6, #0
  504              	.L57:
-ARM GAS  /tmp/cc1UDbj1.s 			page 10
+ARM GAS  /tmp/ccSkUQ3P.s 			page 10
 
 
  505 0108 A319     		adds	r3, r4, r6
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  559 019c FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread5sleepEm
  560 01a0 09F10107 		add	r7, r9, #1
  561 01a4 0026     		movs	r6, #0
-ARM GAS  /tmp/cc1UDbj1.s 			page 11
+ARM GAS  /tmp/ccSkUQ3P.s 			page 11
 
 
  562              	.L62:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  616 0232 1946     		mov	r1, r3
  617 0234 FFF7FEFF 		bl	__aeabi_d2iz
  618 0238 7838     		subs	r0, r0, #120
-ARM GAS  /tmp/cc1UDbj1.s 			page 12
+ARM GAS  /tmp/ccSkUQ3P.s 			page 12
 
 
  619 023a B0F5D77F 		cmp	r0, #430
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  673 02ca BDE8F08F 		pop	{r4, r5, r6, r7, r8, r9, r10, fp, pc}
  674              	.L79:
  675 02ce 1748     		ldr	r0, .L80
-ARM GAS  /tmp/cc1UDbj1.s 			page 13
+ARM GAS  /tmp/ccSkUQ3P.s 			page 13
 
 
  676 02d0 1E49     		ldr	r1, .L80+32
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  730 0350 E4000000 		.word	.LC11
  731 0354 C4000000 		.word	.LC10
  732 0358 A4000000 		.word	.LC9
-ARM GAS  /tmp/cc1UDbj1.s 			page 14
+ARM GAS  /tmp/ccSkUQ3P.s 			page 14
 
 
  733 035c 84000000 		.word	.LC8
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  783 0007 00       		.byte	0
  784 0008 00       		.byte	0
  785 0009 00       		.byte	0
-ARM GAS  /tmp/cc1UDbj1.s 			page 15
+ARM GAS  /tmp/ccSkUQ3P.s 			page 15
 
 
  786 000a 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  825      74206163 
  825      6320706F 
  825      73207661 
-ARM GAS  /tmp/cc1UDbj1.s 			page 16
+ARM GAS  /tmp/ccSkUQ3P.s 			page 16
 
 
  826 006e 0000     		.space	2
@@ -951,67 +951,67 @@ ARM GAS  /tmp/cc1UDbj1.s 			page 1
  846      65207A2D 
  846      61786973 
  847 0141 000000   		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/cc1UDbj1.s 			page 17
+ARM GAS  /tmp/ccSkUQ3P.s 			page 17
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 lis331dlh.cpp
-     /tmp/cc1UDbj1.s:16     .text._ZN5amiro9LIS331DLHD2Ev:00000000 $t
-     /tmp/cc1UDbj1.s:22     .text._ZN5amiro9LIS331DLHD2Ev:00000000 _ZN5amiro9LIS331DLHD2Ev
-     /tmp/cc1UDbj1.s:32     .text._ZN5amiro9LIS331DLHD2Ev:00000008 $d
-     /tmp/cc1UDbj1.s:22     .text._ZN5amiro9LIS331DLHD2Ev:00000000 _ZN5amiro9LIS331DLHD1Ev
-     /tmp/cc1UDbj1.s:37     .text._ZN5amiro9LIS331DLHD0Ev:00000000 $t
-     /tmp/cc1UDbj1.s:43     .text._ZN5amiro9LIS331DLHD0Ev:00000000 _ZN5amiro9LIS331DLHD0Ev
-     /tmp/cc1UDbj1.s:56     .text._ZN5amiro9LIS331DLHD0Ev:00000010 $d
-     /tmp/cc1UDbj1.s:59     .text.startup._ZN5amiro9LIS331DLH4mainEv:00000000 $t
-     /tmp/cc1UDbj1.s:65     .text.startup._ZN5amiro9LIS331DLH4mainEv:00000000 _ZN5amiro9LIS331DLH4mainEv
-     /tmp/cc1UDbj1.s:128    .text.startup._ZN5amiro9LIS331DLH4mainEv:0000009c $d
-     /tmp/cc1UDbj1.s:131    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
-     /tmp/cc1UDbj1.s:137    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
-     /tmp/cc1UDbj1.s:160    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
-     /tmp/cc1UDbj1.s:164    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000000 $t
-     /tmp/cc1UDbj1.s:169    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0
-     /tmp/cc1UDbj1.s:189    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000020 $d
-     /tmp/cc1UDbj1.s:192    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 $t
-     /tmp/cc1UDbj1.s:198    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE
-     /tmp/cc1UDbj1.s:217    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000024 $d
-     /tmp/cc1UDbj1.s:198    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _ZN5amiro9LIS331DLHC1EPNS_11HWSPIDriverE
-     /tmp/cc1UDbj1.s:222    .text._ZN5amiro9LIS331DLH14getEventSourceEv:00000000 $t
-     /tmp/cc1UDbj1.s:228    .text._ZN5amiro9LIS331DLH14getEventSourceEv:00000000 _ZN5amiro9LIS331DLH14getEventSourceEv
-     /tmp/cc1UDbj1.s:236    .text._ZN5amiro9LIS331DLH15getAccelerationEh:00000000 $t
-     /tmp/cc1UDbj1.s:242    .text._ZN5amiro9LIS331DLH15getAccelerationEh:00000000 _ZN5amiro9LIS331DLH15getAccelerationEh
-     /tmp/cc1UDbj1.s:251    .text._ZN5amiro9LIS331DLH20getAccelerationForceEh:00000000 $t
-     /tmp/cc1UDbj1.s:257    .text._ZN5amiro9LIS331DLH20getAccelerationForceEh:00000000 _ZN5amiro9LIS331DLH20getAccelerationForceEh
-     /tmp/cc1UDbj1.s:284    .text._ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE:00000000 $t
-     /tmp/cc1UDbj1.s:290    .text._ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE:00000000 _ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE
-     /tmp/cc1UDbj1.s:371    .text._ZN5amiro9LIS331DLH8getCheckEv:00000000 $t
-     /tmp/cc1UDbj1.s:377    .text._ZN5amiro9LIS331DLH8getCheckEv:00000000 _ZN5amiro9LIS331DLH8getCheckEv
-     /tmp/cc1UDbj1.s:400    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000000 $t
-     /tmp/cc1UDbj1.s:406    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000000 _ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE
-     /tmp/cc1UDbj1.s:721    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:0000032c $d
-     /tmp/cc1UDbj1.s:737    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 $t
-     /tmp/cc1UDbj1.s:742    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE
-     /tmp/cc1UDbj1.s:754    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:0000000c $d
-     /tmp/cc1UDbj1.s:758    .init_array:00000000 $d
-     /tmp/cc1UDbj1.s:765    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
-     /tmp/cc1UDbj1.s:762    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
-     /tmp/cc1UDbj1.s:799    .rodata._ZTVN5amiro9LIS331DLHE:00000000 _ZTVN5amiro9LIS331DLHE
-     /tmp/cc1UDbj1.s:773    .rodata:00000000 $d
-     /tmp/cc1UDbj1.s:788    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/cc1UDbj1.s:792    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/cc1UDbj1.s:795    .rodata._ZTVN5amiro9LIS331DLHE:00000000 $d
-     /tmp/cc1UDbj1.s:808    .rodata.str1.4:00000000 $d
-     /tmp/cc1UDbj1.s:36     .text._ZN5amiro9LIS331DLHD2Ev:0000000c $t
-     /tmp/cc1UDbj1.s:58     .text._ZN5amiro9LIS331DLHD0Ev:00000014 $t
-     /tmp/cc1UDbj1.s:191    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000024 $t
-     /tmp/cc1UDbj1.s:221    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000028 $t
-     /tmp/cc1UDbj1.s:736    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000364 $t
-     /tmp/cc1UDbj1.s:757    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000014 $t
+     /tmp/ccSkUQ3P.s:16     .text._ZN5amiro9LIS331DLHD2Ev:00000000 $t
+     /tmp/ccSkUQ3P.s:22     .text._ZN5amiro9LIS331DLHD2Ev:00000000 _ZN5amiro9LIS331DLHD2Ev
+     /tmp/ccSkUQ3P.s:32     .text._ZN5amiro9LIS331DLHD2Ev:00000008 $d
+     /tmp/ccSkUQ3P.s:22     .text._ZN5amiro9LIS331DLHD2Ev:00000000 _ZN5amiro9LIS331DLHD1Ev
+     /tmp/ccSkUQ3P.s:37     .text._ZN5amiro9LIS331DLHD0Ev:00000000 $t
+     /tmp/ccSkUQ3P.s:43     .text._ZN5amiro9LIS331DLHD0Ev:00000000 _ZN5amiro9LIS331DLHD0Ev
+     /tmp/ccSkUQ3P.s:56     .text._ZN5amiro9LIS331DLHD0Ev:00000010 $d
+     /tmp/ccSkUQ3P.s:59     .text.startup._ZN5amiro9LIS331DLH4mainEv:00000000 $t
+     /tmp/ccSkUQ3P.s:65     .text.startup._ZN5amiro9LIS331DLH4mainEv:00000000 _ZN5amiro9LIS331DLH4mainEv
+     /tmp/ccSkUQ3P.s:128    .text.startup._ZN5amiro9LIS331DLH4mainEv:0000009c $d
+     /tmp/ccSkUQ3P.s:131    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
+     /tmp/ccSkUQ3P.s:137    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
+     /tmp/ccSkUQ3P.s:160    .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
+     /tmp/ccSkUQ3P.s:164    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000000 $t
+     /tmp/ccSkUQ3P.s:169    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0
+     /tmp/ccSkUQ3P.s:189    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000020 $d
+     /tmp/ccSkUQ3P.s:192    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 $t
+     /tmp/ccSkUQ3P.s:198    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE
+     /tmp/ccSkUQ3P.s:217    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000024 $d
+     /tmp/ccSkUQ3P.s:198    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _ZN5amiro9LIS331DLHC1EPNS_11HWSPIDriverE
+     /tmp/ccSkUQ3P.s:222    .text._ZN5amiro9LIS331DLH14getEventSourceEv:00000000 $t
+     /tmp/ccSkUQ3P.s:228    .text._ZN5amiro9LIS331DLH14getEventSourceEv:00000000 _ZN5amiro9LIS331DLH14getEventSourceEv
+     /tmp/ccSkUQ3P.s:236    .text._ZN5amiro9LIS331DLH15getAccelerationEh:00000000 $t
+     /tmp/ccSkUQ3P.s:242    .text._ZN5amiro9LIS331DLH15getAccelerationEh:00000000 _ZN5amiro9LIS331DLH15getAccelerationEh
+     /tmp/ccSkUQ3P.s:251    .text._ZN5amiro9LIS331DLH20getAccelerationForceEh:00000000 $t
+     /tmp/ccSkUQ3P.s:257    .text._ZN5amiro9LIS331DLH20getAccelerationForceEh:00000000 _ZN5amiro9LIS331DLH20getAccelerationForceEh
+     /tmp/ccSkUQ3P.s:284    .text._ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE:00000000 $t
+     /tmp/ccSkUQ3P.s:290    .text._ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE:00000000 _ZN5amiro9LIS331DLH9configureEPNS0_15LIS331DLHConfigE
+     /tmp/ccSkUQ3P.s:371    .text._ZN5amiro9LIS331DLH8getCheckEv:00000000 $t
+     /tmp/ccSkUQ3P.s:377    .text._ZN5amiro9LIS331DLH8getCheckEv:00000000 _ZN5amiro9LIS331DLH8getCheckEv
+     /tmp/ccSkUQ3P.s:400    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000000 $t
+     /tmp/ccSkUQ3P.s:406    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000000 _ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE
+     /tmp/ccSkUQ3P.s:721    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:0000032c $d
+     /tmp/ccSkUQ3P.s:737    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 $t
+     /tmp/ccSkUQ3P.s:742    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000000 _GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE
+     /tmp/ccSkUQ3P.s:754    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:0000000c $d
+     /tmp/ccSkUQ3P.s:758    .init_array:00000000 $d
+     /tmp/ccSkUQ3P.s:765    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
+     /tmp/ccSkUQ3P.s:762    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
+     /tmp/ccSkUQ3P.s:799    .rodata._ZTVN5amiro9LIS331DLHE:00000000 _ZTVN5amiro9LIS331DLHE
+     /tmp/ccSkUQ3P.s:773    .rodata:00000000 $d
+     /tmp/ccSkUQ3P.s:788    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/ccSkUQ3P.s:792    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/ccSkUQ3P.s:795    .rodata._ZTVN5amiro9LIS331DLHE:00000000 $d
+     /tmp/ccSkUQ3P.s:808    .rodata.str1.4:00000000 $d
+     /tmp/ccSkUQ3P.s:36     .text._ZN5amiro9LIS331DLHD2Ev:0000000c $t
+     /tmp/ccSkUQ3P.s:58     .text._ZN5amiro9LIS331DLHD0Ev:00000014 $t
+     /tmp/ccSkUQ3P.s:191    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.0:00000024 $t
+     /tmp/ccSkUQ3P.s:221    .text._ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000028 $t
+     /tmp/ccSkUQ3P.s:736    .text._ZN5amiro9LIS331DLH13printSelfTestEPNS0_15LIS331DLHConfigE:00000364 $t
+     /tmp/ccSkUQ3P.s:757    .text.startup._GLOBAL__sub_I__ZN5amiro9LIS331DLHC2EPNS_11HWSPIDriverE:00000014 $t
 
 UNDEFINED SYMBOLS
 _ZdlPv
 _ZN10chibios_rt10BaseThread7setNameEPKc
-ARM GAS  /tmp/cc1UDbj1.s 			page 18
+ARM GAS  /tmp/ccSkUQ3P.s 			page 18
 
 
 memset

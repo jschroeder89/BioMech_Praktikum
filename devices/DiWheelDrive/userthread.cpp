@@ -67,7 +67,7 @@ const int rpmTurnRight[2] = {rpmTurnLeft[1],rpmTurnLeft[0]};
 const int rpmHalt[2] = {0, 0};
 int lastTurn[2] = {0,0};
 int turn[2] = {0,0};
-const int maxSpeed = 60;
+const int maxSpeed = 80;
 
 // Definition of the fuzzyfication function
 //  | Membership
@@ -384,7 +384,7 @@ UserThread::main()
 	int velArray[2]{0};
 	int maxWhiteLeftRight, maxBlackLeftRight = 0;
 	int currentVals[2]{0};
-	int desVals[2]{0};
+	float desVals[2]{0};
 	int newVals[2]{0};
 	int lastVals[2]{0};
 	float faktor = 0;
@@ -409,92 +409,81 @@ UserThread::main()
          
 
         if (accel_z < -900 ) { //-0.9g
-		this->sleep(MS2ST(3000));
-		for (int i = 0; i < 4; i++) {
-			for(size_t j = 0; j < 1000; j++){
-				foo = global.vcnl4020[i].getProximityScaledWoOffset();
-				initialVals[i] += foo;
+			this->sleep(MS2ST(3000));
+			for (int i = 0; i < 4; i++) {
+				for(size_t j = 0; j < 1000; j++){
+					foo = global.vcnl4020[i].getProximityScaledWoOffset();
+					initialVals[i] += foo;
+				}
+				initialVals[i] = round(initialVals[i]/1000);
+				chprintf((BaseSequentialStream*) &SD1, "%04d\n",
+				initialVals[i]);
 			}
-			initialVals[i] = round(initialVals[i]/1000);
-			chprintf((BaseSequentialStream*) &SD1, "%04d\n",
-			initialVals[i]);
-		}
-		refWhiteLeft = initialVals[1];
-		refWhiteRight = initialVals[2];
-		refBlackFrontLeft = initialVals[0];
-		refBlackFrontRight = initialVals[3];
-		maxBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
-		maxWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-maxBlackLeftRight;
-
-  
-					 
-            if (running) {
-                // stop the robot
-                running = false;
-                global.motorcontrol.setTargetRPM(0, 0);
-            } else {
-                //start the robot
-                running = true;
-                global.robot.setLightColor(3, Color(Color::BLACK));
-			global.robot.setLightColor(4, Color(Color::BLACK));
-			global.robot.setLightColor(2, Color(Color::BLACK));
-			global.robot.setLightColor(5, Color(Color::BLACK));
-            }
+			refWhiteLeft = initialVals[1];
+			refWhiteRight = initialVals[2];
+			refBlackFrontLeft = initialVals[0];
+			refBlackFrontRight = initialVals[3];
+			maxBlackLeftRight = (refBlackFrontLeft+refBlackFrontRight)/2;
+			maxWhiteLeftRight = ((refWhiteLeft+refWhiteRight)/2)-maxBlackLeftRight;		 
+	            if (running) {
+	                // stop the robot
+	                running = false;
+	                global.motorcontrol.setTargetRPM(0, 0);
+	            } else {
+	                //start the robot
+	                running = true;
+	            }
 
         }
         if (running) {
 			desVals[0] = 5;
 			desVals[1] = 5;
-            // Read the proximity values
+            // Read the proximity values and recalibrate
 			currentVals[0] = global.vcnl4020[0].getProximityScaledWoOffset();
 			currentVals[1] = global.vcnl4020[3].getProximityScaledWoOffset();
-			/*
-			if ((currentVals[0] >= currentVals[1]) && ((currentVals[0]-lastVals[0]) >= 100)) {
-				faktor = maxWhiteLeftRight/(currentVals[0]-maxBlackLeftRight);
-				newVals[0] = round(desVals[0] + (faktor*desVals[0]));
-				newVals[1] = desVals[1];
-			} else if((currentVals[1] > currentVals[0]) && ((currentVals[1]-lastVals[1]) >= 100)) {
-				faktor = maxWhiteLeftRight/(currentVals[1]-maxBlackLeftRight);
-				newVals[1] = round(desVals[1] + (faktor*desVals[1]));
-				newVals[0] = desVals[0];
+			if(currentVals[0] > refWhiteLeft){
+				refWhiteLeft = currentVals[0];
 			}
-			*/
-			//for(size_t i = 0; i < 2; i++){
-			//	faktor = diffWhiteLeftRight/(currentVals[i]-diffBlackLeftRight);
-			//	newVals[i] = round(desVals[i] + (faktor*desVals[i]));
-			//}
-			
-			//setRpmSpeed(newVals);
-            //lineFollowing(vcnl4020Proximity, rpmFuzzyCtrl);
-            //setRpmSpeed(rpmFuzzyCtrl);
-			//Regler();
-            //types::position pos = global.robot.getOdometry();
-            //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", pos.x, pos.y, pos.f_z);
-            //int drehung[3] = {global.robot.getGyroscopeValue(0), global.robot.getGyroscopeValue(1), global.robot.getGyroscopeValue(2)};
-            //chprintf((BaseSequentialStream*) &SD1, "%04d %04d %04d \n", drehung[0], drehung[1], drehung[2]);
+			if(currentVals[1] < refBlackFrontLeft){
+				refBlackFrontLeft = currentVals[1];
+			}
 			
 			for(size_t i = 0; i < 2; i++){
 				lastVals[i] = newVals[i];
 			}
-			int braitenberg = 2;
-			if(braitenberg == 2){
+			
+				desVals[0] = (((refWhiteLeft-(currentVals[1]-refBlackFrontLeft))/static_cast<float>(refWhiteLeft)));
+				desVals[1] = (((static_cast<float>(currentVals[0]))/(static_cast<float>(refWhiteLeft))));
+				for(int i = 0; i < 1; i++){
+						if(desVals[i] < 0.55){
+							desVals[i] = sqrt(desVals[i]*desVals[i]*desVals[i]);
+						} else {
+							desVals[i] = sqrtf(sqrtf(desVals[i]*desVals[i]*desVals[i]));
+						}
+				} 
+				newVals[0] = static_cast<int>(maxSpeed * desVals[0]);
+				newVals[1] = static_cast<int>(maxSpeed * desVals[1]);
+				chprintf((BaseSequentialStream*) &SD1, "%.4f    %.4f   Geschwindigkeit:  %04d   %04d \n", desVals[1], desVals[0], currentVals[1], currentVals[0]);
 				
-				newVals[0] = static_cast<int>(maxSpeed * (((refWhiteLeft-(currentVals[1]-refBlackFrontLeft))/static_cast<float>(refWhiteLeft))));
-				newVals[1] = static_cast<int>(maxSpeed * ((currentVals[0]/static_cast<float>(refWhiteLeft))));
-				//newVals[0] = (newVals[0] + lastVals[0])/2;
-				//newVals[1] = (newVals[1] + lastVals[1])/2;
-				chprintf((BaseSequentialStream*) &SD1, "%04d   %04d \n", currentVals[0], currentVals[1]);
-				if (newVals[0] == newVals[1] && newVals[0] == 0 ){
-					newVals[0] = 100;
-					newVals[1] = 0;
+				//PANIC-MODE
+				if (currentVals[0] < 2800){
+					newVals[0] = static_cast<int>(maxSpeed * 1.6);
+					newVals[1] = static_cast<int>(maxSpeed * -1.6);
+				} else if( currentVals[1] > 28000 && currentVals[0] > 25000){
+					newVals[0] = 0;
+					newVals[1] = static_cast<int>(maxSpeed * 1.3);
 				}
+				
+				
+				//RACE-MODE (not in use)
 				//else if (newVals[0] > maxSpeed - 10 && newVals[0] > maxSpeed -10){
 					//newVals[0] = static_cast<int>(newVals[0] * 1.8);
 					//newVals[1] = static_cast<int>(newVals[1] * 1.8);
 				//}
 				setRpmSpeed(newVals);
+				//this->sleep(500);
 
-			}
+			
 			
 			// plot y = (30000 - (x/300)^3)/30000, y = -((30000 - (x/300)^3))/30000) from -5000 to 12000 
 			

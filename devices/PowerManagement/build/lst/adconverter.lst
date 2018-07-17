@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccXgnYv3.s 			page 1
+ARM GAS  /tmp/cctMtSYL.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
   55              	.L6:
   56              		.align	2
   57              	.L5:
-ARM GAS  /tmp/ccXgnYv3.s 			page 2
+ARM GAS  /tmp/cctMtSYL.s 			page 2
 
 
   58 0010 08000000 		.word	.LANCHOR0+8
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  110              	@ 17 "../../components/power/adconverter.cpp" 1
  111 000c 83F31188 		msr     BASEPRI, r3
  112              	@ 0 "" 2
-ARM GAS  /tmp/ccXgnYv3.s 			page 3
+ARM GAS  /tmp/cctMtSYL.s 			page 3
 
 
  113              		.thumb
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  167 000a 52F8041B 		ldr	r1, [r2], #4
  168 000e 0192     		str	r2, [sp, #4]
  169 0010 FFF7FEFF 		bl	chvprintf
-ARM GAS  /tmp/ccXgnYv3.s 			page 4
+ARM GAS  /tmp/cctMtSYL.s 			page 4
 
 
  170 0014 02B0     		add	sp, sp, #8
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  221 002e C6EEA76A 		fdivs	s13, s13, s15
  222 0032 C3EB4312 		rsb	r2, r3, r3, lsl #5
  223 0036 03EB8203 		add	r3, r3, r2, lsl #2
-ARM GAS  /tmp/ccXgnYv3.s 			page 5
+ARM GAS  /tmp/cctMtSYL.s 			page 5
 
 
  224 003a 5B01     		lsls	r3, r3, #5
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  278              	.L31:
  279 0056 00BF     		.align	2
  280              	.L30:
-ARM GAS  /tmp/ccXgnYv3.s 			page 6
+ARM GAS  /tmp/cctMtSYL.s 			page 6
 
 
  281 0058 00000000 		.word	global
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  332 0012 DA60     		str	r2, [r3, #12]
  333 0014 7047     		bx	lr
  334              	.L37:
-ARM GAS  /tmp/ccXgnYv3.s 			page 7
+ARM GAS  /tmp/cctMtSYL.s 			page 7
 
 
  335 0016 FFF7FEBF 		b	_ZN5amiro11ADConverter14enableWatchdogEb.part.1
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  388 0076 4FF47A71 		mov	r1, #1000
  389 007a FFF7FEFF 		bl	_ZN10chibios_rt10BaseThread19waitOneEventTimeoutEmm
  390 007e 0128     		cmp	r0, #1
-ARM GAS  /tmp/ccXgnYv3.s 			page 8
+ARM GAS  /tmp/cctMtSYL.s 			page 8
 
 
  391 0080 6AD0     		beq	.L42
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  445 0120 FFF7FEFF 		bl	_ZN5amiro11ADConverter6uV2AdcEm
  446 0124 B0F5805F 		cmp	r0, #4096
  447 0128 54D3     		bcc	.L56
-ARM GAS  /tmp/ccXgnYv3.s 			page 9
+ARM GAS  /tmp/cctMtSYL.s 			page 9
 
 
  448 012a 3846     		mov	r0, r7
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  502 01b2 D4F86802 		ldr	r0, [r4, #616]
  503 01b6 D4F86452 		ldr	r5, [r4, #612]
  504 01ba FFF7FEFF 		bl	_ZN5amiro11ADConverter6uV2AdcEm
-ARM GAS  /tmp/ccXgnYv3.s 			page 10
+ARM GAS  /tmp/cctMtSYL.s 			page 10
 
 
  505 01be B0F5805F 		cmp	r0, #4096
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  557 000c 00000000 		.word	.LANCHOR1
  558 0010 A0860100 		.word	100000
  559              		.size	_GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t, .-_GLOBAL__sub_I__Z20adcVsys
-ARM GAS  /tmp/ccXgnYv3.s 			page 11
+ARM GAS  /tmp/cctMtSYL.s 			page 11
 
 
  560 0014 AFF30080 		.section	.init_array,"aw",%init_array
@@ -654,67 +654,67 @@ ARM GAS  /tmp/ccXgnYv3.s 			page 1
  599 0014 00000000 		.word	_ZN5amiro11ADConverterD1Ev
  600 0018 00000000 		.word	_ZN5amiro11ADConverterD0Ev
  601 001c 00000000 		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.3 20140228 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccXgnYv3.s 			page 12
+ARM GAS  /tmp/cctMtSYL.s 			page 12
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 adconverter.cpp
-     /tmp/ccXgnYv3.s:18     .text._ZN5amiro11ADConverterD2Ev:00000000 $t
-     /tmp/ccXgnYv3.s:24     .text._ZN5amiro11ADConverterD2Ev:00000000 _ZN5amiro11ADConverterD2Ev
-     /tmp/ccXgnYv3.s:34     .text._ZN5amiro11ADConverterD2Ev:00000008 $d
-     /tmp/ccXgnYv3.s:24     .text._ZN5amiro11ADConverterD2Ev:00000000 _ZN5amiro11ADConverterD1Ev
-     /tmp/ccXgnYv3.s:39     .text._ZN5amiro11ADConverterD0Ev:00000000 $t
-     /tmp/ccXgnYv3.s:45     .text._ZN5amiro11ADConverterD0Ev:00000000 _ZN5amiro11ADConverterD0Ev
-     /tmp/ccXgnYv3.s:58     .text._ZN5amiro11ADConverterD0Ev:00000010 $d
-     /tmp/ccXgnYv3.s:61     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
-     /tmp/ccXgnYv3.s:67     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
-     /tmp/ccXgnYv3.s:90     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
-     /tmp/ccXgnYv3.s:94     .text._Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 $t
-     /tmp/ccXgnYv3.s:100    .text._Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 _Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t
-     /tmp/ccXgnYv3.s:131    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000000 $t
-     /tmp/ccXgnYv3.s:136    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000000 _ZN5amiro11ADConverter14enableWatchdogEb.part.1
-     /tmp/ccXgnYv3.s:151    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000018 $d
-     /tmp/ccXgnYv3.s:154    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000000 $t
-     /tmp/ccXgnYv3.s:159    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2
-     /tmp/ccXgnYv3.s:178    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000020 $d
-     /tmp/ccXgnYv3.s:181    .text._Z16adcTimerCallbackP6Thread:00000000 $t
-     /tmp/ccXgnYv3.s:187    .text._Z16adcTimerCallbackP6Thread:00000000 _Z16adcTimerCallbackP6Thread
-     /tmp/ccXgnYv3.s:198    .text._ZN5amiro11ADConverter6uV2AdcEm:00000000 $t
-     /tmp/ccXgnYv3.s:204    .text._ZN5amiro11ADConverter6uV2AdcEm:00000000 _ZN5amiro11ADConverter6uV2AdcEm
-     /tmp/ccXgnYv3.s:238    .text._ZN5amiro11ADConverter6uV2AdcEm:00000060 $d
-     /tmp/ccXgnYv3.s:244    .text._ZN5amiro11ADConverter6adc2uVEt:00000000 $t
-     /tmp/ccXgnYv3.s:250    .text._ZN5amiro11ADConverter6adc2uVEt:00000000 _ZN5amiro11ADConverter6adc2uVEt
-     /tmp/ccXgnYv3.s:281    .text._ZN5amiro11ADConverter6adc2uVEt:00000058 $d
-     /tmp/ccXgnYv3.s:286    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 $t
-     /tmp/ccXgnYv3.s:292    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 _ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm
-     /tmp/ccXgnYv3.s:311    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000024 $d
-     /tmp/ccXgnYv3.s:292    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 _ZN5amiro11ADConverterC1ER9ADCDriverR18ADCConversionGroupm
-     /tmp/ccXgnYv3.s:316    .text._ZN5amiro11ADConverter14enableWatchdogEb:00000000 $t
-     /tmp/ccXgnYv3.s:322    .text._ZN5amiro11ADConverter14enableWatchdogEb:00000000 _ZN5amiro11ADConverter14enableWatchdogEb
-     /tmp/ccXgnYv3.s:339    .text.startup._ZN5amiro11ADConverter4mainEv:00000000 $t
-     /tmp/ccXgnYv3.s:345    .text.startup._ZN5amiro11ADConverter4mainEv:00000000 _ZN5amiro11ADConverter4mainEv
-     /tmp/ccXgnYv3.s:530    .text.startup._ZN5amiro11ADConverter4mainEv:000001f4 $d
-     /tmp/ccXgnYv3.s:540    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 $t
-     /tmp/ccXgnYv3.s:545    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 _GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t
-     /tmp/ccXgnYv3.s:557    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:0000000c $d
-     /tmp/ccXgnYv3.s:561    .init_array:00000000 $d
-     /tmp/ccXgnYv3.s:568    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
-     /tmp/ccXgnYv3.s:565    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
-     /tmp/ccXgnYv3.s:593    .rodata._ZTVN5amiro11ADConverterE:00000000 _ZTVN5amiro11ADConverterE
-     /tmp/ccXgnYv3.s:576    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
-     /tmp/ccXgnYv3.s:580    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
-     /tmp/ccXgnYv3.s:583    .rodata.str1.4:00000000 $d
-     /tmp/ccXgnYv3.s:589    .rodata._ZTVN5amiro11ADConverterE:00000000 $d
-     /tmp/ccXgnYv3.s:38     .text._ZN5amiro11ADConverterD2Ev:0000000c $t
-     /tmp/ccXgnYv3.s:60     .text._ZN5amiro11ADConverterD0Ev:00000014 $t
-     /tmp/ccXgnYv3.s:153    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:0000001c $t
-     /tmp/ccXgnYv3.s:180    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000024 $t
-     /tmp/ccXgnYv3.s:285    .text._ZN5amiro11ADConverter6adc2uVEt:00000064 $t
-     /tmp/ccXgnYv3.s:315    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000028 $t
-     /tmp/ccXgnYv3.s:539    .text.startup._ZN5amiro11ADConverter4mainEv:00000214 $t
-     /tmp/ccXgnYv3.s:560    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000014 $t
+     /tmp/cctMtSYL.s:18     .text._ZN5amiro11ADConverterD2Ev:00000000 $t
+     /tmp/cctMtSYL.s:24     .text._ZN5amiro11ADConverterD2Ev:00000000 _ZN5amiro11ADConverterD2Ev
+     /tmp/cctMtSYL.s:34     .text._ZN5amiro11ADConverterD2Ev:00000008 $d
+     /tmp/cctMtSYL.s:24     .text._ZN5amiro11ADConverterD2Ev:00000000 _ZN5amiro11ADConverterD1Ev
+     /tmp/cctMtSYL.s:39     .text._ZN5amiro11ADConverterD0Ev:00000000 $t
+     /tmp/cctMtSYL.s:45     .text._ZN5amiro11ADConverterD0Ev:00000000 _ZN5amiro11ADConverterD0Ev
+     /tmp/cctMtSYL.s:58     .text._ZN5amiro11ADConverterD0Ev:00000010 $d
+     /tmp/cctMtSYL.s:61     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 $t
+     /tmp/cctMtSYL.s:67     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000000 _ZN10chibios_rt16BaseStaticThreadILi256EE5startEm
+     /tmp/cctMtSYL.s:90     .text._ZN10chibios_rt16BaseStaticThreadILi256EE5startEm:00000028 $d
+     /tmp/cctMtSYL.s:94     .text._Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 $t
+     /tmp/cctMtSYL.s:100    .text._Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 _Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t
+     /tmp/cctMtSYL.s:131    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000000 $t
+     /tmp/cctMtSYL.s:136    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000000 _ZN5amiro11ADConverter14enableWatchdogEb.part.1
+     /tmp/cctMtSYL.s:151    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:00000018 $d
+     /tmp/cctMtSYL.s:154    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000000 $t
+     /tmp/cctMtSYL.s:159    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000000 _ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2
+     /tmp/cctMtSYL.s:178    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000020 $d
+     /tmp/cctMtSYL.s:181    .text._Z16adcTimerCallbackP6Thread:00000000 $t
+     /tmp/cctMtSYL.s:187    .text._Z16adcTimerCallbackP6Thread:00000000 _Z16adcTimerCallbackP6Thread
+     /tmp/cctMtSYL.s:198    .text._ZN5amiro11ADConverter6uV2AdcEm:00000000 $t
+     /tmp/cctMtSYL.s:204    .text._ZN5amiro11ADConverter6uV2AdcEm:00000000 _ZN5amiro11ADConverter6uV2AdcEm
+     /tmp/cctMtSYL.s:238    .text._ZN5amiro11ADConverter6uV2AdcEm:00000060 $d
+     /tmp/cctMtSYL.s:244    .text._ZN5amiro11ADConverter6adc2uVEt:00000000 $t
+     /tmp/cctMtSYL.s:250    .text._ZN5amiro11ADConverter6adc2uVEt:00000000 _ZN5amiro11ADConverter6adc2uVEt
+     /tmp/cctMtSYL.s:281    .text._ZN5amiro11ADConverter6adc2uVEt:00000058 $d
+     /tmp/cctMtSYL.s:286    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 $t
+     /tmp/cctMtSYL.s:292    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 _ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm
+     /tmp/cctMtSYL.s:311    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000024 $d
+     /tmp/cctMtSYL.s:292    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000000 _ZN5amiro11ADConverterC1ER9ADCDriverR18ADCConversionGroupm
+     /tmp/cctMtSYL.s:316    .text._ZN5amiro11ADConverter14enableWatchdogEb:00000000 $t
+     /tmp/cctMtSYL.s:322    .text._ZN5amiro11ADConverter14enableWatchdogEb:00000000 _ZN5amiro11ADConverter14enableWatchdogEb
+     /tmp/cctMtSYL.s:339    .text.startup._ZN5amiro11ADConverter4mainEv:00000000 $t
+     /tmp/cctMtSYL.s:345    .text.startup._ZN5amiro11ADConverter4mainEv:00000000 _ZN5amiro11ADConverter4mainEv
+     /tmp/cctMtSYL.s:530    .text.startup._ZN5amiro11ADConverter4mainEv:000001f4 $d
+     /tmp/cctMtSYL.s:540    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 $t
+     /tmp/cctMtSYL.s:545    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000000 _GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t
+     /tmp/cctMtSYL.s:557    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:0000000c $d
+     /tmp/cctMtSYL.s:561    .init_array:00000000 $d
+     /tmp/cctMtSYL.s:568    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 _ZTVN10chibios_rt16BaseStaticThreadILi256EEE
+     /tmp/cctMtSYL.s:565    .rodata._ZTVN10chibios_rt16BaseStaticThreadILi256EEE:00000000 $d
+     /tmp/cctMtSYL.s:593    .rodata._ZTVN5amiro11ADConverterE:00000000 _ZTVN5amiro11ADConverterE
+     /tmp/cctMtSYL.s:576    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 $d
+     /tmp/cctMtSYL.s:580    .bss._ZN5amiro9constants12DiWheelDriveL10wheelErrorE:00000000 _ZN5amiro9constants12DiWheelDriveL10wheelErrorE
+     /tmp/cctMtSYL.s:583    .rodata.str1.4:00000000 $d
+     /tmp/cctMtSYL.s:589    .rodata._ZTVN5amiro11ADConverterE:00000000 $d
+     /tmp/cctMtSYL.s:38     .text._ZN5amiro11ADConverterD2Ev:0000000c $t
+     /tmp/cctMtSYL.s:60     .text._ZN5amiro11ADConverterD0Ev:00000014 $t
+     /tmp/cctMtSYL.s:153    .text._ZN5amiro11ADConverter14enableWatchdogEb.part.1:0000001c $t
+     /tmp/cctMtSYL.s:180    .text._ZL8chprintfP20BaseSequentialStreamPKcz.constprop.2:00000024 $t
+     /tmp/cctMtSYL.s:285    .text._ZN5amiro11ADConverter6adc2uVEt:00000064 $t
+     /tmp/cctMtSYL.s:315    .text._ZN5amiro11ADConverterC2ER9ADCDriverR18ADCConversionGroupm:00000028 $t
+     /tmp/cctMtSYL.s:539    .text.startup._ZN5amiro11ADConverter4mainEv:00000214 $t
+     /tmp/cctMtSYL.s:560    .text.startup._GLOBAL__sub_I__Z20adcVsysErrorCallbackP9ADCDriver10adcerror_t:00000014 $t
 
-ARM GAS  /tmp/ccXgnYv3.s 			page 13
+ARM GAS  /tmp/cctMtSYL.s 			page 13
 
 
 UNDEFINED SYMBOLS
